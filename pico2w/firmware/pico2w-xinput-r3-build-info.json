@@ -1,0 +1,236 @@
+{
+  "version": "R3.0",
+  "board": "pico2_w",
+  "platform": "rp2350-arm-s",
+  "builtUtc": "2026-10-10T12:21:13.0228007Z",
+  "hardwareValidated": false,
+  "dependencies": {
+    "picoSdk": {
+      "url": "https://github.com/raspberrypi/pico-sdk.git",
+      "commit": "a1438dff1d38bd9c65dbd693f0e5db4b9ae91779",
+      "version": "2.2.0"
+    },
+    "bluepad32": {
+      "url": "https://github.com/ricardoquesada/bluepad32.git",
+      "commit": "80d6314e46f871719fbb4b721a2cc02227c4f369"
+    },
+    "btstack": {
+      "url": "https://github.com/bluekitchen/btstack.git",
+      "commit": "8a8b616e04b07612a273978131efad32a083b1ed"
+    },
+    "submodules": {
+      "lib/tinyusb": "86ad6e56c1700e85f1c5678607a762cfe3aa2f47",
+      "lib/cyw43-driver": "dd7568229f3bf7a37737b9e1ef250c26efe75b23",
+      "lib/mbedtls": "107ea89daaefb9867ea9121002fbbdf926780e98"
+    },
+    "tools": {
+      "arm": {
+        "version": "14.2.Rel1",
+        "url": "https://developer.arm.com/-/media/Files/downloads/gnu/14.2.rel1/binrel/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi.zip",
+        "sha256": "6facb152ce431ba9a4517e939ea46f057380f8f1e56b62e8712b3f3b87d994e1",
+        "archive": "arm.zip",
+        "folder": "toolchain",
+        "check": "bin/arm-none-eabi-gcc.exe"
+      },
+      "cmake": {
+        "version": "3.30.2",
+        "url": "https://github.com/Kitware/CMake/releases/download/v3.30.2/cmake-3.30.2-windows-x86_64.zip",
+        "sha256": "48bf4b3dc2d668c578e0884cac7878e146b036ca6b5ce4f8b5572f861b004c25",
+        "archive": "cmake.zip",
+        "folder": "cmake-download",
+        "check": "cmake-3.30.2-windows-x86_64/bin/cmake.exe"
+      },
+      "ninja": {
+        "version": "1.12.1",
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.12.1/ninja-win.zip",
+        "sha256": "f550fec705b6d6ff58f2db3c374c2277a37691678d6aba463adcbb129108467a",
+        "archive": "ninja.zip",
+        "folder": "ninja",
+        "check": "ninja.exe"
+      },
+      "pioasm": {
+        "version": "2.2.0",
+        "url": "https://github.com/raspberrypi/pico-sdk-tools/releases/download/v2.2.0-2/pico-sdk-tools-2.2.0-x64-win.zip",
+        "sha256": "470fb7f8f8d6aa83ab320aead6d7b6166858d984798857bfb2cc53e58e79bd37",
+        "archive": "sdk-tools.zip",
+        "folder": "sdk-tools",
+        "check": "pioasm/pioasm.exe"
+      },
+      "picotool": {
+        "version": "2.2.0-a4",
+        "url": "https://github.com/raspberrypi/pico-sdk-tools/releases/download/v2.2.0-2/picotool-2.2.0-a4-x64-win.zip",
+        "sha256": "d6ae945f0110c80f493e21f315de312c89c053f240d78b8fbea3985df97b49f5",
+        "archive": "picotool.zip",
+        "folder": "picotool",
+        "check": "picotool/picotool.exe"
+      }
+    }
+  },
+  "sourceHashes": [
+    {
+      "path": "src\\ble_discovery.c",
+      "sha256": "B4C892AB74941763647C304724C6AA2E25E7E818DEFD83E491AF98895951FE89"
+    },
+    {
+      "path": "src\\ble_discovery.h",
+      "sha256": "2B0FBA66F091CFCED00455A6B5DF98895ED55817ACC9EA89BC9F5720B7FDC36C"
+    },
+    {
+      "path": "src\\board_button.c",
+      "sha256": "16E803CC5E210448F1E5D881115A43F4A90205F0F300BB9A19205ED41405BA5F"
+    },
+    {
+      "path": "src\\board_button.h",
+      "sha256": "9612E70C7080A401255435F122BC6513DCA6189356405FB1365EA583EF3553B7"
+    },
+    {
+      "path": "src\\bridge.c",
+      "sha256": "A938EDC976E85AAE3BD27B4FB9AB51489517F4520814626D82B3CE98C9965648"
+    },
+    {
+      "path": "src\\bridge.h",
+      "sha256": "88EFB4AD6256EE186A9ED5D81D4AB53255E179140F3F1333ED4D38D61E604D8F"
+    },
+    {
+      "path": "src\\btstack_config.h",
+      "sha256": "2917C236A1516BD92FDC8245912591EEB4B3E2367F6D0482962BECC304A6206F"
+    },
+    {
+      "path": "src\\main.c",
+      "sha256": "B55803B5DD0D7CD387D21E0185B1FC74ED3C017041C653B708B3C7078AC5A7E0"
+    },
+    {
+      "path": "src\\platform.c",
+      "sha256": "BCD02A36DA44E9E08A675F7D6AF3C392E0E09B23EF7DD1321F87BBFD6CC91808"
+    },
+    {
+      "path": "src\\platform.h",
+      "sha256": "92DE6F5320D6A76C4097D32A283EC7B212D26114A4A895179648C57DB9D89DF6"
+    },
+    {
+      "path": "src\\sdkconfig.h",
+      "sha256": "F7403D7739B136EBDF8DB4E25D7D0D4574EC62C69FA3FA35013121BC051AA811"
+    },
+    {
+      "path": "src\\tusb_config.h",
+      "sha256": "150B2607E7D898774D3C237F01410CC0CC56165E0E997D913F9BFC54792B1CD1"
+    },
+    {
+      "path": "src\\usb_descriptors.c",
+      "sha256": "98CE34531482E9B8968E035FDB093820D85ADC4B295E5F422CB17A2F4D8F20A1"
+    },
+    {
+      "path": "src\\usb_descriptors.h",
+      "sha256": "72C57B108F10958BD09AE37EF265B0443D60516E2631AA07B5F02B8DE45FDDE0"
+    },
+    {
+      "path": "src\\usb_xinput.c",
+      "sha256": "082F7F5D898649A6742629755A653DBDEB0FF5EA89389E3A2CC83A61FE6EC78A"
+    },
+    {
+      "path": "src\\usb_xinput.h",
+      "sha256": "16BD0F8D7461BB4AD7C7FDB7ABD699900C8B28DCAF604053232FA98EAB54B96A"
+    },
+    {
+      "path": "tools\\build.ps1",
+      "sha256": "C96BB5F5B9D3625A09596F8467C877106CCFE9F6F20B5DAF3176748DB1F0C054"
+    },
+    {
+      "path": "tools\\make-ble-test-fixture.ps1",
+      "sha256": "EBFFF5F20714150C5892319C6EA1C762C8025125F0AC3D9389E2D98884C0AD94"
+    },
+    {
+      "path": "tools\\setup.ps1",
+      "sha256": "947E758550DD46D0153210121CD68AF9E9B06DB2F53C7110BB0412C7643DBC2D"
+    },
+    {
+      "path": "tools\\test_windows.py",
+      "sha256": "189877A9A2F00330AAC0ECA9344E46813CA93C311368304606E653DEE552174E"
+    },
+    {
+      "path": "tools\\test.ps1",
+      "sha256": "6E0A00AAF7CD235B1C4CE1170E5BE84DB28C18BB69C1936E7E99345C187557D8"
+    },
+    {
+      "path": "tools\\verify_uf2.py",
+      "sha256": "F4755F005C559519896D47B957AEBE04D523EB6E150520FC2093D6E6F1B27BAA"
+    },
+    {
+      "path": "tools\\verify-dependencies.ps1",
+      "sha256": "2036EDB6A048D1FE53B88CAD691A1DFA17DBCFC0E7B17DF812484A5B237D3C5B"
+    },
+    {
+      "path": "tools\\verify-preserved.ps1",
+      "sha256": "AB5FF4C7679D564FB388173B8CAD6B619442C19A6EBD0B92F00E064295B1BFF3"
+    },
+    {
+      "path": "tools\\verify-r1.ps1",
+      "sha256": "B338B5FEB02E126DE108D90CC3A6F06CB55C4AC228207FBAC822FDA7BD9172C0"
+    },
+    {
+      "path": "tools\\verify-r2.ps1",
+      "sha256": "EB988B2233344E7C73A8BFCA82F6DFECEF81B96DD25A449C0A1BFA31A4AC65AC"
+    },
+    {
+      "path": "tests\\test_ble_discovery.c",
+      "sha256": "4A370BBC0460AF3163210495E12F8E49F9554D15620524C2332D6D0A5D015C2E"
+    },
+    {
+      "path": "tests\\test_bridge.c",
+      "sha256": "8557BB542137AA232CD595503EB1FD6FB39BB6C2B14C14E68EC4941A49CFA5DC"
+    },
+    {
+      "path": "tests\\test_platform.c",
+      "sha256": "F4D684726A69A20D1F64B0D8598FF1E1667B026F329EF63F733A52E90A3DB980"
+    },
+    {
+      "path": "tests\\test_usb.c",
+      "sha256": "5EC25D892974ACC1E2B06C3B835DE7D3A887E7821925F052F71639BC6462A141"
+    },
+    {
+      "path": "tests\\stubs\\hardware\\watchdog.h",
+      "sha256": "7032777D58B5A5FB0D64DC845B43E5E2A4F37825A3F4B350B664273DDA33E614"
+    },
+    {
+      "path": "tests\\stubs\\pico\\cyw43_arch.h",
+      "sha256": "0E33E1AAA7BE10FA7E04819E382BF2087C13FE07D6C49EA3D7759F9FC26776E8"
+    },
+    {
+      "path": "tests\\stubs\\pico\\time.h",
+      "sha256": "E6F8B4C3738CAACD1335309B040FCC8A5261C1620295DA6722E8B5D04A4EBBED"
+    },
+    {
+      "path": "tests\\stubs\\pico\\unique_id.h",
+      "sha256": "A1DCF865E8F3CC9FF0F19A54519D1AEFCC2DA6794B5EEBEBE764A9BD8FD8F5E8"
+    },
+    {
+      "path": "CMakeLists.txt",
+      "sha256": "2B5443A15AD993EDB5F0FA7FBDD3F1E68786257F67BD26BB8A2207B9AEBA61C5"
+    },
+    {
+      "path": "flash_guard.ld",
+      "sha256": "61C725240F079CA75D126383B1C447683460E8ABCB48C194BE1C07B2F7987CCF"
+    },
+    {
+      "path": "dependencies.lock.json",
+      "sha256": "F906E917D4FA887DE8D94A519DD4CCA6256CB4BA3F0A29529552A7839DC3A8C6"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "pico2w-xinput-r3.uf2",
+      "bytes": 1042432,
+      "sha256": "07DABCEC600A04D03192E2F8F2B4A94453691BB79B1FC7CED25652DA381BFA76"
+    },
+    {
+      "file": "pico2w-xinput-r3.elf",
+      "bytes": 3947104,
+      "sha256": "FA9D701F04BC4DDBF4D20AF65561BB4DB14C3D9AF3AD8C67EF379F268F4D025D"
+    },
+    {
+      "file": "pico2w-xinput-r3.bin",
+      "bytes": 520864,
+      "sha256": "706FF1EBDB55655577DF481CCED40412735D06C5973658BA0A099863AA571887"
+    }
+  ]
+}

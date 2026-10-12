@@ -1,0 +1,12 @@
+# Preserve baseline bytes, including files covered by SHA256 preservation manifests.
+* -text
+*.bin binary
+*.uf2 binary
+*.elf binary
+*.zip binary
+*.dll binary
+*.exe binary
+*.png binary
+*.pdf binary
+*.map -diff
+*.hex -diff

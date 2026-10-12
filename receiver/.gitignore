@@ -1,0 +1,20 @@
+# 编译临时产物；交付 firmware/ 纳入根仓库版本控制
+build/
+
+# SDK 和工具资源
+resources/
+sdk/
+
+# IDE / OS
+.vscode/
+.idea/
+.mrs/
+*.swp
+*.swo
+*~
+Thumbs.db
+
+# OpenCode 内部
+.omo
+.opencode.json
+.codegraph

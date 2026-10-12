@@ -1,0 +1,30 @@
+[
+  {
+    "path": "firmware\\pico2w-xinput-r5-build-info.json",
+    "sha256": "2A2BDD808C5284FDB700B55F3C6A7461E8E79904AD714D3DD9B82417CCB2457D"
+  },
+  {
+    "path": "firmware\\pico2w-xinput-r5.bin",
+    "sha256": "A8F7A8C9D5D35C8C9BCD2FB03AE85CD5247EF6FD8F40849E8E8894BDBBF17C4B"
+  },
+  {
+    "path": "firmware\\pico2w-xinput-r5.elf",
+    "sha256": "464F8BEFB591F3D98EF6F01851BDA65D699A550A44414F58F220F2CDBBEB864C"
+  },
+  {
+    "path": "firmware\\pico2w-xinput-r5.uf2",
+    "sha256": "4B0E0AE94664D4D5CBEA9EDB208C11955FA925530015E087A4F3214B6BA9497E"
+  },
+  {
+    "path": "releases\\pico2w-xinput-r5-package.zip",
+    "sha256": "915173BD67135B6FDE3E2D8B485BFCB348571FCB7857115A09E92E62AC8F9912"
+  },
+  {
+    "path": "host\\releases\\PicoControl-v0.2-source.zip",
+    "sha256": "CFFCC52A4B3E37A5FE29AAE8CE47D2595915BFD199A1E36834A736E3EB016D7F"
+  },
+  {
+    "path": "host\\releases\\PicoControl-v0.2-windows.zip",
+    "sha256": "4CB05558DBCD9E9B19A4311752C735908E3D0F61F2384859A1D2ACC7E16C2922"
+  }
+]

@@ -1,0 +1,13 @@
+menu "Switch Pro bridge"
+    config SP_UART_TX
+        int "UART TX GPIO to CH582 RX"
+        range 0 33
+        default 17
+    config SP_UART_RX
+        int "UART RX GPIO from CH582 TX"
+        range 0 39
+        default 16
+    config SP_BUTTON_LABELS
+        bool "Map Nintendo A/B/X/Y labels instead of Xbox physical positions"
+        default n
+endmenu

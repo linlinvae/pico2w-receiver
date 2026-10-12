@@ -1,0 +1,27 @@
+{
+  "version": "0.3",
+  "clientDate": "2026-10-12",
+  "architecture": "x64",
+  "hardwareAccessed": false,
+  "selfTestChecks": 213,
+  "uiChecksPerSize": 16,
+  "windowSizes": [
+    "normal",
+    "small"
+  ],
+  "sourcePackageIndependentlyBuilt": true,
+  "files": [
+    {
+      "name": "PicoControl.exe",
+      "sha256": "498CC0787017911FE584E01B0C88AC902A50C646E1922409448DD678DAE3B457"
+    },
+    {
+      "name": "PicoControl-v0.3-windows.zip",
+      "sha256": "23E8FCDF6FCDB1E7EBB000C11E1449D5ADC64E6E1E435DE5EE615698CBACD6B3"
+    },
+    {
+      "name": "PicoControl-v0.3-source.zip",
+      "sha256": "9BDEC13C33C462D6DCAA94FAB50A2B3C135898E199C757882F9AF2A9ADC54219"
+    }
+  ]
+}

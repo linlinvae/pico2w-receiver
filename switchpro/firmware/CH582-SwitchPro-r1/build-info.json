@@ -1,0 +1,92 @@
+{
+  "chip": "CH582F",
+  "input": "ESP32 UART",
+  "usbMode": "xinput",
+  "revision": 1,
+  "uartRemap": 0,
+  "uartBaud": 115200,
+  "writesDataFlash": false,
+  "binarySha256": "389E7C92D34E87BA9769C81441112A36159DACE3196D4687BA16217E2B774BA9",
+  "sourceHashes": [
+    {
+      "sha256": "5EF130A5753DC9D650BE708CC4F72393C3CB5D401B653DD54E7DE8F2D887C997",
+      "path": "C:\\Users\\1\\Desktop\\prj\\google_sta\\switchpro\\ch582\\src\\bridge_uart.c"
+    },
+    {
+      "sha256": "3B14A157395A77749EFA6BD5D88161D440D9736B3AE361176BF7F2D2CB94B907",
+      "path": "C:\\Users\\1\\Desktop\\prj\\google_sta\\switchpro\\ch582\\src\\button_gesture.c"
+    },
+    {
+      "sha256": "CCCDD20F156F62F1D37DE18D740FBC35771FE55E0BB6CC972C8CE5A5E784890D",
+      "path": "C:\\Users\\1\\Desktop\\prj\\google_sta\\switchpro\\ch582\\src\\button.c"
+    },
+    {
+      "sha256": "3A0F2CFEE86E8F5D64C09CCC5BB11C9C6C9C120EB0304F5A53AC7D26008ED281",
+      "path": "C:\\Users\\1\\Desktop\\prj\\google_sta\\switchpro\\ch582\\src\\log.c"
+    },
+    {
+      "sha256": "51F94A6AE80F0A944A595915ED0EA222870366CED0829B84BE948F522F535379",
+      "path": "C:\\Users\\1\\Desktop\\prj\\google_sta\\switchpro\\ch582\\src\\main.c"
+    },
+    {
+      "sha256": "9BD201F5D6ABC5030FFD3A0482B0A00E7153DF625947501B8B94564996125A3B",
+      "path": "C:\\Users\\1\\Desktop\\prj\\google_sta\\switchpro\\ch582\\src\\platform.c"
+    },
+    {
+      "sha256": "FB5CE4F9943D4EF8293887270B4CCA47160D9C9903623843285CBD16791488F2",
+      "path": "C:\\Users\\1\\Desktop\\prj\\google_sta\\switchpro\\ch582\\src\\rumble_queue.c"
+    },
+    {
+      "sha256": "523570AF9BF5BDAEED42902AE76626817580CA551411804E8A21919D9DE04A9E",
+      "path": "C:\\Users\\1\\Desktop\\prj\\google_sta\\switchpro\\ch582\\src\\sinput_usb.c"
+    },
+    {
+      "sha256": "F90769411A4B549AE1B476242C21CA327D412D084888CB8A1F386708709AF53D",
+      "path": "C:\\Users\\1\\Desktop\\prj\\google_sta\\switchpro\\ch582\\src\\xinput_builder.c"
+    },
+    {
+      "sha256": "46FB49F6921664E16890CF782EE9EF8FC5B6FC5544E5DA73B9B10666FA278767",
+      "path": "C:\\Users\\1\\Desktop\\prj\\google_sta\\switchpro\\common\\sp_bridge.c"
+    },
+    {
+      "sha256": "53ECB28110895BD66C49BD10E0CD3F44B0D710B828858D500D50A329ADF4A241",
+      "path": "C:\\Users\\1\\Desktop\\prj\\google_sta\\switchpro\\common\\sp_endpoint.c"
+    },
+    {
+      "sha256": "3F6B5B1EE48A5953DA4A4F0F1848D2EB39A1440B70EB971A1FDE2286763EC657",
+      "path": "C:\\Users\\1\\Desktop\\prj\\google_sta\\switchpro\\common\\sp_link.c"
+    },
+    {
+      "sha256": "4B3EC2CFE469F08586A354712C8637DF5E1838A728874D6AC8219F649B04A233",
+      "path": "C:\\Users\\1\\Desktop\\prj\\google_sta\\receiver\\sdk\\CH583EVT\\EVT\\EXAM/SRC/StdPeriphDriver/CH58x_clk.c"
+    },
+    {
+      "sha256": "FF8FDC20E5C4FF99C82C5E0E1F8D09EF346C7FAA1B4E41E3D25140579FBE5403",
+      "path": "C:\\Users\\1\\Desktop\\prj\\google_sta\\receiver\\sdk\\CH583EVT\\EVT\\EXAM/SRC/StdPeriphDriver/CH58x_gpio.c"
+    },
+    {
+      "sha256": "1474D359FEA2AACD599E95254BAE77D005B050B1272551F9DEBD0ABD293DB294",
+      "path": "C:\\Users\\1\\Desktop\\prj\\google_sta\\receiver\\sdk\\CH583EVT\\EVT\\EXAM/SRC/StdPeriphDriver/CH58x_sys.c"
+    },
+    {
+      "sha256": "BD4A134DD6D709A3DFC5C684F8ED722160179A84D392ECF309F974ABE9D07F21",
+      "path": "C:\\Users\\1\\Desktop\\prj\\google_sta\\receiver\\sdk\\CH583EVT\\EVT\\EXAM/SRC/StdPeriphDriver/CH58x_pwr.c"
+    },
+    {
+      "sha256": "0F675AFF9836489A3460345F4C0B4113543448E1963EEF3C8903275ABA20CAED",
+      "path": "C:\\Users\\1\\Desktop\\prj\\google_sta\\receiver\\sdk\\CH583EVT\\EVT\\EXAM/SRC/StdPeriphDriver/CH58x_usbdev.c"
+    },
+    {
+      "sha256": "29F3656629A77E1E55BB997719739BF5862186BFBBDC68FF2CB884ABB26C3FE8",
+      "path": "C:\\Users\\1\\Desktop\\prj\\google_sta\\receiver\\sdk\\CH583EVT\\EVT\\EXAM/SRC/StdPeriphDriver/CH58x_uart1.c"
+    },
+    {
+      "sha256": "8CF0A63C82FB2EA00042AA60F92CBC4FC6D782FA257CEE997E0E4B4B8210F048",
+      "path": "C:\\Users\\1\\Desktop\\prj\\google_sta\\receiver\\sdk\\CH583EVT\\EVT\\EXAM/SRC/RVMSIS/core_riscv.c"
+    },
+    {
+      "sha256": "DF32B97405C17D2941E253244EE10B359ADC3027A34BF35193EFDBA28BDCA8CC",
+      "path": "C:\\Users\\1\\Desktop\\prj\\google_sta\\receiver\\sdk\\CH583EVT\\EVT\\EXAM/SRC/Startup/startup_CH583.S"
+    }
+  ]
+}

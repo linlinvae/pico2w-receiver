@@ -1,0 +1,26 @@
+{
+  "sdk": {
+    "url": "https://github.com/openwch/ch592.git",
+    "commit": "a46e0086f1ffb5e5502703970bff94888e67f4cb",
+    "path": "sdk/CH592EVT",
+    "directories": ["EVT/EXAM/SRC", "EVT/EXAM/BLE/HAL", "EVT/EXAM/BLE/LIB"]
+  },
+  "sdk_ch582": {
+    "url": "https://github.com/openwch/ch583.git",
+    "commit": "bd508ad7ceed48377619837051412a651952857f",
+    "path": "sdk/CH583EVT",
+    "directories": ["EVT/EXAM/SRC", "EVT/EXAM/BLE/HAL", "EVT/EXAM/BLE/LIB"]
+  },
+  "toolchain": {
+    "url": "https://github.com/openwch/risc-none-embed-gcc.git",
+    "commit": "c2cdf045c85c8c59f21548667101422bb43c4fa3",
+    "path": "resources/wch-gcc",
+    "directories": [
+      "bin", "libexec/gcc/riscv-none-embed/8.2.0",
+      "lib/gcc/riscv-none-embed/8.2.0/include",
+      "lib/gcc/riscv-none-embed/8.2.0/include-fixed",
+      "lib/gcc/riscv-none-embed/8.2.0/rv32imac",
+      "riscv-none-embed/include", "riscv-none-embed/lib/rv32imac", "riscv-none-embed/bin"
+    ]
+  }
+}

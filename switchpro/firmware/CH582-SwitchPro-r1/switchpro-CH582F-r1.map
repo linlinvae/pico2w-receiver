@@ -1,0 +1,1480 @@
+Archive member included to satisfy reference by file (symbol)
+
+C:\Users\1\Desktop\prj\google_sta\receiver\sdk\CH583EVT\EVT\EXAM/SRC/StdPeriphDriver/libISP583.a(ISP583.o)
+                              C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\platform.o (FLASH_EEPROM_CMD)
+c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-memcmp.o)
+                              C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_endpoint.o (memcmp)
+c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-memcpy.o)
+                              C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o (memcpy)
+c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-memmove.o)
+                              C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_link.o (memmove)
+c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-memset.o)
+                              C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\platform.o (memset)
+c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-printf.o)
+                              C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\log.o (printf)
+c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-snprintf.o)
+                              C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\log.o (snprintf)
+c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-vsnprintf.o)
+                              C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\log.o (vsnprintf)
+c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-findfp.o)
+                              c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-printf.o) (__sinit)
+c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-fwalk.o)
+                              c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-findfp.o) (_fwalk)
+c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-impure.o)
+                              c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-findfp.o) (_global_impure_ptr)
+c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-mallocr.o)
+                              c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-findfp.o) (_malloc_r)
+c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-svfprintf.o)
+                              c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-snprintf.o) (_svfprintf_r)
+c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-vfprintf.o)
+                              c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-printf.o) (_vfprintf_r)
+c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                              c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-svfprintf.o) (_printf_i)
+c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-sbrkr.o)
+                              c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-mallocr.o) (_sbrk_r)
+c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-stdio.o)
+                              c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-findfp.o) (__sread)
+c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-wbuf.o)
+                              c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-vfprintf.o) (__swbuf_r)
+c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-writer.o)
+                              c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-stdio.o) (_write_r)
+c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-wsetup.o)
+                              c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-vfprintf.o) (__swsetup_r)
+c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-closer.o)
+                              c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-stdio.o) (_close_r)
+c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-fflush.o)
+                              c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-findfp.o) (_fflush_r)
+c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-fvwrite.o)
+                              c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-vfprintf.o) (__sfvwrite_r)
+c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-lseekr.o)
+                              c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-stdio.o) (_lseek_r)
+c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-makebuf.o)
+                              c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-wsetup.o) (__smakebuf_r)
+c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-memchr.o)
+                              c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-svfprintf.o) (memchr)
+c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-mlock.o)
+                              c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-mallocr.o) (__malloc_lock)
+c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-freer.o)
+                              c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-svfprintf.o) (_free_r)
+c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-reallocr.o)
+                              c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-svfprintf.o) (_realloc_r)
+c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-readr.o)
+                              c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-stdio.o) (_read_r)
+c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-reent.o)
+                              c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-sbrkr.o) (errno)
+c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-fstatr.o)
+                              c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-makebuf.o) (_fstat_r)
+c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-isattyr.o)
+                              c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-makebuf.o) (_isatty_r)
+c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-msizer.o)
+                              c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-reallocr.o) (_malloc_usable_size_r)
+c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libnosys.a(close.o)
+                              c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-closer.o) (_close)
+c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libnosys.a(fstat.o)
+                              c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-fstatr.o) (_fstat)
+c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libnosys.a(isatty.o)
+                              c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-isattyr.o) (_isatty)
+c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libnosys.a(lseek.o)
+                              c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-lseekr.o) (_lseek)
+c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libnosys.a(read.o)
+                              c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-readr.o) (_read)
+
+Allocating common symbols
+Common symbol       size              file
+
+errno               0x4               c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-reent.o)
+g_sys_tick_ms       0x4               C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\main.o
+EP0_Databuf         0xc0              C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+EP1_Databuf         0x80              C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+pEP2_RAM_Addr       0x4               C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_usbdev.o
+pEP3_RAM_Addr       0x4               C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_usbdev.o
+EP2_Databuf         0x80              C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+pEP0_RAM_Addr       0x4               C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_usbdev.o
+EP3_Databuf         0x80              C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+pEP1_RAM_Addr       0x4               C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_usbdev.o
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+ .data          0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+ .bss           0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+ .text          0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\button_gesture.o
+ .data          0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\button_gesture.o
+ .bss           0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\button_gesture.o
+ .text          0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\button.o
+ .data          0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\button.o
+ .bss           0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\button.o
+ .text.Button_IsPressed
+                0x0000000000000000        0xe C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\button.o
+ .text          0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\log.o
+ .data          0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\log.o
+ .bss           0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\log.o
+ .text          0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\main.o
+ .data          0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\main.o
+ .bss           0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\main.o
+ .text          0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\platform.o
+ .data          0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\platform.o
+ .bss           0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\platform.o
+ .text.platform_led_on
+                0x0000000000000000        0x2 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\platform.o
+ .text.platform_led_off
+                0x0000000000000000        0x2 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\platform.o
+ .text.platform_led_toggle
+                0x0000000000000000        0x2 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\platform.o
+ .text.platform_time_ms
+                0x0000000000000000        0xc C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\platform.o
+ .text.platform_reboot
+                0x0000000000000000       0x6c C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\platform.o
+ .text.platform_delay_ms
+                0x0000000000000000        0xc C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\platform.o
+ .text          0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\rumble_queue.o
+ .data          0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\rumble_queue.o
+ .bss           0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\rumble_queue.o
+ .text.rumble_queue_reset
+                0x0000000000000000        0xc C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\rumble_queue.o
+ .text.rumble_queue_submit
+                0x0000000000000000       0x22 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\rumble_queue.o
+ .text.rumble_queue_ready
+                0x0000000000000000       0x1c C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\rumble_queue.o
+ .text.rumble_queue_value
+                0x0000000000000000       0x22 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\rumble_queue.o
+ .text.rumble_queue_result
+                0x0000000000000000       0x5e C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\rumble_queue.o
+ .debug_info    0x0000000000000000      0xc3d C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\rumble_queue.o
+ .debug_abbrev  0x0000000000000000      0x22c C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\rumble_queue.o
+ .debug_loc     0x0000000000000000       0xa6 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\rumble_queue.o
+ .debug_aranges
+                0x0000000000000000       0x40 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\rumble_queue.o
+ .debug_ranges  0x0000000000000000       0x30 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\rumble_queue.o
+ .debug_line    0x0000000000000000      0x4c1 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\rumble_queue.o
+ .debug_str     0x0000000000000000      0x688 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\rumble_queue.o
+ .comment       0x0000000000000000       0x34 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\rumble_queue.o
+ .debug_frame   0x0000000000000000       0x60 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\rumble_queue.o
+ .text          0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+ .data          0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+ .bss           0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+ .text          0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\xinput_builder.o
+ .data          0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\xinput_builder.o
+ .bss           0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\xinput_builder.o
+ .text          0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_bridge.o
+ .data          0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_bridge.o
+ .bss           0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_bridge.o
+ .text          0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_endpoint.o
+ .data          0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_endpoint.o
+ .bss           0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_endpoint.o
+ .text.sp_endpoint_accept
+                0x0000000000000000       0xae C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_endpoint.o
+ .text.sp_endpoint_expire
+                0x0000000000000000       0x22 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_endpoint.o
+ .debug_info    0x0000000000000000      0xc7e C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_endpoint.o
+ .debug_abbrev  0x0000000000000000      0x260 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_endpoint.o
+ .debug_loc     0x0000000000000000      0x1bc C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_endpoint.o
+ .debug_aranges
+                0x0000000000000000       0x28 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_endpoint.o
+ .debug_ranges  0x0000000000000000       0x18 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_endpoint.o
+ .debug_line    0x0000000000000000      0x49b C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_endpoint.o
+ .debug_str     0x0000000000000000      0x68e C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_endpoint.o
+ .comment       0x0000000000000000       0x34 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_endpoint.o
+ .debug_frame   0x0000000000000000       0x60 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_endpoint.o
+ .text          0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_link.o
+ .data          0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_link.o
+ .bss           0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_link.o
+ .text.sp_pack_input
+                0x0000000000000000       0x76 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_link.o
+ .text.sp_scale_axis
+                0x0000000000000000       0x50 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_link.o
+ .text.sp_map_gamepad
+                0x0000000000000000      0x16c C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_link.o
+ .rodata.map.2095
+                0x0000000000000000       0x14 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_link.o
+ .text          0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_clk.o
+ .data          0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_clk.o
+ .bss           0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_clk.o
+ .text.HSECFG_Current
+                0x0000000000000000       0x74 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_clk.o
+ .text.HSECFG_Capacitance
+                0x0000000000000000       0x78 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_clk.o
+ .text.LSECFG_Current
+                0x0000000000000000       0x74 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_clk.o
+ .text.LClk32K_Select
+                0x0000000000000000       0x90 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_clk.o
+ .text.LSECFG_Capacitance
+                0x0000000000000000       0x76 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_clk.o
+ .text.RTC_InitTime
+                0x0000000000000000      0x218 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_clk.o
+ .text.RTC_GetTime
+                0x0000000000000000      0x15c C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_clk.o
+ .text.RTC_SetCycle32k
+                0x0000000000000000       0x9c C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_clk.o
+ .highcode      0x0000000000000000       0x18 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_clk.o
+ .text.Calibration_LSI
+                0x0000000000000000      0x97a C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_clk.o
+ .text.RTC_TMRFunCfg
+                0x0000000000000000       0xd4 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_clk.o
+ .text.RTC_TRIGFunCfg
+                0x0000000000000000       0x94 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_clk.o
+ .text.RTC_ModeFunDisable
+                0x0000000000000000       0x7e C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_clk.o
+ .text.RTC_GetITFlag
+                0x0000000000000000       0x1a C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_clk.o
+ .text.RTC_ClearITFlag
+                0x0000000000000000       0x20 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_clk.o
+ .debug_info    0x0000000000000000     0x2320 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_clk.o
+ .debug_abbrev  0x0000000000000000      0x46d C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_clk.o
+ .debug_loc     0x0000000000000000     0x112c C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_clk.o
+ .debug_aranges
+                0x0000000000000000       0x90 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_clk.o
+ .debug_ranges  0x0000000000000000       0xe0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_clk.o
+ .debug_line    0x0000000000000000     0x3448 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_clk.o
+ .debug_str     0x0000000000000000      0xd32 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_clk.o
+ .comment       0x0000000000000000       0x34 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_clk.o
+ .debug_frame   0x0000000000000000      0x194 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_clk.o
+ .text          0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_gpio.o
+ .data          0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_gpio.o
+ .bss           0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_gpio.o
+ .text.GPIOA_ITModeCfg
+                0x0000000000000000       0x82 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_gpio.o
+ .text.GPIOB_ITModeCfg
+                0x0000000000000000       0x8a C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_gpio.o
+ .text.GPIOAGPPCfg
+                0x0000000000000000       0x1a C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_gpio.o
+ .text          0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_sys.o
+ .data          0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_sys.o
+ .bss           0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_sys.o
+ .text.SYS_GetInfoSta
+                0x0000000000000000       0x24 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_sys.o
+ .text.SYS_DisableAllIrq
+                0x0000000000000000       0x20 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_sys.o
+ .text.SYS_RecoverIrq
+                0x0000000000000000       0x14 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_sys.o
+ .text.SYS_GetSysTickCnt
+                0x0000000000000000        0xa C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_sys.o
+ .text.WWDG_ITCfg
+                0x0000000000000000       0x7a C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_sys.o
+ .text.WWDG_ResetCfg
+                0x0000000000000000       0x7a C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_sys.o
+ .text.WWDG_ClearFlag
+                0x0000000000000000       0x6c C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_sys.o
+ .text          0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_pwr.o
+ .data          0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_pwr.o
+ .bss           0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_pwr.o
+ .text.PWR_UnitModCfg
+                0x0000000000000000       0xa2 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_pwr.o
+ .text.PWR_PeriphClkCfg
+                0x0000000000000000       0x74 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_pwr.o
+ .text.PWR_PeriphWakeUpCfg
+                0x0000000000000000      0x180 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_pwr.o
+ .text.PowerMonitor
+                0x0000000000000000      0x140 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_pwr.o
+ .highcode      0x0000000000000000      0x74a C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_pwr.o
+ .text          0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_usbdev.o
+ .data          0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_usbdev.o
+ .bss           0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_usbdev.o
+ .text.DevEP1_IN_Deal
+                0x0000000000000000       0x16 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_usbdev.o
+ .text.DevEP2_IN_Deal
+                0x0000000000000000       0x16 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_usbdev.o
+ .text.DevEP3_IN_Deal
+                0x0000000000000000       0x16 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_usbdev.o
+ .text.DevEP4_IN_Deal
+                0x0000000000000000       0x16 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_usbdev.o
+ .text          0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_uart1.o
+ .data          0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_uart1.o
+ .bss           0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_uart1.o
+ .text.UART1_Reset
+                0x0000000000000000        0xe C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_uart1.o
+ .text.UART1_SendString
+                0x0000000000000000       0x28 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_uart1.o
+ .text.UART1_RecvString
+                0x0000000000000000       0x2a C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_uart1.o
+ .text          0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\core_riscv.o
+ .data          0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\core_riscv.o
+ .bss           0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\core_riscv.o
+ .text.__get_MSTATUS
+                0x0000000000000000        0x6 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\core_riscv.o
+ .text.__set_MSTATUS
+                0x0000000000000000        0x6 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\core_riscv.o
+ .text.__get_MISA
+                0x0000000000000000        0x6 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\core_riscv.o
+ .text.__set_MISA
+                0x0000000000000000        0x6 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\core_riscv.o
+ .text.__get_MTVEC
+                0x0000000000000000        0x6 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\core_riscv.o
+ .text.__set_MTVEC
+                0x0000000000000000        0x6 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\core_riscv.o
+ .text.__get_MSCRATCH
+                0x0000000000000000        0x6 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\core_riscv.o
+ .text.__set_MSCRATCH
+                0x0000000000000000        0x6 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\core_riscv.o
+ .text.__get_MEPC
+                0x0000000000000000        0x6 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\core_riscv.o
+ .text.__set_MEPC
+                0x0000000000000000        0x6 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\core_riscv.o
+ .text.__get_MCAUSE
+                0x0000000000000000        0x6 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\core_riscv.o
+ .text.__set_MCAUSE
+                0x0000000000000000        0x6 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\core_riscv.o
+ .text.__get_MTVAL
+                0x0000000000000000        0x6 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\core_riscv.o
+ .text.__set_MTVAL
+                0x0000000000000000        0x6 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\core_riscv.o
+ .text.__get_MVENDORID
+                0x0000000000000000        0x6 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\core_riscv.o
+ .text.__get_MARCHID
+                0x0000000000000000        0x6 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\core_riscv.o
+ .text.__get_MIMPID
+                0x0000000000000000        0x6 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\core_riscv.o
+ .text.__get_MHARTID
+                0x0000000000000000        0x6 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\core_riscv.o
+ .text.__get_SP
+                0x0000000000000000        0x4 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\core_riscv.o
+ .debug_info    0x0000000000000000      0x3c6 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\core_riscv.o
+ .debug_abbrev  0x0000000000000000       0xe2 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\core_riscv.o
+ .debug_aranges
+                0x0000000000000000       0xb0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\core_riscv.o
+ .debug_ranges  0x0000000000000000       0xa0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\core_riscv.o
+ .debug_line    0x0000000000000000      0x48c C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\core_riscv.o
+ .debug_str     0x0000000000000000      0x2b4 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\core_riscv.o
+ .comment       0x0000000000000000       0x34 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\core_riscv.o
+ .debug_frame   0x0000000000000000      0x140 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\core_riscv.o
+ .text          0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\startup_CH583.o
+ .data          0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\startup_CH583.o
+ .bss           0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\startup_CH583.o
+ .text          0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\receiver\sdk\CH583EVT\EVT\EXAM/SRC/StdPeriphDriver/libISP583.a(ISP583.o)
+ .data          0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\receiver\sdk\CH583EVT\EVT\EXAM/SRC/StdPeriphDriver/libISP583.a(ISP583.o)
+ .bss           0x0000000000000000        0x0 C:\Users\1\Desktop\prj\google_sta\receiver\sdk\CH583EVT\EVT\EXAM/SRC/StdPeriphDriver/libISP583.a(ISP583.o)
+ .text          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-memcmp.o)
+ .data          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-memcmp.o)
+ .bss           0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-memcmp.o)
+ .text.memcmp   0x0000000000000000       0x26 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-memcmp.o)
+ .debug_frame   0x0000000000000000       0x20 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-memcmp.o)
+ .text          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-memcpy.o)
+ .data          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-memcpy.o)
+ .bss           0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-memcpy.o)
+ .text          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-memmove.o)
+ .data          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-memmove.o)
+ .bss           0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-memmove.o)
+ .data          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-memset.o)
+ .text          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-printf.o)
+ .data          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-printf.o)
+ .bss           0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-printf.o)
+ .text._printf_r
+                0x0000000000000000       0x40 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-printf.o)
+ .text          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-snprintf.o)
+ .data          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-snprintf.o)
+ .bss           0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-snprintf.o)
+ .text._snprintf_r
+                0x0000000000000000       0x6e c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-snprintf.o)
+ .text          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-vsnprintf.o)
+ .data          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-vsnprintf.o)
+ .bss           0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-vsnprintf.o)
+ .text          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-findfp.o)
+ .data          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-findfp.o)
+ .bss           0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-findfp.o)
+ .text.__fp_lock
+                0x0000000000000000        0x4 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-findfp.o)
+ .text.__fp_unlock
+                0x0000000000000000        0x4 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-findfp.o)
+ .text._cleanup
+                0x0000000000000000       0x12 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-findfp.o)
+ .text.__sfp_lock_acquire
+                0x0000000000000000        0x2 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-findfp.o)
+ .text.__sfp_lock_release
+                0x0000000000000000        0x2 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-findfp.o)
+ .text.__sinit_lock_acquire
+                0x0000000000000000        0x2 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-findfp.o)
+ .text.__sinit_lock_release
+                0x0000000000000000        0x2 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-findfp.o)
+ .text.__fp_lock_all
+                0x0000000000000000       0x1a c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-findfp.o)
+ .text.__fp_unlock_all
+                0x0000000000000000       0x1a c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-findfp.o)
+ .text          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-fwalk.o)
+ .data          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-fwalk.o)
+ .bss           0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-fwalk.o)
+ .text._fwalk   0x0000000000000000       0x62 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-fwalk.o)
+ .text          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-impure.o)
+ .data          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-impure.o)
+ .bss           0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-impure.o)
+ .text          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-mallocr.o)
+ .data          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-mallocr.o)
+ .bss           0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-mallocr.o)
+ .text          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-svfprintf.o)
+ .data          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-svfprintf.o)
+ .bss           0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-svfprintf.o)
+ .text.__ssprint_r
+                0x0000000000000000      0x148 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-svfprintf.o)
+ .text          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-vfprintf.o)
+ .data          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-vfprintf.o)
+ .bss           0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-vfprintf.o)
+ .text.__sprint_r
+                0x0000000000000000       0x2c c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-vfprintf.o)
+ .text.vfprintf
+                0x0000000000000000       0x18 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-vfprintf.o)
+ .text          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .data          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .bss           0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .text          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-sbrkr.o)
+ .data          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-sbrkr.o)
+ .bss           0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-sbrkr.o)
+ .text          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-stdio.o)
+ .data          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-stdio.o)
+ .bss           0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-stdio.o)
+ .text.__seofread
+                0x0000000000000000        0x4 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-stdio.o)
+ .text          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-wbuf.o)
+ .data          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-wbuf.o)
+ .bss           0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-wbuf.o)
+ .text.__swbuf  0x0000000000000000       0x16 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-wbuf.o)
+ .text          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-writer.o)
+ .data          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-writer.o)
+ .bss           0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-writer.o)
+ .text          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-wsetup.o)
+ .data          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-wsetup.o)
+ .bss           0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-wsetup.o)
+ .text          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-closer.o)
+ .data          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-closer.o)
+ .bss           0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-closer.o)
+ .text          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-fflush.o)
+ .data          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-fflush.o)
+ .bss           0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-fflush.o)
+ .text.fflush   0x0000000000000000       0x30 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-fflush.o)
+ .text          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-fvwrite.o)
+ .data          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-fvwrite.o)
+ .bss           0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-fvwrite.o)
+ .text.__sfvwrite_r
+                0x0000000000000000      0x31a c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-fvwrite.o)
+ .debug_frame   0x0000000000000000       0x60 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-fvwrite.o)
+ .text          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-lseekr.o)
+ .data          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-lseekr.o)
+ .bss           0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-lseekr.o)
+ .text          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-makebuf.o)
+ .data          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-makebuf.o)
+ .bss           0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-makebuf.o)
+ .text          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-memchr.o)
+ .data          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-memchr.o)
+ .bss           0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-memchr.o)
+ .text          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-mlock.o)
+ .data          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-mlock.o)
+ .bss           0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-mlock.o)
+ .text          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-freer.o)
+ .data          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-freer.o)
+ .bss           0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-freer.o)
+ .text          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-reallocr.o)
+ .data          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-reallocr.o)
+ .bss           0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-reallocr.o)
+ .text          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-readr.o)
+ .data          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-readr.o)
+ .bss           0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-readr.o)
+ .text          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-reent.o)
+ .data          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-reent.o)
+ .bss           0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-reent.o)
+ .text.cleanup_glue
+                0x0000000000000000       0x2c c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-reent.o)
+ .text._reclaim_reent
+                0x0000000000000000      0x10c c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-reent.o)
+ .text          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-fstatr.o)
+ .data          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-fstatr.o)
+ .bss           0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-fstatr.o)
+ .text          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-isattyr.o)
+ .data          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-isattyr.o)
+ .bss           0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-isattyr.o)
+ .text          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-msizer.o)
+ .data          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-msizer.o)
+ .bss           0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-msizer.o)
+ .text          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libnosys.a(close.o)
+ .data          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libnosys.a(close.o)
+ .bss           0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libnosys.a(close.o)
+ .text          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libnosys.a(fstat.o)
+ .data          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libnosys.a(fstat.o)
+ .bss           0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libnosys.a(fstat.o)
+ .text          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libnosys.a(isatty.o)
+ .data          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libnosys.a(isatty.o)
+ .bss           0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libnosys.a(isatty.o)
+ .text          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libnosys.a(lseek.o)
+ .data          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libnosys.a(lseek.o)
+ .bss           0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libnosys.a(lseek.o)
+ .text          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libnosys.a(read.o)
+ .data          0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libnosys.a(read.o)
+ .bss           0x0000000000000000        0x0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libnosys.a(read.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x0000000000000000 0x0000000000070000 xr
+RAM              0x0000000020000000 0x0000000000008000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+LOAD C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\button_gesture.o
+LOAD C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\button.o
+LOAD C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\log.o
+LOAD C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\main.o
+LOAD C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\platform.o
+LOAD C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\rumble_queue.o
+LOAD C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+LOAD C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\xinput_builder.o
+LOAD C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_bridge.o
+LOAD C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_endpoint.o
+LOAD C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_link.o
+LOAD C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_clk.o
+LOAD C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_gpio.o
+LOAD C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_sys.o
+LOAD C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_pwr.o
+LOAD C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_usbdev.o
+LOAD C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_uart1.o
+LOAD C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\core_riscv.o
+LOAD C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\startup_CH583.o
+LOAD C:\Users\1\Desktop\prj\google_sta\receiver\sdk\CH583EVT\EVT\EXAM/SRC/StdPeriphDriver/libISP583.a
+LOAD C:\Users\1\Desktop\prj\google_sta\receiver\sdk\CH583EVT\EVT\EXAM/BLE/LIB/libCH58xBLE.a
+LOAD c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a
+LOAD c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libm.a
+LOAD c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libnosys.a
+LOAD c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a
+LOAD c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a
+LOAD c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a
+START GROUP
+LOAD c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imac/ilp32\libgcc.a
+LOAD c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a
+END GROUP
+                0x0000000000000800                __stack_size = 0x800
+                [!provide]                        PROVIDE (_stack_size = __stack_size)
+
+.init           0x0000000000000000        0x4
+                0x0000000000000000                _sinit = .
+                0x0000000000000000                . = ALIGN (0x4)
+ *(SORT_NONE(.init))
+ .init          0x0000000000000000        0x4 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\startup_CH583.o
+                0x0000000000000000                _start
+                0x0000000000000004                . = ALIGN (0x4)
+                0x0000000000000004                _einit = .
+
+.highcodelalign
+                0x0000000000000004        0x0
+                0x0000000000000004                . = ALIGN (0x4)
+                0x0000000000000004                PROVIDE (_highcode_lma = .)
+
+.highcode       0x0000000020000000      0xa18 load address 0x0000000000000004
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                PROVIDE (_highcode_vma_start = .)
+ *(.vector)
+ .vector        0x0000000020000000       0x90 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\startup_CH583.o
+ *(SORT_NONE(.vector_handler))
+ .vector_handler
+                0x0000000020000090        0x2 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\startup_CH583.o
+                0x0000000020000090                GPIOB_IRQHandler
+                0x0000000020000090                GPIOA_IRQHandler
+                0x0000000020000090                SysTick_Handler
+                0x0000000020000090                NMI_Handler
+                0x0000000020000090                UART0_IRQHandler
+                0x0000000020000090                BB_IRQHandler
+                0x0000000020000090                Break_Point_Handler
+                0x0000000020000090                TMR0_IRQHandler
+                0x0000000020000090                Ecall_M_Mode_Handler
+                0x0000000020000090                RTC_IRQHandler
+                0x0000000020000090                UART2_IRQHandler
+                0x0000000020000090                PWMX_IRQHandler
+                0x0000000020000090                ADC_IRQHandler
+                0x0000000020000090                TMR2_IRQHandler
+                0x0000000020000090                I2C_IRQHandler
+                0x0000000020000090                USB2_IRQHandler
+                0x0000000020000090                LLE_IRQHandler
+                0x0000000020000090                WDOG_BAT_IRQHandler
+                0x0000000020000090                Ecall_U_Mode_Handler
+                0x0000000020000090                TMR3_IRQHandler
+                0x0000000020000090                SW_Handler
+                0x0000000020000090                SPI0_IRQHandler
+                0x0000000020000090                UART3_IRQHandler
+                0x0000000020000090                TMR1_IRQHandler
+ *(.highcode)
+ .highcode      0x0000000020000092       0x66 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+                0x0000000020000092                UART1_IRQHandler
+ .highcode      0x00000000200000f8        0xc C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+                0x00000000200000f8                USB_IRQHandler
+ .highcode      0x0000000020000104      0x4ec C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_sys.o
+                0x0000000020000104                SetSysClock
+                0x000000002000048a                SYS_ResetExecute
+                0x00000000200004fc                HardFault_Handler
+                0x00000000200005ba                mDelayuS
+                0x00000000200005c8                mDelaymS
+ .highcode      0x00000000200005f0      0x426 C:\Users\1\Desktop\prj\google_sta\receiver\sdk\CH583EVT\EVT\EXAM/SRC/StdPeriphDriver/libISP583.a(ISP583.o)
+                0x00000000200005f0                FLASH_ROM_BEG
+                0x0000000020000602                FLASH_ROM_END
+                0x0000000020000610                FLASH_ROM_IN
+                0x000000002000061e                FLASH_ROM_OUT
+                0x000000002000062c                FLASH_ROM_ADDR
+                0x0000000020000674                FLASH_ROM_WAIT
+                0x00000000200006ac                FLASH_EEPROM_CMD
+ *(.highcode.*)
+                0x0000000020000a18                . = ALIGN (0x4)
+ *fill*         0x0000000020000a16        0x2 
+                0x0000000020000a18                PROVIDE (_highcode_vma_end = .)
+
+.text           0x0000000000000a1c     0x3838
+                0x0000000000000a1c                . = ALIGN (0x4)
+ *(SORT_NONE(.handle_reset))
+ .handle_reset  0x0000000000000a1c       0xd6 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\startup_CH583.o
+                0x0000000000000a1c                handle_reset
+ *(.text)
+ .text          0x0000000000000af2       0xa8 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-memset.o)
+                0x0000000000000af2                memset
+ *(.text.*)
+ .text.bridge_uart_init
+                0x0000000000000b9a       0x60 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+                0x0000000000000b9a                bridge_uart_init
+ .text.bridge_uart_read
+                0x0000000000000bfa       0x38 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+                0x0000000000000bfa                bridge_uart_read
+ .text.bridge_uart_overflow
+                0x0000000000000c32       0x30 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+                0x0000000000000c32                bridge_uart_overflow
+ .text.bridge_uart_tx_idle
+                0x0000000000000c62       0x10 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+                0x0000000000000c62                bridge_uart_tx_idle
+ .text.bridge_uart_send
+                0x0000000000000c72       0x1e C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+                0x0000000000000c72                bridge_uart_send
+ .text.bridge_uart_poll
+                0x0000000000000c90       0x3a C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+                0x0000000000000c90                bridge_uart_poll
+ .text.button_gesture_update
+                0x0000000000000cca       0x44 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\button_gesture.o
+                0x0000000000000cca                button_gesture_update
+ .text.Button_Init
+                0x0000000000000d0e       0x44 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\button.o
+                0x0000000000000d0e                Button_Init
+ .text.Button_GetEvent
+                0x0000000000000d52        0xe C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\button.o
+                0x0000000000000d52                Button_GetEvent
+ .text.Button_GetLongEvent
+                0x0000000000000d60        0xe C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\button.o
+                0x0000000000000d60                Button_GetLongEvent
+ .text.Button_Task
+                0x0000000000000d6e       0x92 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\button.o
+                0x0000000000000d6e                Button_Task
+ .text.log_init
+                0x0000000000000e00        0x2 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\log.o
+                0x0000000000000e00                log_init
+ .text.log_write
+                0x0000000000000e02      0x120 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\log.o
+                0x0000000000000e02                log_write
+ .text.tick     0x0000000000000f22       0x2e C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\main.o
+ .text.output   0x0000000000000f50       0x38 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\main.o
+ .text.startup.main
+                0x0000000000000f88      0x1da C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\main.o
+                0x0000000000000f88                main
+ .text.platform_board_init
+                0x0000000000001162        0x2 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\platform.o
+                0x0000000000001162                platform_board_init
+ .text.platform_get_unique_id
+                0x0000000000001164       0x24 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\platform.o
+                0x0000000000001164                platform_get_unique_id
+ .text.platform_wdog_init
+                0x0000000000001188       0x68 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\platform.o
+                0x0000000000001188                platform_wdog_init
+ .text.platform_wdog_feed
+                0x00000000000011f0        0xe C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\platform.o
+                0x00000000000011f0                platform_wdog_feed
+ .text.control_begin_in
+                0x00000000000011fe       0x66 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+ .text.CDC_PutChar
+                0x0000000000001264       0x2a C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+                0x0000000000001264                CDC_PutChar
+ .text.CDC_Flush
+                0x000000000000128e       0xa2 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+                0x000000000000128e                CDC_Flush
+ .text._write   0x0000000000001330       0x46 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+                0x0000000000001330                _write
+ .text.SInputUSB_SendReport
+                0x0000000000001376       0xd0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+                0x0000000000001376                SInputUSB_SendReport
+ .text.SInputUSB_SetOutputCallback
+                0x0000000000001446        0x6 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+                0x0000000000001446                SInputUSB_SetOutputCallback
+ .text.SInputUSB_IsReady
+                0x000000000000144c        0x6 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+                0x000000000000144c                SInputUSB_IsReady
+ .text.SInputUSB_Poll
+                0x0000000000001452       0x1c C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+                0x0000000000001452                SInputUSB_Poll
+ .text.SInputUSB_ProcessOutput
+                0x000000000000146e       0x82 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+                0x000000000000146e                SInputUSB_ProcessOutput
+ .text.USB_DevTransProcess
+                0x00000000000014f0      0x7d4 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+                0x00000000000014f0                USB_DevTransProcess
+ .text.SInputUSB_Init
+                0x0000000000001cc4       0xb4 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+                0x0000000000001cc4                SInputUSB_Init
+ .text.xinput_build_report
+                0x0000000000001d78      0x12a C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\xinput_builder.o
+                0x0000000000001d78                xinput_build_report
+ .text.xinput_build_neutral_report
+                0x0000000000001ea2       0x22 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\xinput_builder.o
+                0x0000000000001ea2                xinput_build_neutral_report
+ .text.xinput_parse_rumble
+                0x0000000000001ec4       0x3a C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\xinput_builder.o
+                0x0000000000001ec4                xinput_parse_rumble
+ .text.release  0x0000000000001efe       0x2e C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_bridge.o
+ .text.sp_bridge_init
+                0x0000000000001f2c       0x14 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_bridge.o
+                0x0000000000001f2c                sp_bridge_init
+ .text.sp_bridge_receive
+                0x0000000000001f40       0x8e C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_bridge.o
+                0x0000000000001f40                sp_bridge_receive
+ .text.sp_bridge_poll
+                0x0000000000001fce       0x2a C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_bridge.o
+                0x0000000000001fce                sp_bridge_poll
+ .text.sp_bridge_rumble
+                0x0000000000001ff8       0x46 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_bridge.o
+                0x0000000000001ff8                sp_bridge_rumble
+ .text.sp_bridge_control
+                0x000000000000203e       0x34 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_bridge.o
+                0x000000000000203e                sp_bridge_control
+ .text.sp_bridge_tx
+                0x0000000000002072       0xde C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_bridge.o
+                0x0000000000002072                sp_bridge_tx
+ .text.sp_crc16
+                0x0000000000002150       0x3e C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_link.o
+                0x0000000000002150                sp_crc16
+ .text.sp_encode
+                0x000000000000218e       0x58 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_link.o
+                0x000000000000218e                sp_encode
+ .text.sp_decode_byte
+                0x00000000000021e6       0xe4 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_link.o
+                0x00000000000021e6                sp_decode_byte
+ .text.sp_unpack_input
+                0x00000000000022ca       0xb6 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_link.o
+                0x00000000000022ca                sp_unpack_input
+ .text.sp_xinput_report
+                0x0000000000002380       0x72 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_link.o
+                0x0000000000002380                sp_xinput_report
+ .text.GPIOA_ModeCfg
+                0x00000000000023f2       0xa6 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_gpio.o
+                0x00000000000023f2                GPIOA_ModeCfg
+ .text.GPIOB_ModeCfg
+                0x0000000000002498       0xa6 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_gpio.o
+                0x0000000000002498                GPIOB_ModeCfg
+ .text.GPIOPinRemap
+                0x000000000000253e       0x1a C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_gpio.o
+                0x000000000000253e                GPIOPinRemap
+ .text.GetSysClock
+                0x0000000000002558       0x42 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_sys.o
+                0x0000000000002558                GetSysClock
+ .text._sbrk    0x000000000000259a       0x28 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_sys.o
+                0x000000000000259a                _sbrk
+ .text.PWR_DCDCCfg
+                0x00000000000025c2      0x13c C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_pwr.o
+                0x00000000000025c2                PWR_DCDCCfg
+ .text.USB_DeviceInit
+                0x00000000000026fe       0x7e C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_usbdev.o
+                0x00000000000026fe                USB_DeviceInit
+ .text.UART1_BaudRateCfg
+                0x000000000000277c       0x30 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_uart1.o
+                0x000000000000277c                UART1_BaudRateCfg
+ .text.UART1_DefInit
+                0x00000000000027ac       0x32 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_uart1.o
+                0x00000000000027ac                UART1_DefInit
+ .text.UART1_ByteTrigCfg
+                0x00000000000027de       0x1a C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_uart1.o
+                0x00000000000027de                UART1_ByteTrigCfg
+ .text.UART1_INTCfg
+                0x00000000000027f8       0x2a C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_uart1.o
+                0x00000000000027f8                UART1_INTCfg
+ .text.memcpy   0x0000000000002822       0xb6 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-memcpy.o)
+                0x0000000000002822                memcpy
+ .text.memmove  0x00000000000028d8       0x4a c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-memmove.o)
+                0x00000000000028d8                memmove
+ .text.printf   0x0000000000002922       0x40 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-printf.o)
+                0x0000000000002922                iprintf
+                0x0000000000002922                printf
+ .text.snprintf
+                0x0000000000002962       0x6e c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-snprintf.o)
+                0x0000000000002962                sniprintf
+                0x0000000000002962                snprintf
+ .text._vsnprintf_r
+                0x00000000000029d0       0x5e c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-vsnprintf.o)
+                0x00000000000029d0                _vsniprintf_r
+                0x00000000000029d0                _vsnprintf_r
+ .text.vsnprintf
+                0x0000000000002a2e       0x10 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-vsnprintf.o)
+                0x0000000000002a2e                vsniprintf
+                0x0000000000002a2e                vsnprintf
+ .text.std      0x0000000000002a3e       0x6a c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-findfp.o)
+ .text._cleanup_r
+                0x0000000000002aa8        0xa c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-findfp.o)
+                0x0000000000002aa8                _cleanup_r
+ .text.__sfmoreglue
+                0x0000000000002ab2       0x46 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-findfp.o)
+                0x0000000000002ab2                __sfmoreglue
+ .text.__sinit  0x0000000000002af8       0x6a c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-findfp.o)
+                0x0000000000002af8                __sinit
+ .text.__sfp    0x0000000000002b62       0xa0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-findfp.o)
+                0x0000000000002b62                __sfp
+ .text._fwalk_reent
+                0x0000000000002c02       0x6c c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-fwalk.o)
+                0x0000000000002c02                _fwalk_reent
+ .text._malloc_r
+                0x0000000000002c6e       0xda c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-mallocr.o)
+                0x0000000000002c6e                _malloc_r
+ .text.__ssputs_r
+                0x0000000000002d48       0xea c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-svfprintf.o)
+                0x0000000000002d48                __ssputs_r
+ .text._svfprintf_r
+                0x0000000000002e32      0x27c c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-svfprintf.o)
+                0x0000000000002e32                _svfiprintf_r
+                0x0000000000002e32                _svfprintf_r
+ .text.__sfputc_r
+                0x00000000000030ae       0x28 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-vfprintf.o)
+ .text.__sfputs_r
+                0x00000000000030d6       0x42 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-vfprintf.o)
+                0x00000000000030d6                __sfputs_r
+ .text._vfprintf_r
+                0x0000000000003118      0x29e c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-vfprintf.o)
+                0x0000000000003118                _vfprintf_r
+                0x0000000000003118                _vfiprintf_r
+ .text._printf_common
+                0x00000000000033b6      0x10c c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x00000000000033b6                _printf_common
+ .text._printf_i
+                0x00000000000034c2      0x2aa c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x00000000000034c2                _printf_i
+ .text._sbrk_r  0x000000000000376c       0x2a c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-sbrkr.o)
+                0x000000000000376c                _sbrk_r
+ .text.__sread  0x0000000000003796       0x30 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-stdio.o)
+                0x0000000000003796                __sread
+ .text.__swrite
+                0x00000000000037c6       0x4e c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-stdio.o)
+                0x00000000000037c6                __swrite
+ .text.__sseek  0x0000000000003814       0x36 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-stdio.o)
+                0x0000000000003814                __sseek
+ .text.__sclose
+                0x000000000000384a        0x6 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-stdio.o)
+                0x000000000000384a                __sclose
+ .text.__swbuf_r
+                0x0000000000003850       0xc2 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-wbuf.o)
+                0x0000000000003850                __swbuf_r
+ .text._write_r
+                0x0000000000003912       0x2e c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-writer.o)
+                0x0000000000003912                _write_r
+ .text.__swsetup_r
+                0x0000000000003940      0x10e c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-wsetup.o)
+                0x0000000000003940                __swsetup_r
+ .text._close_r
+                0x0000000000003a4e       0x28 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-closer.o)
+                0x0000000000003a4e                _close_r
+ .text.__sflush_r
+                0x0000000000003a76      0x13c c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-fflush.o)
+                0x0000000000003a76                __sflush_r
+ .text._fflush_r
+                0x0000000000003bb2       0x66 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-fflush.o)
+                0x0000000000003bb2                _fflush_r
+ .text._lseek_r
+                0x0000000000003c18       0x2c c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-lseekr.o)
+                0x0000000000003c18                _lseek_r
+ .text.__swhatbuf_r
+                0x0000000000003c44       0x58 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-makebuf.o)
+                0x0000000000003c44                __swhatbuf_r
+ .text.__smakebuf_r
+                0x0000000000003c9c       0x9e c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-makebuf.o)
+                0x0000000000003c9c                __smakebuf_r
+ .text.memchr   0x0000000000003d3a       0x1a c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-memchr.o)
+                0x0000000000003d3a                memchr
+ .text.__malloc_lock
+                0x0000000000003d54        0x2 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-mlock.o)
+                0x0000000000003d54                __malloc_lock
+ .text.__malloc_unlock
+                0x0000000000003d56        0x2 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-mlock.o)
+                0x0000000000003d56                __malloc_unlock
+ .text._free_r  0x0000000000003d58       0xa4 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-freer.o)
+                0x0000000000003d58                _free_r
+ .text._realloc_r
+                0x0000000000003dfc       0x54 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-reallocr.o)
+                0x0000000000003dfc                _realloc_r
+ .text._read_r  0x0000000000003e50       0x2c c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-readr.o)
+                0x0000000000003e50                _read_r
+ .text._fstat_r
+                0x0000000000003e7c       0x2a c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-fstatr.o)
+                0x0000000000003e7c                _fstat_r
+ .text._isatty_r
+                0x0000000000003ea6       0x28 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-isattyr.o)
+                0x0000000000003ea6                _isatty_r
+ .text._malloc_usable_size_r
+                0x0000000000003ece       0x14 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-msizer.o)
+                0x0000000000003ece                _malloc_usable_size_r
+ .text._close   0x0000000000003ee2        0xc c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libnosys.a(close.o)
+                0x0000000000003ee2                _close
+ .text._fstat   0x0000000000003eee        0xc c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libnosys.a(fstat.o)
+                0x0000000000003eee                _fstat
+ .text._isatty  0x0000000000003efa        0xc c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libnosys.a(isatty.o)
+                0x0000000000003efa                _isatty
+ .text._lseek   0x0000000000003f06        0xc c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libnosys.a(lseek.o)
+                0x0000000000003f06                _lseek
+ .text._read    0x0000000000003f12        0xc c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libnosys.a(read.o)
+                0x0000000000003f12                _read
+ *(.rodata)
+ *(.rodata*)
+ *fill*         0x0000000000003f1e        0x2 
+ .rodata.log_write.str1.4
+                0x0000000000003f20       0x1f C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\log.o
+ *fill*         0x0000000000003f3f        0x1 
+ .rodata.s_level_tag
+                0x0000000000003f40       0x14 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\log.o
+ .rodata.str1.4
+                0x0000000000003f54       0x1e C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\log.o
+                                         0x22 (size before relaxing)
+ *fill*         0x0000000000003f72        0x2 
+ .rodata.main.str1.4
+                0x0000000000003f74       0xb1 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\main.o
+ *fill*         0x0000000000004025        0x3 
+ .rodata.USB_DevTransProcess
+                0x0000000000004028       0x30 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+ .rodata.SInputUSB_Init.str1.4
+                0x0000000000004058       0x2d C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+ *fill*         0x0000000000004085        0x3 
+ .rodata.cfg_descr
+                0x0000000000004088       0x73 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+ *fill*         0x00000000000040fb        0x1 
+ .rodata.dev_descr
+                0x00000000000040fc       0x12 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+ *fill*         0x000000000000410e        0x2 
+ .rodata.str_manu
+                0x0000000000004110        0xc C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+ .rodata.str_prod
+                0x000000000000411c       0x1e C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+ *fill*         0x000000000000413a        0x2 
+ .rodata.xinput_ms_compatible
+                0x000000000000413c       0x28 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+ .rodata.xinput_ms_string
+                0x0000000000004164       0x12 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+ *fill*         0x0000000000004176        0x2 
+ .rodata.bits.1996
+                0x0000000000004178       0x22 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\xinput_builder.o
+ *fill*         0x000000000000419a        0x2 
+ .rodata.GPIOA_ModeCfg
+                0x000000000000419c       0x14 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_gpio.o
+ .rodata.GPIOB_ModeCfg
+                0x00000000000041b0       0x14 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_gpio.o
+ .rodata.__sf_fake_stderr
+                0x00000000000041c4       0x20 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-findfp.o)
+                0x00000000000041c4                __sf_fake_stderr
+ .rodata.__sf_fake_stdin
+                0x00000000000041e4       0x20 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-findfp.o)
+                0x00000000000041e4                __sf_fake_stdin
+ .rodata.__sf_fake_stdout
+                0x0000000000004204       0x20 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-findfp.o)
+                0x0000000000004204                __sf_fake_stdout
+ .rodata._svfprintf_r.str1.4
+                0x0000000000004224       0x13 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-svfprintf.o)
+ .rodata._vfprintf_r.str1.4
+                0x0000000000004237       0x13 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-vfprintf.o)
+ *fill*         0x0000000000004237        0x1 
+ .rodata._printf_i.str1.4
+                0x0000000000004238       0x14 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                                         0x25 (size before relaxing)
+ *(.sdata2.*)
+ .sdata2.str_lang
+                0x000000000000424c        0x4 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+ .sdata2._global_impure_ptr
+                0x0000000000004250        0x4 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-impure.o)
+                0x0000000000004250                _global_impure_ptr
+ *(.glue_7)
+ *(.glue_7t)
+ *(.gnu.linkonce.t.*)
+                0x0000000000004254                . = ALIGN (0x4)
+
+.rela.dyn       0x0000000000004254        0x0
+ .rela.text.Button_Init
+                0x0000000000004254        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+ .rela.text.Button_Task
+                0x0000000000004254        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+ .rela.text.log_write
+                0x0000000000004254        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+ .rela.text.tick
+                0x0000000000004254        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+ .rela.text.startup.main
+                0x0000000000004254        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+ .rela.text.control_begin_in
+                0x0000000000004254        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+ .rela.text.CDC_Flush
+                0x0000000000004254        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+ .rela.text.SInputUSB_SendReport
+                0x0000000000004254        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+ .rela.text.USB_DevTransProcess
+                0x0000000000004254        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+ .rela.text.SInputUSB_Init
+                0x0000000000004254        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+ .rela.text._sbrk
+                0x0000000000004254        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+ .rela.sdata.curbrk.3241
+                0x0000000000004254        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+ .rela.text.USB_DeviceInit
+                0x0000000000004254        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+ .rela.init     0x0000000000004254        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+ .rela.vector   0x0000000000004254        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+ .rela.handle_reset
+                0x0000000000004254        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+ .rela.text._svfprintf_r
+                0x0000000000004254        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+ .rela.text._vfprintf_r
+                0x0000000000004254        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+ .rela.text._sbrk_r
+                0x0000000000004254        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+ .rela.text._write_r
+                0x0000000000004254        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+ .rela.text._close_r
+                0x0000000000004254        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+ .rela.text._lseek_r
+                0x0000000000004254        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+ .rela.text._read_r
+                0x0000000000004254        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+ .rela.text._fstat_r
+                0x0000000000004254        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+ .rela.text._isatty_r
+                0x0000000000004254        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+ .rela.text._close
+                0x0000000000004254        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+ .rela.text._fstat
+                0x0000000000004254        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+ .rela.text._isatty
+                0x0000000000004254        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+ .rela.text._lseek
+                0x0000000000004254        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+ .rela.text._read
+                0x0000000000004254        0x0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+
+.fini           0x0000000000004254        0x0
+ *(SORT_NONE(.fini))
+                0x0000000000004254                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (_eitcm = .)
+
+.preinit_array  0x0000000000004254        0x0
+                [!provide]                        PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end = .)
+
+.init_array     0x0000000000004254        0x0
+                [!provide]                        PROVIDE (__init_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+                [!provide]                        PROVIDE (__init_array_end = .)
+
+.fini_array     0x0000000000004254        0x0
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+                [!provide]                        PROVIDE (__fini_array_end = .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.dlalign        0x0000000000004254        0x0
+                0x0000000000004254                . = ALIGN (0x4)
+                0x0000000000004254                PROVIDE (_data_lma = .)
+
+.data           0x0000000020000a18       0xb0 load address 0x0000000000004254
+                0x0000000020000a18                . = ALIGN (0x4)
+                0x0000000020000a18                PROVIDE (_data_vma = .)
+ *(.gnu.linkonce.r.*)
+ *(.data .data.*)
+ .data.xinput_last_report
+                0x0000000020000a18       0x14 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+ .data.xinput_serial
+                0x0000000020000a2c       0x1a C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+ *fill*         0x0000000020000a46        0x2 
+ .data.impure_data
+                0x0000000020000a48       0x60 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-impure.o)
+ *(.gnu.linkonce.d.*)
+                0x0000000020000aa8                . = ALIGN (0x8)
+                0x00000000200012a8                PROVIDE (__global_pointer$ = (. + 0x800))
+ *(.sdata .sdata.*)
+ .sdata.tx_pos  0x0000000020000aa8        0x1 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+ .sdata.s_debounced
+                0x0000000020000aa9        0x1 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\button.o
+ .sdata.s_last_raw
+                0x0000000020000aaa        0x1 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\button.o
+ *fill*         0x0000000020000aab        0x1 
+ .sdata.cdc_line_coding
+                0x0000000020000aac        0x7 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+ *fill*         0x0000000020000ab3        0x1 
+ .sdata.curbrk.3241
+                0x0000000020000ab4        0x4 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_sys.o
+ .sdata._impure_ptr
+                0x0000000020000ab8        0x4 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-impure.o)
+                0x0000000020000ab8                _impure_ptr
+ *(.gnu.linkonce.s.*)
+                0x0000000020000ac0                . = ALIGN (0x8)
+ *fill*         0x0000000020000abc        0x4 
+ *(.srodata.cst16)
+ *(.srodata.cst8)
+ *(.srodata.cst4)
+ *(.srodata.cst2)
+ *(.srodata .srodata.*)
+ .srodata       0x0000000020000ac0        0x6 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\xinput_builder.o
+                0x0000000020000ac8                . = ALIGN (0x4)
+ *fill*         0x0000000020000ac6        0x2 
+                0x0000000020000ac8                PROVIDE (_edata = .)
+
+.bss            0x0000000020000ac8      0x950 load address 0x0000000000004304
+                0x0000000020000ac8                . = ALIGN (0x4)
+                0x0000000020000ac8                PROVIDE (_sbss = .)
+ *(.sbss*)
+ .sbss.overflow
+                0x0000000020000ac8        0x1 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+ *fill*         0x0000000020000ac9        0x1 
+ .sbss.rx_head  0x0000000020000aca        0x2 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+ .sbss.rx_tail  0x0000000020000acc        0x2 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+ .sbss.s_event  0x0000000020000ace        0x1 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\button.o
+ *fill*         0x0000000020000acf        0x1 
+ .sbss.s_gesture
+                0x0000000020000ad0        0x8 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\button.o
+ .sbss.s_last_change
+                0x0000000020000ad8        0x4 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\button.o
+ .sbss.s_long_event
+                0x0000000020000adc        0x1 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\button.o
+ *fill*         0x0000000020000add        0x3 
+ .sbss.last_tick
+                0x0000000020000ae0        0x4 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\main.o
+ .sbss.cdc_host_open
+                0x0000000020000ae4        0x1 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+ *fill*         0x0000000020000ae5        0x1 
+ .sbss.cdc_tx_head
+                0x0000000020000ae6        0x2 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+ .sbss.cdc_tx_tail
+                0x0000000020000ae8        0x2 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+ .sbss.g_control_in
+                0x0000000020000aea        0x1 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+ .sbss.g_control_out
+                0x0000000020000aeb        0x1 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+ .sbss.g_hid_out_len
+                0x0000000020000aec        0x2 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+ .sbss.g_hid_out_pending
+                0x0000000020000aee        0x1 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+                0x0000000020000aee                g_hid_out_pending
+ *fill*         0x0000000020000aef        0x1 
+ .sbss.g_output_cb
+                0x0000000020000af0        0x4 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+ .sbss.g_p_descr
+                0x0000000020000af4        0x4 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+ .sbss.g_req_code
+                0x0000000020000af8        0x1 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+ *fill*         0x0000000020000af9        0x1 
+ .sbss.g_req_len
+                0x0000000020000afa        0x2 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+ .sbss.g_usb_config
+                0x0000000020000afc        0x1 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+                0x0000000020000afc                g_usb_config
+ .sbss.g_usb_ready
+                0x0000000020000afd        0x1 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+                0x0000000020000afd                g_usb_ready
+ *fill*         0x0000000020000afe        0x2 
+ .sbss.xinput_device_id
+                0x0000000020000b00        0x4 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+ .sbss.xinput_last_send_ms
+                0x0000000020000b04        0x4 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+ .sbss.IRQ_STA  0x0000000020000b08        0x4 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_sys.o
+                0x0000000020000b08                IRQ_STA
+ .sbss.__malloc_free_list
+                0x0000000020000b0c        0x4 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-mallocr.o)
+                0x0000000020000b0c                __malloc_free_list
+ .sbss.__malloc_sbrk_start
+                0x0000000020000b10        0x4 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-mallocr.o)
+                0x0000000020000b10                __malloc_sbrk_start
+ *(.gnu.linkonce.sb.*)
+ *(.bss*)
+ .bss.rx        0x0000000020000b14      0x100 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+ .bss.tx        0x0000000020000c14       0x18 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+ .bss.s_log_buf
+                0x0000000020000c2c      0x100 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\log.o
+ .bss.bridge    0x0000000020000d2c       0x38 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\main.o
+ .bss.decoder   0x0000000020000d64       0x19 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\main.o
+ *fill*         0x0000000020000d7d        0x3 
+ .bss.cdc_tx_buf
+                0x0000000020000d80      0x400 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+ .bss.g_hid_out_data
+                0x0000000020001180       0x40 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+ *(.gnu.linkonce.b.*)
+ *(COMMON*)
+ COMMON         0x00000000200011c0        0x4 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\main.o
+                0x00000000200011c0                g_sys_tick_ms
+ COMMON         0x00000000200011c4      0x240 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+                0x00000000200011c4                EP0_Databuf
+                0x0000000020001284                EP1_Databuf
+                0x0000000020001304                EP2_Databuf
+                0x0000000020001384                EP3_Databuf
+ COMMON         0x0000000020001404       0x10 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_usbdev.o
+                0x0000000020001404                pEP2_RAM_Addr
+                0x0000000020001408                pEP3_RAM_Addr
+                0x000000002000140c                pEP0_RAM_Addr
+                0x0000000020001410                pEP1_RAM_Addr
+ COMMON         0x0000000020001414        0x4 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-reent.o)
+                0x0000000020001414                errno
+                0x0000000020001418                . = ALIGN (0x4)
+                0x0000000020001418                PROVIDE (_ebss = .)
+                0x0000000020001418                PROVIDE (_end = _ebss)
+                [!provide]                        PROVIDE (end = .)
+
+.stack          0x0000000020007800      0x800
+                0x0000000020007800                PROVIDE (_heap_end = .)
+                0x0000000020007800                . = ALIGN (0x4)
+                0x0000000020007800                PROVIDE (_susrstack = .)
+                0x0000000020008000                . = (. + __stack_size)
+ *fill*         0x0000000020007800      0x800 
+                0x0000000020008000                PROVIDE (_eusrstack = .)
+                0x0000000000000001                ASSERT ((_ebss <= _susrstack), RAM overlaps the reserved stack)
+OUTPUT(C:\Users\1\Desktop\prj\google_sta\switchpro\firmware\CH582-SwitchPro-r1\switchpro-CH582F-r1.elf elf32-littleriscv)
+
+.debug_info     0x0000000000000000    0x1164b
+ .debug_info    0x0000000000000000     0x14b2 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+ .debug_info    0x00000000000014b2      0x150 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\button_gesture.o
+ .debug_info    0x0000000000001602      0xff3 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\button.o
+ .debug_info    0x00000000000025f5      0xc47 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\log.o
+ .debug_info    0x000000000000323c     0x1c0f C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\main.o
+ .debug_info    0x0000000000004e4b     0x1081 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\platform.o
+ .debug_info    0x0000000000005ecc     0x1b99 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+ .debug_info    0x0000000000007a65      0xe53 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\xinput_builder.o
+ .debug_info    0x00000000000088b8      0xfae C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_bridge.o
+ .debug_info    0x0000000000009866     0x1209 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_link.o
+ .debug_info    0x000000000000aa6f      0xfd3 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_gpio.o
+ .debug_info    0x000000000000ba42     0x1bc9 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_sys.o
+ .debug_info    0x000000000000d60b     0x21a3 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_pwr.o
+ .debug_info    0x000000000000f7ae      0xec8 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_usbdev.o
+ .debug_info    0x0000000000010676      0xfb3 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_uart1.o
+ .debug_info    0x0000000000011629       0x22 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\startup_CH583.o
+
+.debug_abbrev   0x0000000000000000     0x2d6d
+ .debug_abbrev  0x0000000000000000      0x378 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+ .debug_abbrev  0x0000000000000378       0xc0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\button_gesture.o
+ .debug_abbrev  0x0000000000000438      0x271 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\button.o
+ .debug_abbrev  0x00000000000006a9      0x286 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\log.o
+ .debug_abbrev  0x000000000000092f      0x375 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\main.o
+ .debug_abbrev  0x0000000000000ca4      0x31d C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\platform.o
+ .debug_abbrev  0x0000000000000fc1      0x503 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+ .debug_abbrev  0x00000000000014c4      0x310 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\xinput_builder.o
+ .debug_abbrev  0x00000000000017d4      0x2d7 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_bridge.o
+ .debug_abbrev  0x0000000000001aab      0x35f C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_link.o
+ .debug_abbrev  0x0000000000001e0a      0x248 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_gpio.o
+ .debug_abbrev  0x0000000000002052      0x46d C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_sys.o
+ .debug_abbrev  0x00000000000024bf      0x3fe C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_pwr.o
+ .debug_abbrev  0x00000000000028bd      0x1f7 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_usbdev.o
+ .debug_abbrev  0x0000000000002ab4      0x2a7 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_uart1.o
+ .debug_abbrev  0x0000000000002d5b       0x12 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\startup_CH583.o
+
+.debug_loc      0x0000000000000000     0x3345
+ .debug_loc     0x0000000000000000      0x12b C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+ .debug_loc     0x000000000000012b       0x8d C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\button_gesture.o
+ .debug_loc     0x00000000000001b8       0x86 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\button.o
+ .debug_loc     0x000000000000023e      0x132 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\log.o
+ .debug_loc     0x0000000000000370      0x245 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\main.o
+ .debug_loc     0x00000000000005b5       0xe5 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\platform.o
+ .debug_loc     0x000000000000069a      0x573 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+ .debug_loc     0x0000000000000c0d      0x41f C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\xinput_builder.o
+ .debug_loc     0x000000000000102c      0x3d8 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_bridge.o
+ .debug_loc     0x0000000000001404      0x75c C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_link.o
+ .debug_loc     0x0000000000001b60      0x361 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_gpio.o
+ .debug_loc     0x0000000000001ec1      0x6b1 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_sys.o
+ .debug_loc     0x0000000000002572      0xb8e C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_pwr.o
+ .debug_loc     0x0000000000003100      0x245 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_uart1.o
+
+.debug_aranges  0x0000000000000000      0x498
+ .debug_aranges
+                0x0000000000000000       0x50 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+ .debug_aranges
+                0x0000000000000050       0x20 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\button_gesture.o
+ .debug_aranges
+                0x0000000000000070       0x40 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\button.o
+ .debug_aranges
+                0x00000000000000b0       0x28 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\log.o
+ .debug_aranges
+                0x00000000000000d8       0x30 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\main.o
+ .debug_aranges
+                0x0000000000000108       0x50 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\platform.o
+ .debug_aranges
+                0x0000000000000158       0x78 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+ .debug_aranges
+                0x00000000000001d0       0x30 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\xinput_builder.o
+ .debug_aranges
+                0x0000000000000200       0x50 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_bridge.o
+ .debug_aranges
+                0x0000000000000250       0x58 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_link.o
+ .debug_aranges
+                0x00000000000002a8       0x48 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_gpio.o
+ .debug_aranges
+                0x00000000000002f0       0x88 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_sys.o
+ .debug_aranges
+                0x0000000000000378       0x60 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_pwr.o
+ .debug_aranges
+                0x00000000000003d8       0x40 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_usbdev.o
+ .debug_aranges
+                0x0000000000000418       0x50 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_uart1.o
+ .debug_aranges
+                0x0000000000000468       0x30 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\startup_CH583.o
+
+.debug_ranges   0x0000000000000000      0x6e0
+ .debug_ranges  0x0000000000000000       0x70 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+ .debug_ranges  0x0000000000000070       0x10 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\button_gesture.o
+ .debug_ranges  0x0000000000000080       0x30 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\button.o
+ .debug_ranges  0x00000000000000b0       0x30 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\log.o
+ .debug_ranges  0x00000000000000e0       0x58 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\main.o
+ .debug_ranges  0x0000000000000138       0x40 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\platform.o
+ .debug_ranges  0x0000000000000178      0x108 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+ .debug_ranges  0x0000000000000280       0xc8 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\xinput_builder.o
+ .debug_ranges  0x0000000000000348       0x58 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_bridge.o
+ .debug_ranges  0x00000000000003a0      0x128 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_link.o
+ .debug_ranges  0x00000000000004c8       0x38 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_gpio.o
+ .debug_ranges  0x0000000000000500       0xa8 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_sys.o
+ .debug_ranges  0x00000000000005a8       0xa0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_pwr.o
+ .debug_ranges  0x0000000000000648       0x30 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_usbdev.o
+ .debug_ranges  0x0000000000000678       0x40 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_uart1.o
+ .debug_ranges  0x00000000000006b8       0x28 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\startup_CH583.o
+
+.debug_line     0x0000000000000000     0xafa4
+ .debug_line    0x0000000000000000      0x737 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+ .debug_line    0x0000000000000737      0x26d C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\button_gesture.o
+ .debug_line    0x00000000000009a4      0x539 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\button.o
+ .debug_line    0x0000000000000edd      0x43a C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\log.o
+ .debug_line    0x0000000000001317      0x8ce C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\main.o
+ .debug_line    0x0000000000001be5      0x5ea C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\platform.o
+ .debug_line    0x00000000000021cf     0x1bcb C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+ .debug_line    0x0000000000003d9a      0x644 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\xinput_builder.o
+ .debug_line    0x00000000000043de      0x94a C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_bridge.o
+ .debug_line    0x0000000000004d28      0xf7b C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_link.o
+ .debug_line    0x0000000000005ca3      0x7dc C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_gpio.o
+ .debug_line    0x000000000000647f     0x18c0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_sys.o
+ .debug_line    0x0000000000007d3f     0x2536 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_pwr.o
+ .debug_line    0x000000000000a275      0x53e C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_usbdev.o
+ .debug_line    0x000000000000a7b3      0x610 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_uart1.o
+ .debug_line    0x000000000000adc3      0x1e1 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\startup_CH583.o
+
+.debug_str      0x0000000000000000     0x1e83
+ .debug_str     0x0000000000000000      0xb64 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+                                        0xc33 (size before relaxing)
+ .debug_str     0x0000000000000b64       0xc7 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\button_gesture.o
+                                        0x229 (size before relaxing)
+ .debug_str     0x0000000000000c2b       0xec C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\button.o
+                                        0x9fa (size before relaxing)
+ .debug_str     0x0000000000000d17       0x96 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\log.o
+                                        0x62d (size before relaxing)
+ .debug_str     0x0000000000000dad      0x4a8 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\main.o
+                                        0xfda (size before relaxing)
+ .debug_str     0x0000000000001255      0x120 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\platform.o
+                                        0x994 (size before relaxing)
+ .debug_str     0x0000000000001375      0x2f6 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+                                        0xdfb (size before relaxing)
+ .debug_str     0x000000000000166b       0x83 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\xinput_builder.o
+                                        0x66e (size before relaxing)
+ .debug_str     0x00000000000016ee       0x7a C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_bridge.o
+                                        0x777 (size before relaxing)
+ .debug_str     0x0000000000001768       0x9b C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_link.o
+                                        0x727 (size before relaxing)
+ .debug_str     0x0000000000001803      0x127 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_gpio.o
+                                        0x9e1 (size before relaxing)
+ .debug_str     0x000000000000192a      0x1af C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_sys.o
+                                        0xca0 (size before relaxing)
+ .debug_str     0x0000000000001ad9      0x1f3 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_pwr.o
+                                        0xcde (size before relaxing)
+ .debug_str     0x0000000000001ccc       0xa0 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_usbdev.o
+                                        0x8dd (size before relaxing)
+ .debug_str     0x0000000000001d6c       0xae C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_uart1.o
+                                        0x986 (size before relaxing)
+ .debug_str     0x0000000000001e1a       0x69 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\startup_CH583.o
+                                         0x8b (size before relaxing)
+
+.comment        0x0000000000000000       0x33
+ .comment       0x0000000000000000       0x33 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+                                         0x34 (size before relaxing)
+ .comment       0x0000000000000033       0x34 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\button_gesture.o
+ .comment       0x0000000000000033       0x34 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\button.o
+ .comment       0x0000000000000033       0x34 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\log.o
+ .comment       0x0000000000000033       0x34 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\main.o
+ .comment       0x0000000000000033       0x34 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\platform.o
+ .comment       0x0000000000000033       0x34 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+ .comment       0x0000000000000033       0x34 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\xinput_builder.o
+ .comment       0x0000000000000033       0x34 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_bridge.o
+ .comment       0x0000000000000033       0x34 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_link.o
+ .comment       0x0000000000000033       0x34 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_gpio.o
+ .comment       0x0000000000000033       0x34 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_sys.o
+ .comment       0x0000000000000033       0x34 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_pwr.o
+ .comment       0x0000000000000033       0x34 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_usbdev.o
+ .comment       0x0000000000000033       0x34 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_uart1.o
+ .comment       0x0000000000000033       0x34 C:\Users\1\Desktop\prj\google_sta\receiver\sdk\CH583EVT\EVT\EXAM/SRC/StdPeriphDriver/libISP583.a(ISP583.o)
+
+.debug_frame    0x0000000000000000     0x1500
+ .debug_frame   0x0000000000000000       0x98 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\bridge_uart.o
+ .debug_frame   0x0000000000000098       0x20 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\button_gesture.o
+ .debug_frame   0x00000000000000b8       0x7c C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\button.o
+ .debug_frame   0x0000000000000134       0x5c C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\log.o
+ .debug_frame   0x0000000000000190       0x64 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\main.o
+ .debug_frame   0x00000000000001f4       0xbc C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\platform.o
+ .debug_frame   0x00000000000002b0      0x158 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sinput_usb.o
+ .debug_frame   0x0000000000000408       0x64 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\xinput_builder.o
+ .debug_frame   0x000000000000046c       0xf4 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_bridge.o
+ .debug_frame   0x0000000000000560      0x120 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\sp_link.o
+ .debug_frame   0x0000000000000680       0x70 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_gpio.o
+ .debug_frame   0x00000000000006f0      0x114 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_sys.o
+ .debug_frame   0x0000000000000804      0x118 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_pwr.o
+ .debug_frame   0x000000000000091c       0x60 C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_usbdev.o
+ .debug_frame   0x000000000000097c       0x9c C:\Users\1\Desktop\prj\google_sta\switchpro\build\CH582-SwitchPro-r1\CH58x_uart1.o
+ .debug_frame   0x0000000000000a18       0x20 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-memcpy.o)
+ .debug_frame   0x0000000000000a38       0x20 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-memmove.o)
+ .debug_frame   0x0000000000000a58       0x54 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-printf.o)
+ .debug_frame   0x0000000000000aac       0x60 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-snprintf.o)
+ .debug_frame   0x0000000000000b0c       0x48 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-vsnprintf.o)
+ .debug_frame   0x0000000000000b54      0x148 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-findfp.o)
+ .debug_frame   0x0000000000000c9c       0x88 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-fwalk.o)
+ .debug_frame   0x0000000000000d24       0x40 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-mallocr.o)
+ .debug_frame   0x0000000000000d64       0xe0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-svfprintf.o)
+ .debug_frame   0x0000000000000e44       0xd0 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-vfprintf.o)
+ .debug_frame   0x0000000000000f14       0x8c c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .debug_frame   0x0000000000000fa0       0x30 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-sbrkr.o)
+ .debug_frame   0x0000000000000fd0       0xa4 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-stdio.o)
+ .debug_frame   0x0000000000001074       0x50 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-wbuf.o)
+ .debug_frame   0x00000000000010c4       0x30 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-writer.o)
+ .debug_frame   0x00000000000010f4       0x3c c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-wsetup.o)
+ .debug_frame   0x0000000000001130       0x30 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-closer.o)
+ .debug_frame   0x0000000000001160       0x7c c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-fflush.o)
+ .debug_frame   0x00000000000011dc       0x30 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-lseekr.o)
+ .debug_frame   0x000000000000120c       0x64 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-makebuf.o)
+ .debug_frame   0x0000000000001270       0x20 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-memchr.o)
+ .debug_frame   0x0000000000001290       0x30 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-mlock.o)
+ .debug_frame   0x00000000000012c0       0x40 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-freer.o)
+ .debug_frame   0x0000000000001300       0x40 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-reallocr.o)
+ .debug_frame   0x0000000000001340       0x30 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-readr.o)
+ .debug_frame   0x0000000000001370       0x70 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-reent.o)
+ .debug_frame   0x00000000000013e0       0x30 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-fstatr.o)
+ .debug_frame   0x0000000000001410       0x30 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-isattyr.o)
+ .debug_frame   0x0000000000001440       0x20 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libc_nano.a(lib_a-nano-msizer.o)
+ .debug_frame   0x0000000000001460       0x20 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libnosys.a(close.o)
+ .debug_frame   0x0000000000001480       0x20 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libnosys.a(fstat.o)
+ .debug_frame   0x00000000000014a0       0x20 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libnosys.a(isatty.o)
+ .debug_frame   0x00000000000014c0       0x20 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libnosys.a(lseek.o)
+ .debug_frame   0x00000000000014e0       0x20 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libnosys.a(read.o)
+
+.stab           0x0000000000000000       0x84
+ .stab          0x0000000000000000       0x24 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libnosys.a(close.o)
+ .stab          0x0000000000000024       0x18 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libnosys.a(fstat.o)
+                                         0x24 (size before relaxing)
+ .stab          0x000000000000003c       0x18 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libnosys.a(isatty.o)
+                                         0x24 (size before relaxing)
+ .stab          0x0000000000000054       0x18 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libnosys.a(lseek.o)
+                                         0x24 (size before relaxing)
+ .stab          0x000000000000006c       0x18 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libnosys.a(read.o)
+                                         0x24 (size before relaxing)
+
+.stabstr        0x0000000000000000      0x117
+ .stabstr       0x0000000000000000      0x117 c:/users/1/desktop/prj/google_sta/receiver/resources/wch-gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imac/ilp32\libnosys.a(close.o)

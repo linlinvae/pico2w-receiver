@@ -1,0 +1,61 @@
+# Downloaded dependencies and pristine upstream checkouts
+resources/
+sdk/
+/reference/
+/参考资料/
+/sch/
+/tmp/
+
+# Reproducible build output and temporary validation/package copies
+build/
+node_modules/
+__pycache__/
+*.py[cod]
+package-stage/
+/pico2w/host/dist/
+/pico2w/host/dist-v*/
+/pico2w/host/modern/ui/dist/
+/pico2w/host/modern/ui/.build-entry.tsx
+/pico2w/host/modern/validation/
+/pico2w/host/validation/*
+!/pico2w/host/validation/config-vectors.bin
+/pico2w/host/releases/PicoControl/
+/audit/stadia-stick/*.exe
+
+# Only the WebView2 files required to build the desktop app are versioned
+/pico2w/host/modern/vendor/*
+!/pico2w/host/modern/vendor/webview2/
+/pico2w/host/modern/vendor/webview2/*
+!/pico2w/host/modern/vendor/webview2/LICENSE.txt
+!/pico2w/host/modern/vendor/webview2/NOTICE.txt
+!/pico2w/host/modern/vendor/webview2/lib/
+/pico2w/host/modern/vendor/webview2/lib/*
+!/pico2w/host/modern/vendor/webview2/lib/net462/
+/pico2w/host/modern/vendor/webview2/lib/net462/*
+!/pico2w/host/modern/vendor/webview2/lib/net462/Microsoft.Web.WebView2.Core.dll
+!/pico2w/host/modern/vendor/webview2/lib/net462/Microsoft.Web.WebView2.WinForms.dll
+!/pico2w/host/modern/vendor/webview2/runtimes/
+/pico2w/host/modern/vendor/webview2/runtimes/*
+!/pico2w/host/modern/vendor/webview2/runtimes/win-x64/
+/pico2w/host/modern/vendor/webview2/runtimes/win-x64/*
+!/pico2w/host/modern/vendor/webview2/runtimes/win-x64/native/
+/pico2w/host/modern/vendor/webview2/runtimes/win-x64/native/*
+!/pico2w/host/modern/vendor/webview2/runtimes/win-x64/native/WebView2Loader.dll
+
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.vscode/
+.idea/
+.mrs/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+*.log
+
+# Firmware, release ZIPs, dependency locks and licenses are intentionally tracked.

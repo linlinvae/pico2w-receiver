@@ -1,0 +1,96 @@
+{
+  "chip": "original ESP32",
+  "revision": 1,
+  "flashMegabytes": 4,
+  "binaryFlashAddress": "0x0",
+  "binarySha256": "1349DFBEB8B10C1835D77499F952C5234BAE3D02B369ABF3CE6400A21440256E",
+  "segmentHashes": [
+    {
+      "file": "bootloader.bin",
+      "sha256": "3ADF1D02488146F21101670B8D5864E317D275EA22E533158E5CC9448032668D"
+    },
+    {
+      "file": "partition-table.bin",
+      "sha256": "7F00B6C042A89B15B0CAC534F82ED988CAF29278FF5700B0C511EB1B5BB7C820"
+    },
+    {
+      "file": "switchpro_esp32_r1.bin",
+      "sha256": "F8D03142ECF30AD1A61C5E849AFFD5B70C8399FCF1DEAAECDFB6EC52E516196A"
+    }
+  ],
+  "dependencies": {
+    "bluepad32": {
+      "url": "https://github.com/ricardoquesada/bluepad32.git",
+      "commit": "80d6314e46f871719fbb4b721a2cc02227c4f369"
+    },
+    "btstack": {
+      "url": "https://github.com/bluekitchen/btstack.git",
+      "commit": "8a8b616e04b07612a273978131efad32a083b1ed",
+      "patches": []
+    },
+    "espIdf": {
+      "url": "https://github.com/espressif/esp-idf.git",
+      "tag": "v5.5.1",
+      "commit": "fcae32885b0296b32044cb99ecbdc50d98dddb83"
+    },
+    "betterJoyReference": {
+      "url": "https://github.com/Davidobot/BetterJoy.git",
+      "commit": "b6715638a3ed1084f8968e8cafebbc6fe2ed0096",
+      "use": "Read-only protocol reference; not linked into firmware"
+    },
+    "wch": {
+      "source": "../receiver/dependencies.lock.json",
+      "use": "Read-only CH583 SDK and WCH compiler"
+    }
+  },
+  "sourceHashes": [
+    {
+      "path": "C:\\Users\\1\\Desktop\\prj\\google_sta\\switchpro\\esp32\\main\\CMakeLists.txt",
+      "sha256": "C81883F75121A6115A844BDB581AA4D5F846D74AC07D4A6BE5CCE724416C0FE7"
+    },
+    {
+      "path": "C:\\Users\\1\\Desktop\\prj\\google_sta\\switchpro\\esp32\\main\\Kconfig.projbuild",
+      "sha256": "53B36152ADA9BB5675674057265BDE4C05C25C75122B55AF424747C911C2DB52"
+    },
+    {
+      "path": "C:\\Users\\1\\Desktop\\prj\\google_sta\\switchpro\\esp32\\main\\main.c",
+      "sha256": "3BE64549FAD460E08D0ADB0681414DD4A5A52797E9AD64D482034D520C15B5E2"
+    },
+    {
+      "path": "C:\\Users\\1\\Desktop\\prj\\google_sta\\switchpro\\esp32\\main\\switchpro_platform.c",
+      "sha256": "460A11BDE0305BFCF4FF56871724CF9D0A12F069309BCC054F473818F6DFDF9A"
+    },
+    {
+      "path": "C:\\Users\\1\\Desktop\\prj\\google_sta\\switchpro\\common\\sp_bridge.c",
+      "sha256": "46FB49F6921664E16890CF782EE9EF8FC5B6FC5544E5DA73B9B10666FA278767"
+    },
+    {
+      "path": "C:\\Users\\1\\Desktop\\prj\\google_sta\\switchpro\\common\\sp_bridge.h",
+      "sha256": "0EDE95D4FF361E16EA9420BAA22D99C9F627439F2D50B0F71D17F7D06D023231"
+    },
+    {
+      "path": "C:\\Users\\1\\Desktop\\prj\\google_sta\\switchpro\\common\\sp_endpoint.c",
+      "sha256": "53ECB28110895BD66C49BD10E0CD3F44B0D710B828858D500D50A329ADF4A241"
+    },
+    {
+      "path": "C:\\Users\\1\\Desktop\\prj\\google_sta\\switchpro\\common\\sp_endpoint.h",
+      "sha256": "0E479910C11E1466FEA173E67B8EADE64861A12FE9B69CCEF34D2DE63481B136"
+    },
+    {
+      "path": "C:\\Users\\1\\Desktop\\prj\\google_sta\\switchpro\\common\\sp_link.c",
+      "sha256": "3F6B5B1EE48A5953DA4A4F0F1848D2EB39A1440B70EB971A1FDE2286763EC657"
+    },
+    {
+      "path": "C:\\Users\\1\\Desktop\\prj\\google_sta\\switchpro\\common\\sp_link.h",
+      "sha256": "8C93C9ED055F7DC3E5EA4E7C8AA91202CB4BFB4D9C61240F9F629ACED7EFE52B"
+    },
+    {
+      "path": "C:\\Users\\1\\Desktop\\prj\\google_sta\\switchpro\\esp32\\CMakeLists.txt",
+      "sha256": "CE787E083AA9FB0E8328B701EB1F7D71A6E31C3DBD0BC38C5298EC6C5F398214"
+    },
+    {
+      "path": "C:\\Users\\1\\Desktop\\prj\\google_sta\\switchpro\\esp32\\sdkconfig.defaults",
+      "sha256": "3A4E5EAD76AF7BC45E7A28AD0E2709C420AC3132867A339CE1DBFB6F03914350"
+    }
+  ]
+}

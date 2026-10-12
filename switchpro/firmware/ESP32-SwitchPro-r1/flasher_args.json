@@ -1,0 +1,41 @@
+{
+  "write_flash_args": [
+    "--flash_mode",
+    "dio",
+    "--flash_size",
+    "4MB",
+    "--flash_freq",
+    "40m"
+  ],
+  "flash_settings": {
+    "flash_mode": "dio",
+    "flash_size": "4MB",
+    "flash_freq": "40m"
+  },
+  "flash_files": {
+    "0x1000": "bootloader.bin",
+    "0x10000": "switchpro_esp32_r1.bin",
+    "0x8000": "partition-table.bin"
+  },
+  "bootloader": {
+    "offset": "0x1000",
+    "file": "bootloader.bin",
+    "encrypted": "false"
+  },
+  "app": {
+    "offset": "0x10000",
+    "file": "switchpro_esp32_r1.bin",
+    "encrypted": "false"
+  },
+  "partition-table": {
+    "offset": "0x8000",
+    "file": "partition-table.bin",
+    "encrypted": "false"
+  },
+  "extra_esptool_args": {
+    "after": "hard_reset",
+    "before": "default_reset",
+    "stub": true,
+    "chip": "esp32"
+  }
+}

@@ -1,0 +1,320 @@
+{
+  "version": "R5",
+  "board": "pico2_w",
+  "platform": "rp2350-arm-s",
+  "builtUtc": "2026-10-10T18:22:20.2485863Z",
+  "hardwareValidated": false,
+  "dependencies": {
+    "picoSdk": {
+      "url": "https://github.com/raspberrypi/pico-sdk.git",
+      "commit": "a1438dff1d38bd9c65dbd693f0e5db4b9ae91779",
+      "version": "2.2.0"
+    },
+    "bluepad32": {
+      "url": "https://github.com/ricardoquesada/bluepad32.git",
+      "commit": "80d6314e46f871719fbb4b721a2cc02227c4f369"
+    },
+    "btstack": {
+      "url": "https://github.com/bluekitchen/btstack.git",
+      "commit": "8a8b616e04b07612a273978131efad32a083b1ed"
+    },
+    "submodules": {
+      "lib/tinyusb": "86ad6e56c1700e85f1c5678607a762cfe3aa2f47",
+      "lib/cyw43-driver": "dd7568229f3bf7a37737b9e1ef250c26efe75b23",
+      "lib/mbedtls": "107ea89daaefb9867ea9121002fbbdf926780e98"
+    },
+    "tools": {
+      "arm": {
+        "version": "14.2.Rel1",
+        "url": "https://developer.arm.com/-/media/Files/downloads/gnu/14.2.rel1/binrel/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi.zip",
+        "sha256": "6facb152ce431ba9a4517e939ea46f057380f8f1e56b62e8712b3f3b87d994e1",
+        "archive": "arm.zip",
+        "folder": "toolchain",
+        "check": "bin/arm-none-eabi-gcc.exe"
+      },
+      "cmake": {
+        "version": "3.30.2",
+        "url": "https://github.com/Kitware/CMake/releases/download/v3.30.2/cmake-3.30.2-windows-x86_64.zip",
+        "sha256": "48bf4b3dc2d668c578e0884cac7878e146b036ca6b5ce4f8b5572f861b004c25",
+        "archive": "cmake.zip",
+        "folder": "cmake-download",
+        "check": "cmake-3.30.2-windows-x86_64/bin/cmake.exe"
+      },
+      "ninja": {
+        "version": "1.12.1",
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.12.1/ninja-win.zip",
+        "sha256": "f550fec705b6d6ff58f2db3c374c2277a37691678d6aba463adcbb129108467a",
+        "archive": "ninja.zip",
+        "folder": "ninja",
+        "check": "ninja.exe"
+      },
+      "pioasm": {
+        "version": "2.2.0",
+        "url": "https://github.com/raspberrypi/pico-sdk-tools/releases/download/v2.2.0-2/pico-sdk-tools-2.2.0-x64-win.zip",
+        "sha256": "470fb7f8f8d6aa83ab320aead6d7b6166858d984798857bfb2cc53e58e79bd37",
+        "archive": "sdk-tools.zip",
+        "folder": "sdk-tools",
+        "check": "pioasm/pioasm.exe"
+      },
+      "picotool": {
+        "version": "2.2.0-a4",
+        "url": "https://github.com/raspberrypi/pico-sdk-tools/releases/download/v2.2.0-2/picotool-2.2.0-a4-x64-win.zip",
+        "sha256": "d6ae945f0110c80f493e21f315de312c89c053f240d78b8fbea3985df97b49f5",
+        "archive": "picotool.zip",
+        "folder": "picotool",
+        "check": "picotool/picotool.exe"
+      }
+    }
+  },
+  "sourceHashes": [
+    {
+      "path": "src\\battery.c",
+      "sha256": "E90CD0EFE46B94AE69C335B530D4203B23BFB173695D7E89D29896819CADBAAC"
+    },
+    {
+      "path": "src\\battery.h",
+      "sha256": "139236A7321546C18EDF090BDB78F38BDE287F85E532BFB19EB04F8DB9719E77"
+    },
+    {
+      "path": "src\\ble_discovery.c",
+      "sha256": "B4C892AB74941763647C304724C6AA2E25E7E818DEFD83E491AF98895951FE89"
+    },
+    {
+      "path": "src\\ble_discovery.h",
+      "sha256": "2B0FBA66F091CFCED00455A6B5DF98895ED55817ACC9EA89BC9F5720B7FDC36C"
+    },
+    {
+      "path": "src\\board_button.c",
+      "sha256": "16E803CC5E210448F1E5D881115A43F4A90205F0F300BB9A19205ED41405BA5F"
+    },
+    {
+      "path": "src\\board_button.h",
+      "sha256": "9612E70C7080A401255435F122BC6513DCA6189356405FB1365EA583EF3553B7"
+    },
+    {
+      "path": "src\\bridge.c",
+      "sha256": "CA18509F7CA7E0F95AA1C2B4445DE79B75D686072578B0EE9DE980A4EDB5B449"
+    },
+    {
+      "path": "src\\bridge.h",
+      "sha256": "1F54AE3D39FB0E673F709A350547DB69B2486B3BCCC1B88366E9AA648A142886"
+    },
+    {
+      "path": "src\\btstack_config.h",
+      "sha256": "C7A2B4310AD337C4E155E4B6C11300883073F2A855925FC6E896B9EC73CF28A4"
+    },
+    {
+      "path": "src\\config_flash.c",
+      "sha256": "D9D4077AB12F2C5ED5C254C3160641E3AA797DCC41DA7AAEEA7C750FF2FF30AF"
+    },
+    {
+      "path": "src\\config_protocol.c",
+      "sha256": "EFF249D24FCD91F07C04F1192D3B0B371CACFEF8FCBDF22AA1B71EB64802526B"
+    },
+    {
+      "path": "src\\config_protocol.h",
+      "sha256": "23316EBA1A127DD9EEA8C3FB08C5E6FC8B4A39F5694CBF6852189B67B2741861"
+    },
+    {
+      "path": "src\\main.c",
+      "sha256": "B55803B5DD0D7CD387D21E0185B1FC74ED3C017041C653B708B3C7078AC5A7E0"
+    },
+    {
+      "path": "src\\platform.c",
+      "sha256": "85A8893A5F924CC1719C3D3AC89752B72C03BD6138513107DA3035658EB2383C"
+    },
+    {
+      "path": "src\\platform.h",
+      "sha256": "89FAF75C5991CE001EE3199A28899893B79238A4B687CC5A4377C4180DBAA2D9"
+    },
+    {
+      "path": "src\\receiver_config.c",
+      "sha256": "D59CDBCBB883E0EAB71D8C4D5D17A8BE2DFA2A45FFA8F22B52A17D85B7B29FF6"
+    },
+    {
+      "path": "src\\receiver_config.h",
+      "sha256": "7B1CC601910796D0D568277979FAE709F3575A3B4782BF1726359B0EC22AA927"
+    },
+    {
+      "path": "src\\sdkconfig.h",
+      "sha256": "F7403D7739B136EBDF8DB4E25D7D0D4574EC62C69FA3FA35013121BC051AA811"
+    },
+    {
+      "path": "src\\tusb_config.h",
+      "sha256": "04C71869C76AECC32B3D66CD8ED74A99AA72401189D97EB15B40BF1D55B045E8"
+    },
+    {
+      "path": "src\\usb_descriptors.c",
+      "sha256": "2E750EFD5C4D77ECC06B95DD9E35E2128FC1729B223611742CABCC5686AD646E"
+    },
+    {
+      "path": "src\\usb_descriptors.h",
+      "sha256": "33E56FB6015587CD7675D0194956F69C8054797E24C40F1AAD9D3872989708E6"
+    },
+    {
+      "path": "src\\usb_xinput.c",
+      "sha256": "4CD6A322CD684BE0CEA2A2073E82802558949615046961E3BB9B6B6B675FEA1B"
+    },
+    {
+      "path": "src\\usb_xinput.h",
+      "sha256": "7D13FB38D3F6CB9A252A66929BF308E83B25B2E9364011C86C969DE19A532B5B"
+    },
+    {
+      "path": "tools\\battery-monitor.cmd",
+      "sha256": "0BECB0C18837670CB3BF6B580A5CF22BC4FD979ADAD7C1CE2951962D1069ED59"
+    },
+    {
+      "path": "tools\\battery-monitor.ps1",
+      "sha256": "D2C42ABFBCAE06E39F707C3F34BAFC17AC3DC67F8C88DEFF02CD8E95D23143C6"
+    },
+    {
+      "path": "tools\\build.ps1",
+      "sha256": "99FC50DF48BB8C31C2B562127CE00A89E6DA28215F6E42D77DC0CEBD049DD9EB"
+    },
+    {
+      "path": "tools\\make-ble-test-fixture.ps1",
+      "sha256": "EBFFF5F20714150C5892319C6EA1C762C8025125F0AC3D9389E2D98884C0AD94"
+    },
+    {
+      "path": "tools\\make-classic-test-fixture.ps1",
+      "sha256": "C5B0B873E11797E777E8132324EF4FF355293045EBA719A41409099A76139DCA"
+    },
+    {
+      "path": "tools\\package-r5.ps1",
+      "sha256": "7445C6C0E3F11D62DC2A922CD6F248DAB62FA69C218F59769C344D3449EACC5E"
+    },
+    {
+      "path": "tools\\setup.ps1",
+      "sha256": "947E758550DD46D0153210121CD68AF9E9B06DB2F53C7110BB0412C7643DBC2D"
+    },
+    {
+      "path": "tools\\test_windows.py",
+      "sha256": "189877A9A2F00330AAC0ECA9344E46813CA93C311368304606E653DEE552174E"
+    },
+    {
+      "path": "tools\\test.ps1",
+      "sha256": "8209F9B58D39400DFE6943FD09576B0875AFB2AEB26EF157E1A6E3BE888522BE"
+    },
+    {
+      "path": "tools\\verify_uf2.py",
+      "sha256": "93F989BCAA9E982728BF4C46567E6AB8D50AECB136E643BDFB902D24B35045D8"
+    },
+    {
+      "path": "tools\\verify-dependencies.ps1",
+      "sha256": "A13D2B2A77D16294503516D2EF7AEBFA164B60B180B5C5A4B7C61496DBE2D773"
+    },
+    {
+      "path": "tools\\verify-preserved.ps1",
+      "sha256": "AB5FF4C7679D564FB388173B8CAD6B619442C19A6EBD0B92F00E064295B1BFF3"
+    },
+    {
+      "path": "tools\\verify-r1.ps1",
+      "sha256": "B338B5FEB02E126DE108D90CC3A6F06CB55C4AC228207FBAC822FDA7BD9172C0"
+    },
+    {
+      "path": "tools\\verify-r2.ps1",
+      "sha256": "EB988B2233344E7C73A8BFCA82F6DFECEF81B96DD25A449C0A1BFA31A4AC65AC"
+    },
+    {
+      "path": "tools\\verify-r3.ps1",
+      "sha256": "0515010C327763BDA534BAC2BC54699F43BC7F952C589D349FB97FEF197AFCE7"
+    },
+    {
+      "path": "tools\\verify-r4-1.ps1",
+      "sha256": "8CE3658DF19A9C483BAB9DEEBF98408A573DB5999A59AEEFB8A0EC8BF2473507"
+    },
+    {
+      "path": "tools\\verify-r4-2.ps1",
+      "sha256": "A4778A840429478F74C6B101A857CCB9EB5877EF18570760A4F587DDCA638940"
+    },
+    {
+      "path": "tools\\verify-r4.ps1",
+      "sha256": "0DAA839E0F64542A00320B84DBA2764B9362C08A2991B2585632C3F4B5D14E52"
+    },
+    {
+      "path": "tests\\test_battery.c",
+      "sha256": "CE5E3536AF88DFA47998C3405BD94A73E2D4D9914D494EF9926E09D312EFC9BF"
+    },
+    {
+      "path": "tests\\test_ble_discovery.c",
+      "sha256": "4A370BBC0460AF3163210495E12F8E49F9554D15620524C2332D6D0A5D015C2E"
+    },
+    {
+      "path": "tests\\test_bridge.c",
+      "sha256": "8557BB542137AA232CD595503EB1FD6FB39BB6C2B14C14E68EC4941A49CFA5DC"
+    },
+    {
+      "path": "tests\\test_config_platform.c",
+      "sha256": "EB597EBC2616C7F2459FC3C5D8E83FB006BC8EA558E3C1DA9A992ECBD1654D48"
+    },
+    {
+      "path": "tests\\test_config.c",
+      "sha256": "133038EF3106DF7225470C3DE5D4C72D451384222837A88C4007D68D00C464A8"
+    },
+    {
+      "path": "tests\\test_platform.c",
+      "sha256": "01EC1CA8FC3AFD5AD35B331A1735753A514241786F5A9A29EAEB5D614679AE1E"
+    },
+    {
+      "path": "tests\\test_usb.c",
+      "sha256": "BF297C06050178D41056E924CD553FB00258478637AE9E22638D1B2BCDE3B5DA"
+    },
+    {
+      "path": "tests\\stubs\\hardware\\flash.h",
+      "sha256": "9F29BBB24C63F3D0763DBFF92F4DFE119EBC09B103FC39051BD6BFD04DFAF85C"
+    },
+    {
+      "path": "tests\\stubs\\hardware\\watchdog.h",
+      "sha256": "7032777D58B5A5FB0D64DC845B43E5E2A4F37825A3F4B350B664273DDA33E614"
+    },
+    {
+      "path": "tests\\stubs\\pico\\cyw43_arch.h",
+      "sha256": "0E33E1AAA7BE10FA7E04819E382BF2087C13FE07D6C49EA3D7759F9FC26776E8"
+    },
+    {
+      "path": "tests\\stubs\\pico\\flash.h",
+      "sha256": "658688DC5D1C63DCF0C192E51AC38859D18CB004E4FB71023FDF3348BC5501C1"
+    },
+    {
+      "path": "tests\\stubs\\pico\\stdlib.h",
+      "sha256": "9CFD192C7250EC4AEBE945E7A0A3CADA3B20A5006158D2684B1C782A31FE6ACE"
+    },
+    {
+      "path": "tests\\stubs\\pico\\time.h",
+      "sha256": "E6F8B4C3738CAACD1335309B040FCC8A5261C1620295DA6722E8B5D04A4EBBED"
+    },
+    {
+      "path": "tests\\stubs\\pico\\unique_id.h",
+      "sha256": "A1DCF865E8F3CC9FF0F19A54519D1AEFCC2DA6794B5EEBEBE764A9BD8FD8F5E8"
+    },
+    {
+      "path": "CMakeLists.txt",
+      "sha256": "7C142E73813DC2CCE14B2AD3F93881EE639C7D8D9D37164B17BED7EB08E6349B"
+    },
+    {
+      "path": "flash_guard.ld",
+      "sha256": "397BDDEBD251D74C9D47AB8EB0D622891CD32F8E09BA41FB61848B969B592A18"
+    },
+    {
+      "path": "dependencies.lock.json",
+      "sha256": "F906E917D4FA887DE8D94A519DD4CCA6256CB4BA3F0A29529552A7839DC3A8C6"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "pico2w-xinput-r5.uf2",
+      "bytes": 1066496,
+      "sha256": "4B0E0AE94664D4D5CBEA9EDB208C11955FA925530015E087A4F3214B6BA9497E"
+    },
+    {
+      "file": "pico2w-xinput-r5.elf",
+      "bytes": 4073768,
+      "sha256": "464F8BEFB591F3D98EF6F01851BDA65D699A550A44414F58F220F2CDBBEB864C"
+    },
+    {
+      "file": "pico2w-xinput-r5.bin",
+      "bytes": 532824,
+      "sha256": "A8F7A8C9D5D35C8C9BCD2FB03AE85CD5247EF6FD8F40849E8E8894BDBBF17C4B"
+    }
+  ]
+}

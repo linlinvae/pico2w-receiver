@@ -1,0 +1,4 @@
+resources/
+build/
+tests/build/
+*.log

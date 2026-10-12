@@ -1,0 +1,25 @@
+{
+  "bluepad32": {
+    "url": "https://github.com/ricardoquesada/bluepad32.git",
+    "commit": "80d6314e46f871719fbb4b721a2cc02227c4f369"
+  },
+  "btstack": {
+    "url": "https://github.com/bluekitchen/btstack.git",
+    "commit": "8a8b616e04b07612a273978131efad32a083b1ed",
+    "patches": []
+  },
+  "espIdf": {
+    "url": "https://github.com/espressif/esp-idf.git",
+    "tag": "v5.5.1",
+    "commit": "fcae32885b0296b32044cb99ecbdc50d98dddb83"
+  },
+  "betterJoyReference": {
+    "url": "https://github.com/Davidobot/BetterJoy.git",
+    "commit": "b6715638a3ed1084f8968e8cafebbc6fe2ed0096",
+    "use": "Read-only protocol reference; not linked into firmware"
+  },
+  "wch": {
+    "source": "../receiver/dependencies.lock.json",
+    "use": "Read-only CH583 SDK and WCH compiler"
+  }
+}

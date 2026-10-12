@@ -1,0 +1,17 @@
+{
+  "picoSdk": {"url":"https://github.com/raspberrypi/pico-sdk.git","commit":"a1438dff1d38bd9c65dbd693f0e5db4b9ae91779","version":"2.2.0"},
+  "bluepad32": {"url":"https://github.com/ricardoquesada/bluepad32.git","commit":"80d6314e46f871719fbb4b721a2cc02227c4f369"},
+  "btstack": {"url":"https://github.com/bluekitchen/btstack.git","commit":"8a8b616e04b07612a273978131efad32a083b1ed"},
+  "submodules": {
+    "lib/tinyusb":"86ad6e56c1700e85f1c5678607a762cfe3aa2f47",
+    "lib/cyw43-driver":"dd7568229f3bf7a37737b9e1ef250c26efe75b23",
+    "lib/mbedtls":"107ea89daaefb9867ea9121002fbbdf926780e98"
+  },
+  "tools": {
+    "arm": {"version":"14.2.Rel1","url":"https://developer.arm.com/-/media/Files/downloads/gnu/14.2.rel1/binrel/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi.zip","sha256":"6facb152ce431ba9a4517e939ea46f057380f8f1e56b62e8712b3f3b87d994e1","archive":"arm.zip","folder":"toolchain","check":"bin/arm-none-eabi-gcc.exe"},
+    "cmake": {"version":"3.30.2","url":"https://github.com/Kitware/CMake/releases/download/v3.30.2/cmake-3.30.2-windows-x86_64.zip","sha256":"48bf4b3dc2d668c578e0884cac7878e146b036ca6b5ce4f8b5572f861b004c25","archive":"cmake.zip","folder":"cmake-download","check":"cmake-3.30.2-windows-x86_64/bin/cmake.exe"},
+    "ninja": {"version":"1.12.1","url":"https://github.com/ninja-build/ninja/releases/download/v1.12.1/ninja-win.zip","sha256":"f550fec705b6d6ff58f2db3c374c2277a37691678d6aba463adcbb129108467a","archive":"ninja.zip","folder":"ninja","check":"ninja.exe"},
+    "pioasm": {"version":"2.2.0","url":"https://github.com/raspberrypi/pico-sdk-tools/releases/download/v2.2.0-2/pico-sdk-tools-2.2.0-x64-win.zip","sha256":"470fb7f8f8d6aa83ab320aead6d7b6166858d984798857bfb2cc53e58e79bd37","archive":"sdk-tools.zip","folder":"sdk-tools","check":"pioasm/pioasm.exe"},
+    "picotool": {"version":"2.2.0-a4","url":"https://github.com/raspberrypi/pico-sdk-tools/releases/download/v2.2.0-2/picotool-2.2.0-a4-x64-win.zip","sha256":"d6ae945f0110c80f493e21f315de312c89c053f240d78b8fbea3985df97b49f5","archive":"picotool.zip","folder":"picotool","check":"picotool/picotool.exe"}
+  }
+}

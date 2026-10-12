@@ -1,0 +1,22 @@
+[
+  {
+    "path": "firmware\\pico2w-xinput-r3-build-info.json",
+    "sha256": "0F42F32DBEEE35637C48EEB9B9A7BE0B65E6CCDC18904D5D6B7320CC04F15853"
+  },
+  {
+    "path": "firmware\\pico2w-xinput-r3.bin",
+    "sha256": "706FF1EBDB55655577DF481CCED40412735D06C5973658BA0A099863AA571887"
+  },
+  {
+    "path": "firmware\\pico2w-xinput-r3.elf",
+    "sha256": "FA9D701F04BC4DDBF4D20AF65561BB4DB14C3D9AF3AD8C67EF379F268F4D025D"
+  },
+  {
+    "path": "firmware\\pico2w-xinput-r3.uf2",
+    "sha256": "07DABCEC600A04D03192E2F8F2B4A94453691BB79B1FC7CED25652DA381BFA76"
+  },
+  {
+    "path": "releases\\pico2w-xinput-r3-package.zip",
+    "sha256": "74557BD03D1398C6D057CB1626C773B344A215744C8D905621775E0F116C63CE"
+  }
+]

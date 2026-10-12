@@ -1,0 +1,88 @@
+﻿{
+    "chip":  "CH592",
+    "board":  "dev",
+    "variant":  "standard",
+    "logLevel":  3,
+    "stackBytes":  2048,
+    "rtcClockSource":  0,
+    "rtcClockHz":  32768,
+    "boardDefines":  [
+
+                     ],
+    "compiler":  "riscv-none-embed-gcc.exe (xPack GNU RISC-V Embedded GCC, 32-bit) 8.2.0",
+    "binarySha256":  "89564E91A4C2D75138A76AA4773FDBA2519ED9AAC4E61B1BA998F36838E9FEE0",
+    "sourceHashes":  [
+                         {
+                             "sha256":  "A8BBCDF732FDCFFDDB1449FF75550389A1460824208C09F0366D26FB196FE049",
+                             "file":  "board_config.h"
+                         },
+                         {
+                             "sha256":  "0B99C2DD76F594CDFCF7ADC1C8787CB76751A06EA657FE69AF5347CB6A863F3B",
+                             "file":  "button.c"
+                         },
+                         {
+                             "sha256":  "889247D8A01F07F1D621593CE2B9CCDF7E096ABBEEA98AD7C015EDDA44E9E452",
+                             "file":  "button.h"
+                         },
+                         {
+                             "sha256":  "3A0F2CFEE86E8F5D64C09CCC5BB11C9C6C9C120EB0304F5A53AC7D26008ED281",
+                             "file":  "log.c"
+                         },
+                         {
+                             "sha256":  "158DEDF618977DEF531B7F70E0B32D54272E0ADD821B57D266A0CC436A0DAF22",
+                             "file":  "log.h"
+                         },
+                         {
+                             "sha256":  "7C834626BE02298A4E7841FFFEEA19109AD801AF1509AF5CB5024F34B7B772BF",
+                             "file":  "main.c"
+                         },
+                         {
+                             "sha256":  "C9B0F27E9E15BA62AEEEFD8C540176F64B3961DC1C1BE872306DF8530563EA7E",
+                             "file":  "platform.c"
+                         },
+                         {
+                             "sha256":  "55A8E4415FDD9B872B22A52511E68E34A1475586BBAE3CCD3D5D247AD400B969",
+                             "file":  "platform.h"
+                         },
+                         {
+                             "sha256":  "FB5CE4F9943D4EF8293887270B4CCA47160D9C9903623843285CBD16791488F2",
+                             "file":  "rumble_queue.c"
+                         },
+                         {
+                             "sha256":  "08C2894CEA8FB0B9BA69E415F0D939F02B7E23124C963C273F7E9C31879E7879",
+                             "file":  "rumble_queue.h"
+                         },
+                         {
+                             "sha256":  "717B71532528779E9887CF90C08BBE2A6435EDAAE48701E909EA22299A8203D3",
+                             "file":  "sinput_builder.c"
+                         },
+                         {
+                             "sha256":  "23A8C515525378A059B6985AEFB7220EBFA0889AF8FA8BEEC9964103E4BCDAEF",
+                             "file":  "sinput_builder.h"
+                         },
+                         {
+                             "sha256":  "FCA6C897A359B07ADF345B1F500A5B0E51BD01F4C8E96AC36003C97D0AE8A26B",
+                             "file":  "sinput_usb.c"
+                         },
+                         {
+                             "sha256":  "96383F471F8F5B05D818A1BA35D6E741C0E88BDE0122EE23FA7C96B6F631A78F",
+                             "file":  "sinput_usb.h"
+                         },
+                         {
+                             "sha256":  "2F4A8C4F8AB9AD4A338A97E8FEC5C9B1F5BC61F9E1CA2A25AD3C804B2C6E2C70",
+                             "file":  "stadia_ble.c"
+                         },
+                         {
+                             "sha256":  "CE56C86F5D0D219E30108962DEF5800B6A78C881F9A01C7AF7CFD3602B06AF98",
+                             "file":  "stadia_ble.h"
+                         },
+                         {
+                             "sha256":  "CCF5A3215A2D1137CC3CFA657AC4DFF03E25A1D7F261C1382EA8E22878A02890",
+                             "file":  "stadia_protocol.c"
+                         },
+                         {
+                             "sha256":  "5F056AD968FE1A1CFF3E08294B16813304946F02C6B1EF1413ECA9ACF7978A13",
+                             "file":  "stadia_protocol.h"
+                         }
+                     ]
+}

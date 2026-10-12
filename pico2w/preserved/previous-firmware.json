@@ -1,0 +1,770 @@
+[
+  {
+    "path": "receiver\\src\\board_config.h",
+    "sha256": "E8DFBB182833A6C107FEC5432D6FF17863DE1D40008B76C90A74EB398EA4EE1C"
+  },
+  {
+    "path": "receiver\\src\\button_gesture.c",
+    "sha256": "3B14A157395A77749EFA6BD5D88161D440D9736B3AE361176BF7F2D2CB94B907"
+  },
+  {
+    "path": "receiver\\src\\button_gesture.h",
+    "sha256": "8E8B879436176314067CB57913F821F58DCAE1B625A81E39FFA7BCCC3FD6A8B9"
+  },
+  {
+    "path": "receiver\\src\\button.c",
+    "sha256": "CCCDD20F156F62F1D37DE18D740FBC35771FE55E0BB6CC972C8CE5A5E784890D"
+  },
+  {
+    "path": "receiver\\src\\button.h",
+    "sha256": "A927AE1C929A4BC5DF7F64285253743F9D572C2E99F8616BF5438629F6518A50"
+  },
+  {
+    "path": "receiver\\src\\log.c",
+    "sha256": "3A0F2CFEE86E8F5D64C09CCC5BB11C9C6C9C120EB0304F5A53AC7D26008ED281"
+  },
+  {
+    "path": "receiver\\src\\log.h",
+    "sha256": "158DEDF618977DEF531B7F70E0B32D54272E0ADD821B57D266A0CC436A0DAF22"
+  },
+  {
+    "path": "receiver\\src\\main.c",
+    "sha256": "ED69800AA5B205F17E16F80E462772932E7F432A9DC17A260450C8F2599390E6"
+  },
+  {
+    "path": "receiver\\src\\peer_store_wch.c",
+    "sha256": "B7BD0D9EF72A72F4E09AEB281135E4B16D074CD234E9A3A14692A22740BBCADE"
+  },
+  {
+    "path": "receiver\\src\\peer_store.c",
+    "sha256": "523200B6D99E96B544D98BB3E472B72E98B66BCED0CD8240C59ABB1562555DB6"
+  },
+  {
+    "path": "receiver\\src\\peer_store.h",
+    "sha256": "6E4185D83928E70CF57E3414FC59095363AA8C69E42559BC8A81DE8046D762B4"
+  },
+  {
+    "path": "receiver\\src\\platform.c",
+    "sha256": "9BD201F5D6ABC5030FFD3A0482B0A00E7153DF625947501B8B94564996125A3B"
+  },
+  {
+    "path": "receiver\\src\\platform.h",
+    "sha256": "21ED7AC6BEB8D2E125D6317FE9DFF81BC7D815351A8D0BA71DAD53AD3A0179E8"
+  },
+  {
+    "path": "receiver\\src\\rumble_queue.c",
+    "sha256": "FB5CE4F9943D4EF8293887270B4CCA47160D9C9903623843285CBD16791488F2"
+  },
+  {
+    "path": "receiver\\src\\rumble_queue.h",
+    "sha256": "08C2894CEA8FB0B9BA69E415F0D939F02B7E23124C963C273F7E9C31879E7879"
+  },
+  {
+    "path": "receiver\\src\\sinput_builder.c",
+    "sha256": "717B71532528779E9887CF90C08BBE2A6435EDAAE48701E909EA22299A8203D3"
+  },
+  {
+    "path": "receiver\\src\\sinput_builder.h",
+    "sha256": "23A8C515525378A059B6985AEFB7220EBFA0889AF8FA8BEEC9964103E4BCDAEF"
+  },
+  {
+    "path": "receiver\\src\\sinput_usb.c",
+    "sha256": "523570AF9BF5BDAEED42902AE76626817580CA551411804E8A21919D9DE04A9E"
+  },
+  {
+    "path": "receiver\\src\\sinput_usb.h",
+    "sha256": "816D8B4BFB4CC67852B3E408C9E6C16FA8FDDE014432A375366B15136336FF9B"
+  },
+  {
+    "path": "receiver\\src\\stadia_ble.c",
+    "sha256": "9BFACF5FB35A8250EB2366E05C45CB95D16CD0F1035F622DAECC7FCD7D6D3A34"
+  },
+  {
+    "path": "receiver\\src\\stadia_ble.h",
+    "sha256": "56DE5652AB28EFF21EFE6E0EC7E6436A2693E75C63E6587D65FE6174CC197BB9"
+  },
+  {
+    "path": "receiver\\src\\stadia_protocol.c",
+    "sha256": "CCF5A3215A2D1137CC3CFA657AC4DFF03E25A1D7F261C1382EA8E22878A02890"
+  },
+  {
+    "path": "receiver\\src\\stadia_protocol.h",
+    "sha256": "5F056AD968FE1A1CFF3E08294B16813304946F02C6B1EF1413ECA9ACF7978A13"
+  },
+  {
+    "path": "receiver\\src\\xinput_builder.c",
+    "sha256": "F90769411A4B549AE1B476242C21CA327D412D084888CB8A1F386708709AF53D"
+  },
+  {
+    "path": "receiver\\src\\xinput_builder.h",
+    "sha256": "35584D6FB7BD7427731E1FABA6671A081376918F9961A34BD41807CEF7E6B631"
+  },
+  {
+    "path": "receiver\\src\\xinput_descriptors.h",
+    "sha256": "41A13E2D9C0B217C2ECD42C8D56ECA659BB8D161A06968D7F6B95B96C1568C82"
+  },
+  {
+    "path": "receiver\\tools\\build.ps1",
+    "sha256": "97AB4F849F0E358B34C8729F87CDBC4CC05BC06FDD128F36CEBAFB4F23B82C7A"
+  },
+  {
+    "path": "receiver\\tools\\capture-log.ps1",
+    "sha256": "293FFA2597DB8C164802797483122BA373D04BECF5A815C3C6C8771FFC9D841C"
+  },
+  {
+    "path": "receiver\\tools\\serial_monitor.py",
+    "sha256": "99072B258350261E95D7CC84087CAED3C8FF2D287147341C45A4C610B0011856"
+  },
+  {
+    "path": "receiver\\tools\\setup.ps1",
+    "sha256": "5FB74F2CA20492651A6CABA73988097D15B7106A73E44181E336E88929D4DCFC"
+  },
+  {
+    "path": "receiver\\tools\\test.ps1",
+    "sha256": "4872161502CB250CDD47C4220C4DEB4B80CBF58937787B2A1216E0227E40275C"
+  },
+  {
+    "path": "receiver\\docs\\index.md",
+    "sha256": "189D35619FCA55A3F715651CD7A0B1B6AD267331D7E49883109999C3DA984389"
+  },
+  {
+    "path": "receiver\\docs\\architecture\\data-flow.md",
+    "sha256": "2F542D4C77619B82BD449A2597EC108E4261319E1B40F7E2AFE0A94CC9437010"
+  },
+  {
+    "path": "receiver\\docs\\architecture\\overview.md",
+    "sha256": "5203A061F5D5831FCF5F89A390A0432B54E0958ABB02681286679BAAACA92BCF"
+  },
+  {
+    "path": "receiver\\docs\\development\\guide.md",
+    "sha256": "42948345641EAF3655F251D75D8C7607EC1697FC0B653C8C8CC64DA5D2CAC602"
+  },
+  {
+    "path": "receiver\\docs\\getting-started\\bond-reconnect.md",
+    "sha256": "EF7546883D552243164B04E7D424E792F85A971C9DEF53C4DBC5DF3FB0A76F7F"
+  },
+  {
+    "path": "receiver\\docs\\getting-started\\building.md",
+    "sha256": "6874062CF2F2ECA03B188C999821C357229FC6C4D1BFA1EE882D90E9A58EDC37"
+  },
+  {
+    "path": "receiver\\docs\\getting-started\\ch582-debug.md",
+    "sha256": "04002F4091AF51EB2825030822F2619A7BFA6AA7F41F966B0772955C85BC67BD"
+  },
+  {
+    "path": "receiver\\docs\\getting-started\\ch592-debug.md",
+    "sha256": "1A83857155FD2D59533726B6DA01D4A8CEA88AEE5F662ADAADAD2A51AC34F568"
+  },
+  {
+    "path": "receiver\\docs\\getting-started\\installation.md",
+    "sha256": "4DAC9731FFE50820FE43B77F6E0571257880D34BE48DAB13CB9A824187500509"
+  },
+  {
+    "path": "receiver\\docs\\getting-started\\scan-diagnosis.md",
+    "sha256": "7351ADD28CFD72799BEEA1E2390DDA11A6956DCFF525D4A63BD6ADCC03F38C85"
+  },
+  {
+    "path": "receiver\\docs\\getting-started\\upstream-regression.md",
+    "sha256": "13CF0D666AEC8373453B4B5140DCEA7DAEBCBF40C075DD8AC90CF65363DB0432"
+  },
+  {
+    "path": "receiver\\docs\\getting-started\\xinput.md",
+    "sha256": "28C47F2147A1811732BE552C92C6E260381F1D1FB9B81A4C0F2772AD18706B21"
+  },
+  {
+    "path": "receiver\\docs\\hardware\\board.md",
+    "sha256": "1F8A45A44B1397BBAA918AD99A1808AF5E2F782620E429EE48B11CC885405B2F"
+  },
+  {
+    "path": "receiver\\docs\\img\\README\\震惊.png",
+    "sha256": "7DAC3BB30D62A9F1F6B32353C79153F8F29C48C2D4C64228A6CF530AAC66B528"
+  },
+  {
+    "path": "receiver\\docs\\protocol\\sinput.md",
+    "sha256": "9B5B4DCAE069831DB7305CD70CB8DE5C95F24415C2E69F4169DB038A35666E7E"
+  },
+  {
+    "path": "receiver\\docs\\protocol\\stadia.md",
+    "sha256": "75D85D357096FA2C1FDB31FED7ED4462E6335802FC8EE3B329F1458CDDC1523A"
+  },
+  {
+    "path": "receiver\\firmware\\CH582-custom-scan-diag\\build-info.json",
+    "sha256": "28637483245CFF6A8D60D4244B85CF84E23CB1ACEE6E921F0024D87B082DA05D"
+  },
+  {
+    "path": "receiver\\firmware\\CH582-custom-scan-diag\\stick.bin",
+    "sha256": "895C20AA2C20DFCC076DDEEA1D94E1C23BDE3FC898133501BC90A4D7E03B6ADC"
+  },
+  {
+    "path": "receiver\\firmware\\CH582-custom-scan-diag\\stick.elf",
+    "sha256": "96F39ABAF21BEDDC8425F1C63AB305F16DADB18611E1F173A19B15F99CF5EB99"
+  },
+  {
+    "path": "receiver\\firmware\\CH582-custom-scan-diag\\stick.hex",
+    "sha256": "1D40B28C45E0DFD2B61360EF4CE43BA1416903F750EEDF4C4B22ED537C8CC43E"
+  },
+  {
+    "path": "receiver\\firmware\\CH582-custom-scan-diag\\stick.map",
+    "sha256": "C25D99136FDA202A63401CAB95FD223D836AC72A34C892B96FC2538C5408C1E7"
+  },
+  {
+    "path": "receiver\\firmware\\CH582-dev\\build-info.json",
+    "sha256": "5A607B66FC418D78231DED4386EC39109769359985F63DF438F377E07B989855"
+  },
+  {
+    "path": "receiver\\firmware\\CH582-dev\\stick-CH582F-bond-reconnect-r10-build-info.json",
+    "sha256": "59F3A8067B7798D44CF7370DC286044BBA69C4729BCF46117585724DEE488246"
+  },
+  {
+    "path": "receiver\\firmware\\CH582-dev\\stick-CH582F-bond-reconnect-r10.bin",
+    "sha256": "B9BE13F53C824FCD536BD359A4ABF81C14B0E5A19669A6936A62B994C45A7676"
+  },
+  {
+    "path": "receiver\\firmware\\CH582-dev\\stick-CH582F-bond-reconnect-r10.hex",
+    "sha256": "040C47ED23A94BE5CB0DC0DEC4C2FDE4C6F2CF32140197C9D4F0F15844790D95"
+  },
+  {
+    "path": "receiver\\firmware\\CH582-dev\\stick-no-relax.elf",
+    "sha256": "457EA4DB2BC022FAA4991150AF1E083E64F8EF91F4B7EE02ECC199F89A9089FB"
+  },
+  {
+    "path": "receiver\\firmware\\CH582-dev\\stick-no-relax.map",
+    "sha256": "6A9DD3BA93132E72A428B1ACF0AFD531AB8401749353361F7A29C58E9A703753"
+  },
+  {
+    "path": "receiver\\firmware\\CH582-dev\\stick.bin",
+    "sha256": "BCE8CFA94735259C489538A1E6B7D274BF6DE7EE178D2E5DAC3E37AC48B2CC68"
+  },
+  {
+    "path": "receiver\\firmware\\CH582-dev\\stick.elf",
+    "sha256": "EB1288820EFAD5620452677367F85B5F6250143B35D159CFEB4DD3363F12E23A"
+  },
+  {
+    "path": "receiver\\firmware\\CH582-dev\\stick.hex",
+    "sha256": "58DE62693875A0CF99F0E452BA1B32E47A53D3D75CAFDABC0C21D11A52926343"
+  },
+  {
+    "path": "receiver\\firmware\\CH582-dev\\stick.map",
+    "sha256": "AA697C5CC3BBD4C06AA31BA37AB8B063582EA9D5127514A340AE693ADDF50D12"
+  },
+  {
+    "path": "receiver\\firmware\\CH582-dev-scan-diag\\build-info.json",
+    "sha256": "51A06E90ACFA6017691BD894140D5247F7251E9C8C1C37D503F8431B46890195"
+  },
+  {
+    "path": "receiver\\firmware\\CH582-dev-scan-diag\\stick-CH582F-bond-reconnect-r10-scan-diag-build-info.json",
+    "sha256": "51A06E90ACFA6017691BD894140D5247F7251E9C8C1C37D503F8431B46890195"
+  },
+  {
+    "path": "receiver\\firmware\\CH582-dev-scan-diag\\stick-CH582F-bond-reconnect-r10-scan-diag.bin",
+    "sha256": "EC2358BF6B8B7E3681DE92C0FEF1F0C5E74EAD3103882181068760E1C787EADF"
+  },
+  {
+    "path": "receiver\\firmware\\CH582-dev-scan-diag\\stick-CH582F-bond-reconnect-r10-scan-diag.hex",
+    "sha256": "F60668404595690977B4735FDCED9CCD53D92BAE3DF38FFC248C2D9C578552F5"
+  },
+  {
+    "path": "receiver\\firmware\\CH582-dev-scan-diag\\stick-CH582F-scan-diag-r4.bin",
+    "sha256": "9F1B8C9684FE04D3B7319106D4405A31AEBC797FE2802D6C64EE37F17E04585C"
+  },
+  {
+    "path": "receiver\\firmware\\CH582-dev-scan-diag\\stick-CH582F-scan-diag-r4.hex",
+    "sha256": "A84330D7B93A7BB6F2F7D4020C25702DBD36CE367BE7CD2B31A365FA936CE724"
+  },
+  {
+    "path": "receiver\\firmware\\CH582-dev-scan-diag\\stick-CH582F-scan-diag-r5.bin",
+    "sha256": "4DBCD1ADBE4FD9BE2D3CC4619C7B607BE3E6AF12C0C99475C7B1E2FADF571EAA"
+  },
+  {
+    "path": "receiver\\firmware\\CH582-dev-scan-diag\\stick-CH582F-scan-diag-r5.hex",
+    "sha256": "F96B38BB82B3B17729EAA51298CC1591F93C6894070E7A161CD16E91A56D1AB0"
+  },
+  {
+    "path": "receiver\\firmware\\CH582-dev-scan-diag\\stick-CH582F-scan-diag-r6.bin",
+    "sha256": "685F1A42C2ADE03B0CD42734F149215E8D5830DFF230C2E092AA8C0843BF2A96"
+  },
+  {
+    "path": "receiver\\firmware\\CH582-dev-scan-diag\\stick-CH582F-scan-diag-r6.hex",
+    "sha256": "DB059EB95E7DE618C89DDF48B9FAC2AAF1B7989265D4F5FC3DAE6E8C48E41B29"
+  },
+  {
+    "path": "receiver\\firmware\\CH582-dev-scan-diag\\stick-CH582F-scan-diag-r7.bin",
+    "sha256": "5C8BD4666F61FE7ED36427BF34F1C22A57BE47898B9DAC4DC4CC075CE2F4A5D3"
+  },
+  {
+    "path": "receiver\\firmware\\CH582-dev-scan-diag\\stick-CH582F-scan-diag-r7.hex",
+    "sha256": "7B384C1E54A5335DCE5535B073113EE8454F2A8E9D39D93E5881CCE6482EF550"
+  },
+  {
+    "path": "receiver\\firmware\\CH582-dev-scan-diag\\stick-CH582F-scan-diag-r8.bin",
+    "sha256": "49AB347260A1424CBF50AF5DB4A561019B2C875829A814482B9632AEEC00E1CA"
+  },
+  {
+    "path": "receiver\\firmware\\CH582-dev-scan-diag\\stick-CH582F-scan-diag-r8.hex",
+    "sha256": "487024C76FCCE9ACC50C9B13A8931FBFCB257F79DD2CFABFAA2C174147614266"
+  },
+  {
+    "path": "receiver\\firmware\\CH582-dev-scan-diag\\stick-CH582F-scan-diag-r9.bin",
+    "sha256": "582D77F32AF4D1C8057B100C04ECBB010408FE5AFD83BF6C1C3E076D5D72C4DB"
+  },
+  {
+    "path": "receiver\\firmware\\CH582-dev-scan-diag\\stick-CH582F-scan-diag-r9.hex",
+    "sha256": "9B5C1602664936DFF4F666F6AC4F6AF714BA86D3B67FEE0219AF9867DBA5029F"
+  },
+  {
+    "path": "receiver\\firmware\\CH582-dev-scan-diag\\stick.bin",
+    "sha256": "EC2358BF6B8B7E3681DE92C0FEF1F0C5E74EAD3103882181068760E1C787EADF"
+  },
+  {
+    "path": "receiver\\firmware\\CH582-dev-scan-diag\\stick.elf",
+    "sha256": "DC34221BEC117C926CD6BFCA29A7F4F40C8ACF43EAF59887A3EDA57F02AC43D7"
+  },
+  {
+    "path": "receiver\\firmware\\CH582-dev-scan-diag\\stick.hex",
+    "sha256": "F60668404595690977B4735FDCED9CCD53D92BAE3DF38FFC248C2D9C578552F5"
+  },
+  {
+    "path": "receiver\\firmware\\CH582-dev-scan-diag\\stick.map",
+    "sha256": "DE3D55F2E7DC57167606E6B8311AF2ED1F1D56949D995F6D5D0DD4C073CEA348"
+  },
+  {
+    "path": "receiver\\firmware\\CH582-dev-xinput\\build-info.json",
+    "sha256": "702DED02FD7A979E5B698119BDD69EE0E77A7588B21745CC0797E37E8AB46CD2"
+  },
+  {
+    "path": "receiver\\firmware\\CH582-dev-xinput\\stick-CH582F-xinput-r11-build-info.json",
+    "sha256": "702DED02FD7A979E5B698119BDD69EE0E77A7588B21745CC0797E37E8AB46CD2"
+  },
+  {
+    "path": "receiver\\firmware\\CH582-dev-xinput\\stick-CH582F-xinput-r11.bin",
+    "sha256": "E8DD394771C16DC26BA1F07E2CA0208E5FBDEFB9B14B5B8EB7E45E5930F5CA6A"
+  },
+  {
+    "path": "receiver\\firmware\\CH582-dev-xinput\\stick-CH582F-xinput-r11.hex",
+    "sha256": "1DFC5D63925B61C02359CB670B226ACAD8E1D5EF47B4DB79A746152F7DFFF507"
+  },
+  {
+    "path": "receiver\\firmware\\CH582-dev-xinput\\stick.bin",
+    "sha256": "E8DD394771C16DC26BA1F07E2CA0208E5FBDEFB9B14B5B8EB7E45E5930F5CA6A"
+  },
+  {
+    "path": "receiver\\firmware\\CH582-dev-xinput\\stick.elf",
+    "sha256": "7CD729EFA334F0FE52CE962E8D5288399A976AC53B1D9F9249606A350722570B"
+  },
+  {
+    "path": "receiver\\firmware\\CH582-dev-xinput\\stick.hex",
+    "sha256": "1DFC5D63925B61C02359CB670B226ACAD8E1D5EF47B4DB79A746152F7DFFF507"
+  },
+  {
+    "path": "receiver\\firmware\\CH582-dev-xinput\\stick.map",
+    "sha256": "0C83AD23D46DE292CA1400606CEC79760336BD06023DFFD56E9BAF5E8E18FC87"
+  },
+  {
+    "path": "receiver\\firmware\\CH592-custom\\build-info.json",
+    "sha256": "5047CEEA34475B4FC67A09EBB86CB8307DC0EFF0C9DB587C44CCE8FF7D046E90"
+  },
+  {
+    "path": "receiver\\firmware\\CH592-custom\\stick.bin",
+    "sha256": "8A36162913D2E600FB1F8628D462256D3791A2060F3343C663EB0519EC7DD01F"
+  },
+  {
+    "path": "receiver\\firmware\\CH592-custom\\stick.elf",
+    "sha256": "AF00ED4CE85A86C9FC131CA55872DBFC45E484A288180D59C54FC82FE92B21AC"
+  },
+  {
+    "path": "receiver\\firmware\\CH592-custom\\stick.hex",
+    "sha256": "FC151BB0919834731280B7900432AD3306639C2FD0AE3F2177C46CF5B05DF53F"
+  },
+  {
+    "path": "receiver\\firmware\\CH592-custom\\stick.map",
+    "sha256": "71B02F7CB84A51D31BDB7630626F9E6F7B4A43BD6ACE7EE68599D3D670C6C4D4"
+  },
+  {
+    "path": "receiver\\firmware\\CH592-dev\\build-info.json",
+    "sha256": "699C03162F4507A5B3FF3F3C3C5FD314A307F97F1BB05987C9E7EBD4D3F93094"
+  },
+  {
+    "path": "receiver\\firmware\\CH592-dev\\stick.bin",
+    "sha256": "89564E91A4C2D75138A76AA4773FDBA2519ED9AAC4E61B1BA998F36838E9FEE0"
+  },
+  {
+    "path": "receiver\\firmware\\CH592-dev\\stick.elf",
+    "sha256": "07DD0A634EDFFF3A54850E1F99E437E7B40E9549D383E0A961E1A294DEF4DAEF"
+  },
+  {
+    "path": "receiver\\firmware\\CH592-dev\\stick.hex",
+    "sha256": "E7BD97024F3796675C48CDD0AFF72AC4F6B6599C06199C8AA9E3B513A68AB6A4"
+  },
+  {
+    "path": "receiver\\firmware\\CH592-dev\\stick.map",
+    "sha256": "F0E3BACE2ECD96F37E8C37A4E1B14CCB5F744ADC5F69F36BE75E3F23B67B0E8C"
+  },
+  {
+    "path": "receiver\\firmware\\CH592-dev-scan-diag\\build-info.json",
+    "sha256": "7C2801F339B58058E1A33D1098D18EAA45564E2B90A7FEDCC230C209B83099FE"
+  },
+  {
+    "path": "receiver\\firmware\\CH592-dev-scan-diag\\stick-CH592F-bond-reconnect-r10-scan-diag-build-info.json",
+    "sha256": "7C2801F339B58058E1A33D1098D18EAA45564E2B90A7FEDCC230C209B83099FE"
+  },
+  {
+    "path": "receiver\\firmware\\CH592-dev-scan-diag\\stick-CH592F-bond-reconnect-r10-scan-diag.bin",
+    "sha256": "B92023D4ECBE04DB1E30D5027CA0AFFA3681CBCBCCEE029BC75AA66EBB3621C5"
+  },
+  {
+    "path": "receiver\\firmware\\CH592-dev-scan-diag\\stick-CH592F-bond-reconnect-r10-scan-diag.hex",
+    "sha256": "BE43EE9E34873584DD0522A0EF3B2498CF89EFB2DE4CBA66550F881E5EAA737B"
+  },
+  {
+    "path": "receiver\\firmware\\CH592-dev-scan-diag\\stick-scan-diag-r2.bin",
+    "sha256": "24873FA99F74E54B122E8C0B5574F2A0F64817647888238E5F26186B08D1B776"
+  },
+  {
+    "path": "receiver\\firmware\\CH592-dev-scan-diag\\stick-scan-diag-r2.hex",
+    "sha256": "12F6986C9A4EDB9123D185F8F448F40FC1AD0718E2C086BBC77DF424B81B8CC5"
+  },
+  {
+    "path": "receiver\\firmware\\CH592-dev-scan-diag\\stick-scan-diag-r3.bin",
+    "sha256": "C7AF66E2C0DEE2F25CA6EC81F564CFA1286F0F4836736B804720E9DC3A120A64"
+  },
+  {
+    "path": "receiver\\firmware\\CH592-dev-scan-diag\\stick-scan-diag-r3.hex",
+    "sha256": "BADE3599AB975CCDF1DBA530A760AD33F4D1E53AC5AD57F93FBB0228A665A0DD"
+  },
+  {
+    "path": "receiver\\firmware\\CH592-dev-scan-diag\\stick.bin",
+    "sha256": "B92023D4ECBE04DB1E30D5027CA0AFFA3681CBCBCCEE029BC75AA66EBB3621C5"
+  },
+  {
+    "path": "receiver\\firmware\\CH592-dev-scan-diag\\stick.elf",
+    "sha256": "BDFCD0EFD2A3CA27CDA0780E27308EFAB3ED466B639E2023C8BF778008CB51D1"
+  },
+  {
+    "path": "receiver\\firmware\\CH592-dev-scan-diag\\stick.hex",
+    "sha256": "BE43EE9E34873584DD0522A0EF3B2498CF89EFB2DE4CBA66550F881E5EAA737B"
+  },
+  {
+    "path": "receiver\\firmware\\CH592-dev-scan-diag\\stick.map",
+    "sha256": "FF292708C1E43013314CC3D173BC1BC19FD7F310FB894861A68B2337D8F47D53"
+  },
+  {
+    "path": "receiver\\firmware\\CH592-dev-xinput\\build-info.json",
+    "sha256": "70C8C097F29996BA91FE52D21B632A4BABE6B9D5C32E3772B6BB20CC07627F93"
+  },
+  {
+    "path": "receiver\\firmware\\CH592-dev-xinput\\stick.bin",
+    "sha256": "838D411842F2EC00B549452262ECC654CA9F31CD09FAF79B533EE5DF063E940E"
+  },
+  {
+    "path": "receiver\\firmware\\CH592-dev-xinput\\stick.elf",
+    "sha256": "19E714F0BC42F1BA823B85158FF93F0060B8BFB028FEC8052D06412A2623FBCF"
+  },
+  {
+    "path": "receiver\\firmware\\CH592-dev-xinput\\stick.hex",
+    "sha256": "C1612D7007C88E7C4CB51E749F09974B8958127B6699F11FF6A7F57FC6E95A16"
+  },
+  {
+    "path": "receiver\\firmware\\CH592-dev-xinput\\stick.map",
+    "sha256": "B76C108D837C8BB3007224715419E0F77E5556647F5ABA965D06A9453A605236"
+  },
+  {
+    "path": "receiver\\README.md",
+    "sha256": "5B906D40D10042057781D6B1E9DAA3C8C6DE527113426111095A70E5C91A58CE"
+  },
+  {
+    "path": "receiver\\AGENTS.md",
+    "sha256": "210EA24CD9B58086370AE21759D0EF6C8ABD0E37684C911FF826D13CADF27B13"
+  },
+  {
+    "path": "receiver\\LICENSE",
+    "sha256": "1D45D75C9862658B87257B83AD85976D18CEB0553497E8EA07614B27B4A41E22"
+  },
+  {
+    "path": "receiver\\dependencies.lock.json",
+    "sha256": "8E9E1B009EC25B0618EEE6C5108D8B54ACDD5ABEEBDBD9BBDBB1D1236252ACF0"
+  },
+  {
+    "path": "switchpro\\dependencies.lock.json",
+    "sha256": "BB3728136215624D008C065BF84DFD3D257BBE4ED25BB1400A3E4D1A34638EAA"
+  },
+  {
+    "path": "switchpro\\LICENSE",
+    "sha256": "1D45D75C9862658B87257B83AD85976D18CEB0553497E8EA07614B27B4A41E22"
+  },
+  {
+    "path": "switchpro\\README.md",
+    "sha256": "098D0F37D700C8E6B0491E9F00DCDCBBA92796C8952681A859D84B6732CCFAA9"
+  },
+  {
+    "path": "switchpro\\THIRD_PARTY.md",
+    "sha256": "63F284B892060E8A791AB14D79C1E31B26CC69717939D101DD56AE9F5681A8AA"
+  },
+  {
+    "path": "switchpro\\VALIDATION.md",
+    "sha256": "413630FD5E6BC77FBC7CCCDD7B4790789171593C29BECBF2B6697D23C304A156"
+  },
+  {
+    "path": "switchpro\\ch582\\src\\board_config.h",
+    "sha256": "86993E602EDCD6F3323B6E55A0428AE487404DFEA3BBD087645EB47FCE89A4F3"
+  },
+  {
+    "path": "switchpro\\ch582\\src\\bridge_uart.c",
+    "sha256": "5EF130A5753DC9D650BE708CC4F72393C3CB5D401B653DD54E7DE8F2D887C997"
+  },
+  {
+    "path": "switchpro\\ch582\\src\\bridge_uart.h",
+    "sha256": "AC9944FF11881B9894B1889639C88144B9B708572FE736348A394C0B4D808675"
+  },
+  {
+    "path": "switchpro\\ch582\\src\\button_gesture.c",
+    "sha256": "3B14A157395A77749EFA6BD5D88161D440D9736B3AE361176BF7F2D2CB94B907"
+  },
+  {
+    "path": "switchpro\\ch582\\src\\button_gesture.h",
+    "sha256": "8E8B879436176314067CB57913F821F58DCAE1B625A81E39FFA7BCCC3FD6A8B9"
+  },
+  {
+    "path": "switchpro\\ch582\\src\\button.c",
+    "sha256": "CCCDD20F156F62F1D37DE18D740FBC35771FE55E0BB6CC972C8CE5A5E784890D"
+  },
+  {
+    "path": "switchpro\\ch582\\src\\button.h",
+    "sha256": "A927AE1C929A4BC5DF7F64285253743F9D572C2E99F8616BF5438629F6518A50"
+  },
+  {
+    "path": "switchpro\\ch582\\src\\log.c",
+    "sha256": "3A0F2CFEE86E8F5D64C09CCC5BB11C9C6C9C120EB0304F5A53AC7D26008ED281"
+  },
+  {
+    "path": "switchpro\\ch582\\src\\log.h",
+    "sha256": "158DEDF618977DEF531B7F70E0B32D54272E0ADD821B57D266A0CC436A0DAF22"
+  },
+  {
+    "path": "switchpro\\ch582\\src\\main.c",
+    "sha256": "51F94A6AE80F0A944A595915ED0EA222870366CED0829B84BE948F522F535379"
+  },
+  {
+    "path": "switchpro\\ch582\\src\\platform.c",
+    "sha256": "9BD201F5D6ABC5030FFD3A0482B0A00E7153DF625947501B8B94564996125A3B"
+  },
+  {
+    "path": "switchpro\\ch582\\src\\platform.h",
+    "sha256": "21ED7AC6BEB8D2E125D6317FE9DFF81BC7D815351A8D0BA71DAD53AD3A0179E8"
+  },
+  {
+    "path": "switchpro\\ch582\\src\\rumble_queue.c",
+    "sha256": "FB5CE4F9943D4EF8293887270B4CCA47160D9C9903623843285CBD16791488F2"
+  },
+  {
+    "path": "switchpro\\ch582\\src\\rumble_queue.h",
+    "sha256": "08C2894CEA8FB0B9BA69E415F0D939F02B7E23124C963C273F7E9C31879E7879"
+  },
+  {
+    "path": "switchpro\\ch582\\src\\sinput_usb.c",
+    "sha256": "523570AF9BF5BDAEED42902AE76626817580CA551411804E8A21919D9DE04A9E"
+  },
+  {
+    "path": "switchpro\\ch582\\src\\sinput_usb.h",
+    "sha256": "816D8B4BFB4CC67852B3E408C9E6C16FA8FDDE014432A375366B15136336FF9B"
+  },
+  {
+    "path": "switchpro\\ch582\\src\\xinput_builder.c",
+    "sha256": "F90769411A4B549AE1B476242C21CA327D412D084888CB8A1F386708709AF53D"
+  },
+  {
+    "path": "switchpro\\ch582\\src\\xinput_builder.h",
+    "sha256": "35584D6FB7BD7427731E1FABA6671A081376918F9961A34BD41807CEF7E6B631"
+  },
+  {
+    "path": "switchpro\\ch582\\src\\xinput_descriptors.h",
+    "sha256": "41A13E2D9C0B217C2ECD42C8D56ECA659BB8D161A06968D7F6B95B96C1568C82"
+  },
+  {
+    "path": "switchpro\\common\\sp_bridge.c",
+    "sha256": "46FB49F6921664E16890CF782EE9EF8FC5B6FC5544E5DA73B9B10666FA278767"
+  },
+  {
+    "path": "switchpro\\common\\sp_bridge.h",
+    "sha256": "0EDE95D4FF361E16EA9420BAA22D99C9F627439F2D50B0F71D17F7D06D023231"
+  },
+  {
+    "path": "switchpro\\common\\sp_endpoint.c",
+    "sha256": "53ECB28110895BD66C49BD10E0CD3F44B0D710B828858D500D50A329ADF4A241"
+  },
+  {
+    "path": "switchpro\\common\\sp_endpoint.h",
+    "sha256": "0E479910C11E1466FEA173E67B8EADE64861A12FE9B69CCEF34D2DE63481B136"
+  },
+  {
+    "path": "switchpro\\common\\sp_link.c",
+    "sha256": "3F6B5B1EE48A5953DA4A4F0F1848D2EB39A1440B70EB971A1FDE2286763EC657"
+  },
+  {
+    "path": "switchpro\\common\\sp_link.h",
+    "sha256": "8C93C9ED055F7DC3E5EA4E7C8AA91202CB4BFB4D9C61240F9F629ACED7EFE52B"
+  },
+  {
+    "path": "switchpro\\esp32\\CMakeLists.txt",
+    "sha256": "CE787E083AA9FB0E8328B701EB1F7D71A6E31C3DBD0BC38C5298EC6C5F398214"
+  },
+  {
+    "path": "switchpro\\esp32\\sdkconfig.defaults",
+    "sha256": "3A4E5EAD76AF7BC45E7A28AD0E2709C420AC3132867A339CE1DBFB6F03914350"
+  },
+  {
+    "path": "switchpro\\esp32\\main\\CMakeLists.txt",
+    "sha256": "C81883F75121A6115A844BDB581AA4D5F846D74AC07D4A6BE5CCE724416C0FE7"
+  },
+  {
+    "path": "switchpro\\esp32\\main\\Kconfig.projbuild",
+    "sha256": "53B36152ADA9BB5675674057265BDE4C05C25C75122B55AF424747C911C2DB52"
+  },
+  {
+    "path": "switchpro\\esp32\\main\\main.c",
+    "sha256": "3BE64549FAD460E08D0ADB0681414DD4A5A52797E9AD64D482034D520C15B5E2"
+  },
+  {
+    "path": "switchpro\\esp32\\main\\switchpro_platform.c",
+    "sha256": "460A11BDE0305BFCF4FF56871724CF9D0A12F069309BCC054F473818F6DFDF9A"
+  },
+  {
+    "path": "switchpro\\firmware\\CH582-SwitchPro-r1\\build-info.json",
+    "sha256": "6C735C0481AE56A60605E1404FAE883937B5D3D7210F4B1AE72A83A7DB4ADE83"
+  },
+  {
+    "path": "switchpro\\firmware\\CH582-SwitchPro-r1\\switchpro-CH582F-r1.bin",
+    "sha256": "389E7C92D34E87BA9769C81441112A36159DACE3196D4687BA16217E2B774BA9"
+  },
+  {
+    "path": "switchpro\\firmware\\CH582-SwitchPro-r1\\switchpro-CH582F-r1.elf",
+    "sha256": "A333208288DB0B31D274505ABD213E43CC9EE187FE2EF48049E305AEDB19FECA"
+  },
+  {
+    "path": "switchpro\\firmware\\CH582-SwitchPro-r1\\switchpro-CH582F-r1.hex",
+    "sha256": "ADECDDDC80356954C259F2A8F6CACA95FA61264DFF1C8BA692AB5C2B7E9222EB"
+  },
+  {
+    "path": "switchpro\\firmware\\CH582-SwitchPro-r1\\switchpro-CH582F-r1.map",
+    "sha256": "0EED78509D95100CFD91B74BD46CC2EA7E28171D217031E54A8E9CF467582F51"
+  },
+  {
+    "path": "switchpro\\firmware\\ESP32-SwitchPro-r1\\bootloader.bin",
+    "sha256": "3ADF1D02488146F21101670B8D5864E317D275EA22E533158E5CC9448032668D"
+  },
+  {
+    "path": "switchpro\\firmware\\ESP32-SwitchPro-r1\\build-info.json",
+    "sha256": "2453CDC30E8E3D19814F040E2D5EA8BA39D17FE1084ECF2390746CC8D9A5036B"
+  },
+  {
+    "path": "switchpro\\firmware\\ESP32-SwitchPro-r1\\flasher_args.json",
+    "sha256": "64D0A9075D684C257A20F7B24F3F24DAF9109FB6E6A3400BB11B58D687CBF450"
+  },
+  {
+    "path": "switchpro\\firmware\\ESP32-SwitchPro-r1\\partition-table.bin",
+    "sha256": "7F00B6C042A89B15B0CAC534F82ED988CAF29278FF5700B0C511EB1B5BB7C820"
+  },
+  {
+    "path": "switchpro\\firmware\\ESP32-SwitchPro-r1\\sdkconfig",
+    "sha256": "B36F764CAE0FF992AD8112C4172E8E0BD240D58C5CA95782E5564B89502D6ADF"
+  },
+  {
+    "path": "switchpro\\firmware\\ESP32-SwitchPro-r1\\switchpro_esp32_r1.bin",
+    "sha256": "F8D03142ECF30AD1A61C5E849AFFD5B70C8399FCF1DEAAECDFB6EC52E516196A"
+  },
+  {
+    "path": "switchpro\\firmware\\ESP32-SwitchPro-r1\\switchpro_esp32_r1.elf",
+    "sha256": "61590EBBFECF0A89B2CDF76CFFE505F264AD0D8F12878670738DB4606B5B594A"
+  },
+  {
+    "path": "switchpro\\firmware\\ESP32-SwitchPro-r1\\switchpro_esp32_r1.map",
+    "sha256": "E29576978B68BD873B1E3DA037E0BC91B2249133E8AC4F4031972B00F86641C2"
+  },
+  {
+    "path": "switchpro\\firmware\\ESP32-SwitchPro-r1\\switchpro-ESP32-r1-full.bin",
+    "sha256": "1349DFBEB8B10C1835D77499F952C5234BAE3D02B369ABF3CE6400A21440256E"
+  },
+  {
+    "path": "switchpro\\licenses\\BetterJoy.txt",
+    "sha256": "80EB423737D6E46642C9658046DBDCF40A901013E8E297DFEA36A44CAC9D456D"
+  },
+  {
+    "path": "switchpro\\licenses\\Bluepad32.txt",
+    "sha256": "EA6E584D903A7E643754EA2C11C39B098455E1C3FD91530868669240FE2B143A"
+  },
+  {
+    "path": "switchpro\\licenses\\BTstack.txt",
+    "sha256": "8F056EE4B0BBCF0A47775A5C754B5A9C7B0FE2DD65F06DE2D52CC0847F3AA9CE"
+  },
+  {
+    "path": "switchpro\\preserved\\receiver-manifest.json",
+    "sha256": "E25D0C2929DA314EB450339C2DC2665E52C1389CB039F3D05AE0BCF9F8A107AE"
+  },
+  {
+    "path": "switchpro\\preserved\\CH582-dev-xinput\\build-info.json",
+    "sha256": "702DED02FD7A979E5B698119BDD69EE0E77A7588B21745CC0797E37E8AB46CD2"
+  },
+  {
+    "path": "switchpro\\preserved\\CH582-dev-xinput\\stick-CH582F-xinput-r11-build-info.json",
+    "sha256": "702DED02FD7A979E5B698119BDD69EE0E77A7588B21745CC0797E37E8AB46CD2"
+  },
+  {
+    "path": "switchpro\\preserved\\CH582-dev-xinput\\stick-CH582F-xinput-r11.bin",
+    "sha256": "E8DD394771C16DC26BA1F07E2CA0208E5FBDEFB9B14B5B8EB7E45E5930F5CA6A"
+  },
+  {
+    "path": "switchpro\\preserved\\CH582-dev-xinput\\stick-CH582F-xinput-r11.hex",
+    "sha256": "1DFC5D63925B61C02359CB670B226ACAD8E1D5EF47B4DB79A746152F7DFFF507"
+  },
+  {
+    "path": "switchpro\\preserved\\CH582-dev-xinput\\stick.bin",
+    "sha256": "E8DD394771C16DC26BA1F07E2CA0208E5FBDEFB9B14B5B8EB7E45E5930F5CA6A"
+  },
+  {
+    "path": "switchpro\\preserved\\CH582-dev-xinput\\stick.elf",
+    "sha256": "7CD729EFA334F0FE52CE962E8D5288399A976AC53B1D9F9249606A350722570B"
+  },
+  {
+    "path": "switchpro\\preserved\\CH582-dev-xinput\\stick.hex",
+    "sha256": "1DFC5D63925B61C02359CB670B226ACAD8E1D5EF47B4DB79A746152F7DFFF507"
+  },
+  {
+    "path": "switchpro\\preserved\\CH582-dev-xinput\\stick.map",
+    "sha256": "0C83AD23D46DE292CA1400606CEC79760336BD06023DFFD56E9BAF5E8E18FC87"
+  },
+  {
+    "path": "switchpro\\tests\\test_link.c",
+    "sha256": "0E3223C041515669D7BF765A4CF4AB97DB2E3602C1235C8AF3CDD53BE7C20BEC"
+  },
+  {
+    "path": "switchpro\\tests\\test_usb_state.c",
+    "sha256": "799988F4CA46550C520FEAC2A7081C29AC31B3B1AE37866471D8985D290FE713"
+  },
+  {
+    "path": "switchpro\\tests\\test_xinput_builder.c",
+    "sha256": "183EE4BC2C3F1BEBEDDC4E7956CB11019C018496B7D5747A8013252AEB77CAEC"
+  },
+  {
+    "path": "switchpro\\tools\\build-ch582.ps1",
+    "sha256": "9ADCB7E47E078274A3FCA4FA07852752B9EA12AC53A6B3E13FE39BC144A221AF"
+  },
+  {
+    "path": "switchpro\\tools\\build-esp32.ps1",
+    "sha256": "CD5E79A8C4934973D5F77D6CE54978EBA7960875DAC75A0C71A318AA02E3DD71"
+  },
+  {
+    "path": "switchpro\\tools\\flash-esp32.ps1",
+    "sha256": "55EAFF052C7569923742936736C30B0E98E2B97CC8343C94004E47E158838BE4"
+  },
+  {
+    "path": "switchpro\\tools\\setup-esp32.ps1",
+    "sha256": "5901B9103AF11E10A508E2DBCE37E2D305CC839E95B3FFC2F2C177C2CD25F033"
+  },
+  {
+    "path": "switchpro\\tools\\test.ps1",
+    "sha256": "35ACA789501945AF18C13C0A31D2094A08DABCCF212B3FA095CD300B8586484E"
+  },
+  {
+    "path": "switchpro\\tools\\verify-preserved.ps1",
+    "sha256": "578E0EACA8A8C70C68DF9013E2182140E81447FA0825BB8999B74C275C30A50A"
+  }
+]
