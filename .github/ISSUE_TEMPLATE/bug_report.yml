@@ -1,0 +1,37 @@
+name: 接收器问题
+description: 报告 Pico 2 W 固件或 Pico Control 的可复现问题
+title: "[Bug] "
+body:
+  - type: input
+    id: version
+    attributes:
+      label: 固件与上位机版本
+      description: 请填写 UF2 文件名、Pico Control 版本，以及是否自行构建。
+    validations:
+      required: true
+  - type: textarea
+    id: hardware
+    attributes:
+      label: 板卡、手柄与系统
+      description: Pico 型号、手柄型号/固件、Windows 或 Switch 系统版本。
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      description: 从上电开始说明配对、连接、休眠或刷机等操作。
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: 预期结果与实际现象
+      description: 请区分蓝牙 LED 状态、USB 识别、游戏输入；有设备管理器错误码时一并提供。
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: 补充信息（可选）
+      description: 无需默认提供串口日志；上传截图前请移除个人信息和蓝牙地址。

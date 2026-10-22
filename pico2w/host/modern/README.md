@@ -25,10 +25,10 @@ React + shadcn/ui 原创界面，由 WebView2 承载；保留现有 C# HID / XIn
 
 ## 构建
 
-源码包包含旧通信代码、新界面源码、WebView2 SDK 所需的 DLL 和配置互操作向量。需要 Node.js 24 或兼容版本、pnpm 11，以及系统 .NET Framework 编译器。
+源码包包含旧通信代码、新界面源码、WebView2 SDK 所需的 DLL 和配置互操作向量。需要 Node.js 24 或兼容版本、pnpm 11，以及系统 .NET Framework 编译器。以下命令从仓库根目录执行。
 
 ```powershell
-cd modern/ui
+cd pico2w/host/modern/ui
 pnpm install --frozen-lockfile
 cd ../..
 ./modern/build.ps1 -Test
@@ -44,4 +44,4 @@ UI 依赖固定在 `pnpm-lock.yaml`。shadcn/ui 官方 CLI 生成 Button、Card�
 
 前端经本地 WebView2 消息与桌面端通信，无本地 HTTP 服务。原始 HID 写入仍检查确切选定路径、VID/PID、序列号、Feature 能力及状态，不猜测其他接收器；回复关联、配置事务、CRC及回读保持原实现。窗口关闭会取消后续配置命令，已经发出的保存由固件完成。
 
-程序自测与界面验证范围见 `VALIDATION.md`。应用代码 Apache-2.0，shadcn/ui/React/Radix等第三方版权见 `THIRD-PARTY-NOTICES.txt`，WebView2 SDK 许可见 `WEBVIEW2-SDK-LICENSE.txt`。
+程序自测与界面验证范围见 [VALIDATION.md](VALIDATION.md)。应用代码 Apache-2.0，shadcn/ui/React/Radix 等第三方版权见 [THIRD-PARTY-NOTICES.txt](THIRD-PARTY-NOTICES.txt)，仓库中的 WebView2 SDK 许可见 [vendor/webview2/LICENSE.txt](vendor/webview2/LICENSE.txt)；发行包内保留 `WEBVIEW2-SDK-LICENSE.txt`。

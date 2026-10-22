@@ -1,8 +1,10 @@
-# Pico 2 W 三合一 XInput 接收器 R5
+# Pico 2 W 蓝牙手柄接收器 — Windows R5 / Switch USB R1
+
+首次使用请先看[仓库首页](../README.md)的固件选择、五步刷机和验证范围；[下载与版本](../docs/releases.md)提供直接下载、SHA256 与回退入口。下文保留各版本的详细技术说明。
 
 **新增 Switch USB 接收器 R1**：三种蓝牙手柄每次连接一只，通过 Pico 板载 USB 向 Switch 底座输出一个有线 HID 手柄。刷入 `firmware/pico2w-switch-r1.uf2`；连接、按键映射、功能限制与实机验收见 [Switch USB 使用说明](docs/switch-usb.md)。这是独立 USB 输出版本，旧 R5 Windows 固件与 V0.2 上位机交付包保持原样。Switch R1 软件测试与编译通过，Switch 实机识别尚未验证；不提供震动和体感。
 
-R5 支持标准按键重映射、左右轴向死区、轴反转、震动缩放、单触发键宏，以及断电保留配置。当前上位机为 Pico Control V0.3（shadcn/ui界面）。先刷 `firmware/pico2w-xinput-r5.uf2` 并重新插入 USB，再打开 `host/dist-v0.3/PicoControl.exe` →“手柄配置”→“读取接收器”。已经使用R5无需为界面升级再刷机。立即应用只改RAM；永久保存前关闭手柄，保存后接收器自动重启。配置共用一档，不改配对区。新功能已构建及模拟测试，尚待实物验收。下文保留既有R4.2连接基线说明。
+R5 支持标准按键重映射、左右轴向死区、轴反转、震动缩放、单触发键宏，以及断电保留配置。当前上位机为 Pico Control V0.3（shadcn/ui界面）。先刷 `firmware/pico2w-xinput-r5.uf2` 并重新插入 USB，再完整解压 `host/releases/PicoControl-v0.3-windows.zip` 并运行 `PicoControl.exe` →“手柄配置”→“读取接收器”。已经使用R5无需为界面升级再刷机。立即应用只改RAM；永久保存前关闭手柄，保存后接收器自动重启。配置共用一档，不改配对区。新功能已构建及模拟测试，尚待实物验收。下文保留既有R4.2连接基线说明。
 
 独立实验固件：使用 Pico 2 W 接收一只蓝牙手柄，通过板载 Micro-USB 向 Windows 输出一个 wired XUSB / XInput 控制器。无需 CH582F、ESP32 或外接模块。`receiver/` 和 `switchpro/` 的原固件保留。
 
@@ -64,7 +66,7 @@ python .\pico2w\tools\test_windows.py --index 0 --seconds 20 --rumble
 
 ## Windows 上位机 V0.3
 
-最新界面版位于 `host/dist-v0.3/PicoControl.exe`，采用 React + shadcn/ui 与 WebView2；保留现有电量、输入、震动、R5 配置及保存功能。需要 x64 Windows、.NET Framework 4.6.2+ 和 WebView2 Runtime；本机具备运行环境。完整解压 `host/releases/PicoControl-v0.3-windows.zip` 后启动，保留 DLL 和 ui 文件夹。213 项程序自测、实际 WebView2 正常/最小窗口各16项控件与消息检查通过，本轮未操作物理手柄。说明见 [host/modern/README.md](host/modern/README.md)。
+最新界面发行包为 `host/releases/PicoControl-v0.3-windows.zip`，采用 React + shadcn/ui 与 WebView2；保留现有电量、输入、震动、R5 配置及保存功能。需要 x64 Windows、.NET Framework 4.6.2+ 和 WebView2 Runtime；本机具备运行环境。完整解压 `host/releases/PicoControl-v0.3-windows.zip` 后启动，保留 DLL 和 ui 文件夹。213 项程序自测、实际 WebView2 正常/最小窗口各16项控件与消息检查通过，本轮未操作物理手柄。说明见 [host/modern/README.md](host/modern/README.md)。
 
 ### V0.2 原说明
 
@@ -96,7 +98,7 @@ Xbox 手柄固件/电池类型可能影响字段是否存在。工具显示未�
 .\pico2w\tools\build.ps1 -Python python
 ```
 
-`dependencies.lock.json` 固定 SDK、Bluepad32、BTstack 和下载工具版本/哈希。构建前检查依赖无修改、旧工程及现有 R1/R2/R3/R4/R4.1 产物文件哈希，成功后生成 R4.2 UF2、BIN、ELF 和 `firmware/pico2w-xinput-r4-2-build-info.json`。`resources/`、`build/` 不属于交付源码，可通过 setup 重建。
+`dependencies.lock.json` 固定 SDK、Bluepad32、BTstack 和下载工具版本/哈希。当前 `build.ps1` 在构建前检查依赖无修改、旧工程及 R1–R4.2 保留产物哈希，成功后生成 Windows R5 UF2、BIN、ELF 和 `firmware/pico2w-xinput-r5-build-info.json`。Switch 输出使用独立 `build-switch.ps1`，详见 [Switch USB 说明](docs/switch-usb.md)。`resources/`、`build/` 不属于交付源码，可通过 setup 重建。
 
 独立解压到不包含旧工程的目录也可构建；此时旧文件保留审计不适用。当前工作区的旧工程已经执行完整哈希校验。
 
