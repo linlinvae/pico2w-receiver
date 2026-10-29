@@ -1,3 +1,12 @@
+# R5.1 / Switch USB R1.1（2026-10-29）
+
+- 用户反馈 R5 的 Xbox Series、Switch Pro、Stadia 断联后慢闪，重新上电才能回连。本次修复公共搜索恢复路径，实物效果待复测。
+- 全部设备槽空闲后，在前台服务中调用 `gap_connect_cancel()`，清除没有有效 HCI handle 的残留 BLE 建连请求。供应商超时清理此类设备时不会发平台断线回调，也不会取消底层 LE Create Connection；仅重复开始扫描不能消除它。取消可能同步发事件，因此不在供应商清理回调中执行。
+- 空闲每 10 秒主动停止 BLE 扫描与 Classic inquiry，延迟 100 ms 再开始搜索，保留每 2 秒重试以等待异步 inquiry 取消。已连接或设备正在 setup 时不执行扫描重启。
+- 对非当前手柄的占用槽增加约 25 秒 setup 恢复上限，以地址和原建连定时器截止值区分新尝试；不因状态推进而无限延期。健康 BLE 静默连接、Switch 事件驱动模式维持原处理。
+- 新增固定供应商断线与 20 秒超时函数原文回归；原 R5 因残留请求无法恢复而失败，R5.1 通过。Windows 9671 项、Switch 9062 项软件检查通过，两个 ARM 固件构建通过；没有连接实物手柄。
+- 新增独立版本文件、源码包与构建哈希，旧 R5 / Switch R1 不覆盖。支持外置构建目录，新打包不再重写原 R5、Switch R1 或 Pico Control 历史 ZIP。
+
 # Switch USB R1（2026-10-11）
 
 - 复用 R5 的三种蓝牙输入、单连接门控、配对持久化与 Switch 睡眠回连。USB 后端选择集中在 `usb_receiver.h`，通过独立 CMake `RECEIVER_USB_MODE=switch` 构建，不替换旧 Windows 固件文件。

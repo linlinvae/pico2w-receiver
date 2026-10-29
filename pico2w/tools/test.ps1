@@ -34,6 +34,14 @@ if($LASTEXITCODE -ne 0) {throw 'Battery monitor protocol tests failed'}
 if($LASTEXITCODE -ne 0) {throw 'Platform test compilation failed'}
 & "$root/tests/build/test_platform.exe"
 if($LASTEXITCODE -ne 0) {throw 'Platform reconnect tests failed'}
+& "$PSScriptRoot/make-lifecycle-test-fixture.ps1"
+& $Gcc @flags @btflags `
+    "$root/src/receiver_config.c" "$root/src/config_protocol.c" "$root/src/bridge.c" "$root/src/platform.c" "$root/tests/test_reconnect_recovery.c" `
+    "$root/tests/build/vendor_classic_incoming.c" "$root/tests/build/vendor_lifecycle.c" "$btroot/src/btstack_util.c" `
+    '-Wl,--wrap=uni_bt_bredr_on_l2cap_incoming_connection' -o "$root/tests/build/test_reconnect_recovery.exe"
+if($LASTEXITCODE -ne 0) {throw 'Vendor lifecycle test compilation failed'}
+& "$root/tests/build/test_reconnect_recovery.exe"
+if($LASTEXITCODE -ne 0) {throw 'Vendor lifecycle recovery tests failed'}
 & $Gcc @flags @btflags `
     "$root/src/receiver_config.c" "$root/src/config_protocol.c" "$root/src/bridge.c" "$root/src/platform.c" "$root/tests/test_config_platform.c" `
     "$root/tests/build/vendor_classic_incoming.c" "$btroot/src/btstack_util.c" `

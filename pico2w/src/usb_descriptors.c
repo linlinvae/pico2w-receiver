@@ -27,7 +27,7 @@ static const uint8_t ms_string[18] __attribute__((aligned(2))) = {
 static const tusb_desc_device_t device = {
     .bLength = sizeof(tusb_desc_device_t), .bDescriptorType = TUSB_DESC_DEVICE,
     .bcdUSB = 0x0200, .bMaxPacketSize0 = 64, .idVendor = 0x2e8a,
-    .idProduct = 0x10c8, .bcdDevice = 0x0500, .iManufacturer = 1,
+    .idProduct = 0x10c8, .bcdDevice = 0x0501, .iManufacturer = 1,
     .iProduct = 2, .iSerialNumber = 3, .bNumConfigurations = 1,
 };
 uint8_t const *tud_descriptor_device_cb(void) { return (const uint8_t *)&device; }
@@ -42,7 +42,7 @@ uint16_t const *tud_descriptor_string_cb(uint8_t index, uint16_t langid) {
     if (index == 0xee) return (const uint16_t *)ms_string;
     if (index == 0) { text[0] = 0x0304; text[1] = 0x0409; return text; }
     if (index == 1) s = "Local Receiver Project";
-    else if (index == 2) s = "Pico 2 W XInput R5";
+    else if (index == 2) s = "Pico 2 W XInput R5.1";
     else if (index == 3) {
         if (!serial[0]) pico_get_unique_board_id_string(serial, sizeof(serial));
         s = serial;

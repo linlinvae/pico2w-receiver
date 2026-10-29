@@ -1,4 +1,12 @@
-# Pico 2 W 蓝牙手柄接收器 — Windows R5 / Switch USB R1
+# Pico 2 W 蓝牙手柄接收器 — Windows R5.1 / Switch USB R1.1
+
+**2026-10-29 回连修复**：用户报告 R5 下三种手柄断联后 LED 慢闪，必须重新给 Pico 上电才能连接。当前 Windows 文件为 [`firmware/pico2w-xinput-r5-1.uf2`](firmware/pico2w-xinput-r5-1.uf2)，Switch USB 为 [`firmware/pico2w-switch-r1-1.uf2`](firmware/pico2w-switch-r1-1.uf2)。旧 R5、Switch R1 和全部回退包保持原样。
+
+R5.1 在设备槽全部空闲后取消残留 BLE 连接请求；每 10 秒空闲执行停止搜索、延迟 100 ms 后重启搜索，Classic 取消尚未完成时继续按 2 秒周期重试；未完成的设备槽增加约 25 秒恢复上限。正常配对期间不重启搜索，健康已连接手柄不按输入静默判定断线。保持 USB 在线，不通过自动重启整块 Pico 实现此恢复，配对区与配置布局不变。
+
+Windows 9671 项、Switch 模式 9062 项软件检查与两种 ARM 构建通过；原 R5 在新增供应商超时回归中复现残留请求失败。没有实物射频日志，不能确认该缺口是本次三种手柄故障的唯一触发原因。请刷入 R5.1 后保持 Pico 插着，每种手柄关机、等慢闪、正常开机，重复 5 次，再交替连接三种手柄；也测试关机后立即唤醒。恢复较慢时让手柄保持可连接至少 30 秒，记录是否恢复。无需长按 BOOTSEL 清配对。新完整包只含固件与源码，上位机继续使用现有 V0.3。
+
+从源码构建运行 `tools/build.ps1`（R5.1）或 `tools/build-switch.ps1`（R1.1）；两者支持 `-BuildDirectory <目录>`。本机新构建使用 `D:\Dev\Builds\<项目及源路径哈希>\reconnect-*`，既有依赖和原构建目录保持原位。打包分别运行 `tools/package-r5.ps1`、`tools/package-switch.ps1`。下文为原版本说明，旧文件名用于历史回退；本次复测应使用上述 R5.1 文件。
 
 首次使用请先看[仓库首页](../README.md)的固件选择、五步刷机和验证范围；[下载与版本](../docs/releases.md)提供直接下载、SHA256 与回退入口。下文保留各版本的详细技术说明。
 

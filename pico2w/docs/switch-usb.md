@@ -1,4 +1,6 @@
-# Pico 2 W → Switch USB 接收器 R1
+# Pico 2 W → Switch USB 接收器 R1.1
+
+2026-10-29：R1.1 同步 Windows R5.1 的公共蓝牙搜索恢复修复：清理空闲残留 BLE 建连请求、周期停止/重启搜索、异常 setup 槽超时恢复。9062 项 Switch 模式软件检查与 ARM 构建通过；实物回连及 Switch 枚举仍待验证。原 R1 文件与包保留。
 
 本版本在现有 R5 蓝牙接收器上新增 Switch 有线 HID 输出。同一份固件识别 Xbox Series、Google Stadia 和第一代 Switch Pro，每次连接一只手柄。
 
@@ -9,7 +11,7 @@
 ## 刷入与连接
 
 1. 按住 Pico 的 BOOTSEL，插入电脑，出现 RP2350 磁盘后松开。
-2. 将 `firmware/pico2w-switch-r1.uf2` 拖到该磁盘。磁盘消失后拔下 Pico。
+2. 将 `firmware/pico2w-switch-r1-1.uf2` 拖到该磁盘。磁盘消失后拔下 Pico。
 3. 使用 Micro-USB **数据线**将 Pico 插入 Switch 底座的 USB-A，Switch 正常开机并插入底座。
 4. 先只打开一只手柄。此前配对记录保留时可尝试正常开机回连；首次配对或手柄切换过主机时进入配对状态：
    - Xbox Series：长按顶部配对键，Xbox 灯快速闪烁。
@@ -64,6 +66,6 @@ R5 已永久保存的映射、死区、反转和宏继续用于公共输入映�
 .\pico2w\tools\package-switch.ps1
 ```
 
-独立构建目录为 `build/switch-r1/`，输出为 `firmware/pico2w-switch-r1.{uf2,bin,elf}` 及 `-build-info.json`。旧 PC 固件文件和交付包有单独哈希审计。Flash 的配置、蓝牙 TLV 与勘误保留区布局不变，UF2 检查拒绝覆盖这些扇区。不自动刷写硬件。
+默认独立构建目录为 `build/switch-r1-1/`，支持 `-BuildDirectory <目录>`；本机新构建使用按源路径哈希区分的 D 盘目录。输出为 `firmware/pico2w-switch-r1-1.{uf2,bin,elf}` 及 `-build-info.json`。旧 PC 固件文件和交付包有单独哈希审计。Flash 的配置、蓝牙 TLV 与勘误保留区布局不变，UF2 检查拒绝覆盖这些扇区。不自动刷写硬件。
 
 协议参考：GP2040-CE 的 [SwitchDescriptors.h](https://github.com/OpenStickCommunity/GP2040-CE/blob/main/headers/drivers/switch/SwitchDescriptors.h) 和 [SwitchDriver.cpp](https://github.com/OpenStickCommunity/GP2040-CE/blob/main/src/drivers/switch/SwitchDriver.cpp)。描述符适配保留 MIT 声明，见 `licenses/GP2040-Switch.txt`；Bluetooth 使用现有固定依赖，未下载新协议库。

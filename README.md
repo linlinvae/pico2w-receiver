@@ -11,21 +11,21 @@ Xbox Series / Switch Pro / Stadia
               │ 蓝牙，每次一只
          Pico 2 W
               │ Micro-USB 数据线
-     Windows PC（XInput R5）
-          或 Switch 底座（独立 Switch USB R1）
+     Windows PC（XInput R5.1）
+          或 Switch 底座（独立 Switch USB R1.1）
 ```
 
 ## 选择固件与下载
 
-以下为已有交付版本，本次整理没有发布新固件。直接使用时下载 UF2；需要源码和完整交付记录时选择 ZIP。
+2026-10-29 新增 R5.1 / Switch USB R1.1，针对 R5 断联后慢闪、必须重新上电才能回连的问题修复搜索恢复流程。软件回归与构建通过，三种手柄实物回连待复测。直接使用时下载 UF2；需要源码和完整交付记录时选择 ZIP。
 
 | 用途 | 当前版本与直接下载 | 说明 |
 | --- | --- | --- |
-| Windows 游戏 | [XInput R5 UF2](pico2w/firmware/pico2w-xinput-r5.uf2?raw=true) / [完整包](pico2w/releases/pico2w-xinput-r5-package.zip?raw=true) | XInput 输入、电量 HID、映射、死区、轴反转、震动缩放、宏和配置保存 |
+| Windows 游戏 | [XInput R5.1 UF2](pico2w/firmware/pico2w-xinput-r5-1.uf2?raw=true) / [完整包](pico2w/releases/pico2w-xinput-r5-1-package.zip?raw=true) | 断联恢复修复；保留 R5 的输入、电量、配置与宏功能 |
 | Windows 上位机 | [Pico Control V0.3 ZIP](pico2w/host/releases/PicoControl-v0.3-windows.zip?raw=true) | 查看电量与输入、测试震动、编辑 R5 配置；完整解压后启动 |
-| Switch 底座 | [Switch USB R1 UF2](pico2w/firmware/pico2w-switch-r1.uf2?raw=true) / [完整包](pico2w/releases/pico2w-switch-r1-package.zip?raw=true) | 实验性有线 HID 输出，**Switch 实机识别待验证**；无震动和体感 |
+| Switch 底座 | [Switch USB R1.1 UF2](pico2w/firmware/pico2w-switch-r1-1.uf2?raw=true) / [完整包](pico2w/releases/pico2w-switch-r1-1-package.zip?raw=true) | 同步蓝牙恢复修复；**Switch 实机识别待验证**；无震动和体感 |
 
-Windows 和 Switch 使用两份独立固件，刷机选择 USB 输出模式。Switch R1 不提供 Pico Control 所需的配置和电量接口；编辑配置需刷回 Windows R5。下载 SHA256 与旧版本入口见[版本说明](docs/releases.md)。
+Windows 和 Switch 使用两份独立固件，刷机选择 USB 输出模式。Switch R1.1 不提供 Pico Control 所需的配置和电量接口；编辑配置需刷回 Windows R5.1。下载 SHA256 与旧版本入口见[版本说明](docs/releases.md)。
 
 ## 支持的手柄
 
@@ -40,7 +40,7 @@ Windows 和 Switch 使用两份独立固件，刷机选择 USB 输出模式。Sw
 ## 五步开始使用 Windows
 
 1. 准备 **Pico 2 W（RP2350，带无线）**和可传输数据的 Micro-USB 线；普通 Pico 2 没有无线，本项目不以第一代 Pico W 为构建目标。
-2. 按住板上 **BOOTSEL** 接入电脑，出现 **RP2350** 磁盘后松开，将 `pico2w-xinput-r5.uf2` 拖入。写入完成后重新插拔 USB。
+2. 按住板上 **BOOTSEL** 接入电脑，出现 **RP2350** 磁盘后松开，将 `pico2w-xinput-r5-1.uf2` 拖入。写入完成后重新插拔 USB。
 3. 只打开一只目标手柄并进入配对：Xbox Series 长按顶部配对键；Switch Pro 长按 USB-C 旁的 SYNC；已启用蓝牙的 Stadia 按住 **Y + Stadia**，直到橙灯闪烁。
 4. Pico LED 慢闪表示等待连接，常亮表示手柄就绪。执行 `Win + R` → `joy.cpl` 检查输入。
 5. 完整解压 Pico Control V0.3 ZIP，双击 `PicoControl.exe`，保留旁边的 DLL 和 `ui/`。需要 Windows 10/11 x64、.NET Framework 4.6.2+ 和 WebView2 Runtime，详见[上位机说明](pico2w/host/modern/README.md)。
@@ -53,6 +53,7 @@ R5 配置：在 Pico Control 中选择接收器，打开“手柄配置”并读
 
 | 功能 / 版本 | 已有证据 | 仍待验证 |
 | --- | --- | --- |
+| R5.1 / Switch R1.1 断联恢复 | 原 R5 在新增残留请求回归中失败；修正后通过，两个 USB 模式编译通过 | 三种手柄关机/开机、快速唤醒和交替连接；R5 实物失败反馈优先于旧版正常记录 |
 | 三类手柄基础连接与输入、R3 自动回连 | 用户已确认正常 | 不代表后续每个新增功能均已实测 |
 | R4.1 电量 HID | Windows 枚举正常，实际读取到 Switch Pro 2/4 档 | Xbox / Stadia 电量字段取决于手柄提供的服务 |
 | R4.2 Switch SYNC 休眠恢复 | 软件回归与编译通过 | 实物休眠和快速唤醒复测 |
@@ -74,7 +75,7 @@ cd pico2w-receiver
 .\pico2w\tools\build.ps1 -Python python
 ```
 
-`build.ps1` 输出 Windows R5。Switch 使用 `test-switch.ps1` 和 `build-switch.ps1`，详见 [Switch 构建说明](pico2w/docs/switch-usb.md)。依赖版本、提交和工具哈希固定在 [dependencies.lock.json](pico2w/dependencies.lock.json)。上位机构建步骤见[开发说明](CONTRIBUTING.md)。
+`build.ps1` 输出 Windows R5.1。Switch 使用 `test-switch.ps1` 和 `build-switch.ps1`，详见 [Switch 构建说明](pico2w/docs/switch-usb.md)。依赖版本、提交和工具哈希固定在 [dependencies.lock.json](pico2w/dependencies.lock.json)。上位机构建步骤见[开发说明](CONTRIBUTING.md)。
 
 | 路径 | 内容 |
 | --- | --- |

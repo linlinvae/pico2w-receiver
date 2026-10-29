@@ -19,6 +19,13 @@ static bool forgetting, keys_deleted, initialized, was_pressed, long_press;
 static uint32_t button_down, button_up, last_button, last_rumble, last_led;
 static bool scan_pending;
 static uint32_t scan_after, last_scan_repair, last_connection_check;
+static uint32_t last_scan_restart;
+static struct {
+    bool busy;
+    bd_addr_t address;
+    btstack_time_t deadline;
+    uint32_t since;
+} setup_watch[CONFIG_BLUEPAD32_MAX_DEVICES];
 static bool switch_full_stream;
 static uint32_t switch_last_report;
 static unsigned save_phase;
@@ -36,6 +43,32 @@ static bool device_slot_busy(void) {
         if (d && memcmp(d->conn.btaddr, zero_addr, sizeof(zero_addr))) return true;
     }
     return false;
+}
+static void recover_setup_slots(uint32_t now) {
+    static const bd_addr_t zero_addr = {0};
+    for (int i = 0; i < CONFIG_BLUEPAD32_MAX_DEVICES; ++i) {
+        uni_hid_device_t *d = uni_hid_device_get_instance_for_idx(i);
+        if (!d || !memcmp(d->conn.btaddr, zero_addr, sizeof(zero_addr)) || d == pad) {
+            setup_watch[i].busy = false;
+            continue;
+        }
+        /* The vendor normally deletes unfinished devices after 20 s. Bound the
+         * application's busy-slot gate too, even if that timer was lost. The
+         * original timer deadline distinguishes new attempts to the same peer;
+         * state progress must not indefinitely extend the total setup budget. */
+        if (!setup_watch[i].busy || memcmp(setup_watch[i].address, d->conn.btaddr, sizeof(bd_addr_t)) ||
+            setup_watch[i].deadline != d->connection_timer.timeout) {
+            setup_watch[i].busy = true;
+            memcpy(setup_watch[i].address, d->conn.btaddr, sizeof(bd_addr_t));
+            setup_watch[i].deadline = d->connection_timer.timeout;
+            setup_watch[i].since = now;
+        }
+        if ((uint32_t)(now - setup_watch[i].since) >= HID_DEVICE_CONNECTION_TIMEOUT_MS + 5000u) {
+            uni_hid_device_disconnect(d); uni_hid_device_delete(d);
+            setup_watch[i].busy = false;
+            request_scan(); /* Incomplete BLE attempts need not emit a callback. */
+        }
+    }
 }
 static void release_pad(void) {
     receiver_battery_detach(); pad = NULL; switch_full_stream = false; bridge_disconnect(&bridge);
@@ -79,11 +112,27 @@ static void connection_service(uint32_t now) {
                 uni_hid_device_disconnect(d); uni_hid_device_delete(d);
             }
         }
+        recover_setup_slots(now);
     }
     if (pad || device_slot_busy()) return; /* Includes pairing/setup in progress. */
+    if (!scan_pending && (uint32_t)(now - last_scan_restart) >= 10000) {
+        /* Repeated starts only reassert software flags in both libraries. An
+         * idle stop/start cycle sends a real scan-disable then scan-enable.
+         * Never interrupt pairing, GATT setup, or a healthy silent controller. */
+        uni_bt_stop_scanning_unsafe();
+        gap_stop_scan(); (void)gap_inquiry_stop();
+        last_scan_restart = now;
+        request_scan();
+    }
     if (scan_pending && (int32_t)(now - scan_after) < 0) return;
     if (!scan_pending && (uint32_t)(now - last_scan_repair) < 2000) return;
+    if (scan_pending) last_scan_restart = now;
     scan_pending = false; last_scan_repair = now;
+    /* Bluepad32's setup timeout can delete a BLE slot with no valid handle
+     * without cancelling LE Create Connection. That pending request survives
+     * gap_start_scan() and rejects future gap_connect(). Only cancel after ALL
+     * slots are empty, outside vendor callbacks (cancel can emit synchronously). */
+    (void)gap_connect_cancel();
     uni_bt_allow_incoming_connections(true);
     uni_bt_start_scanning_and_autoconnect_unsafe();
     /* Bluepad32's flag records intent, not radio state: a repeated start is a

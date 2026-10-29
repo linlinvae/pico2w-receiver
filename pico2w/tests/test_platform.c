@@ -22,6 +22,8 @@ static btstack_timer_source_t *service_timer;
 static bridge_t *usb_bridge;
 static uni_hid_device_t device;
 static bool scan_intent, ble_scan, classic_scan, incoming, pressed;
+static bool pending_le_connect;
+static unsigned connect_cancels, scan_stops, inquiry_stops;
 static bool le_enabled = true, allowlist;
 static HCI_STATE radio_state = HCI_STATE_WORKING;
 static gap_connection_type_t link_type = GAP_CONNECTION_INVALID;
@@ -76,7 +78,10 @@ void receiver_ble_clear_cache(void) { ++bond_clears; }
 void gap_set_scan_parameters(uint8_t type, uint16_t interval, uint16_t window) {
     assert(interval == 48 && window == 48); scan_type = type;
 }
-void gap_start_scan(void) { ble_scan = true; ++scan_calls; }
+void gap_start_scan(void) { ble_scan = !pending_le_connect; ++scan_calls; }
+void gap_stop_scan(void) { ble_scan = false; ++scan_stops; }
+int gap_inquiry_stop(void) { classic_scan = false; cancel_until = clock_ms + 500; ++inquiry_stops; return 0; }
+uint8_t gap_connect_cancel(void) { pending_le_connect = false; ++connect_cancels; return ERROR_CODE_SUCCESS; }
 uint8_t gap_inquiry_periodic_start(uint8_t length, uint16_t max, uint16_t min) {
     (void)length; (void)max; (void)min;
     if (classic_scan || (int32_t)(clock_ms - cancel_until) < 0) return ERROR_CODE_COMMAND_DISALLOWED;
@@ -99,7 +104,9 @@ int hci_power_control(HCI_POWER_MODE mode) { if (mode == HCI_POWER_OFF && !block
 gap_connection_type_t gap_get_connection_type(hci_con_handle_t handle) { (void)handle; return link_type; }
 uni_hid_device_t *uni_hid_device_get_instance_for_idx(int32_t idx) { return idx == 0 ? &device : NULL; }
 bool uni_hid_device_is_virtual_device(const uni_hid_device_t *d) { return d->parent != NULL; }
+#ifndef TEST_VENDOR_DISCONNECT
 void uni_hid_device_disconnect(uni_hid_device_t *d) { d->conn.connected = false; platform->on_device_disconnected(d); }
+#endif
 void uni_hid_device_delete(uni_hid_device_t *d) { memset(d, 0, sizeof(*d)); d->conn.handle = UNI_BT_CONN_HANDLE_INVALID; ++deletes; }
 void uni_bt_del_keys_unsafe(void) { ++key_deletes; }
 static void advance(uint32_t duration) {
@@ -109,6 +116,7 @@ static void prepare(pad_kind_t kind) {
     memset(&device, 0, sizeof(device)); device.conn.btaddr[0] = 1;
     device.conn.connected = true; device.conn.handle = 7;
     device.conn.state = UNI_BT_CONN_STATE_DEVICE_PENDING_READY;
+    device.connection_timer.timeout = clock_ms + HID_DEVICE_CONNECTION_TIMEOUT_MS;
     if (kind == PAD_SWITCH_PRO) {
         device.vendor_id = 0x057e; device.product_id = 0x2009;
         device.controller_type = CONTROLLER_TYPE_SwitchProController;
@@ -154,12 +162,45 @@ int main(void) {
     advance(2000); CHECK(classic_scan);
     /* Actual BLE scan lost while Bluepad32 intent remains true: start alone no-ops. */
     ble_scan = false; advance(2000); CHECK(ble_scan && incoming);
+    /* An idle controller-level scan state is repaired with disable/enable, not
+     * just repeated writes of enabled=true. Classic cancellation is async. */
+    unsigned stops_before = scan_stops, inquiry_before = inquiry_stops;
+    advance(12500);
+    CHECK(scan_stops > stops_before && inquiry_stops > inquiry_before);
+    CHECK(ble_scan && classic_scan && incoming);
+    /* The vendor may time out and delete an unconnected BLE slot without a
+     * disconnect callback. Its still-pending LE request must be cancelled. */
+    prepare(PAD_STADIA); device.conn.connected = false;
+    device.conn.handle = UNI_BT_CONN_HANDLE_INVALID; pending_le_connect = true;
+    unsigned cancels_before = connect_cancels;
+    unsigned before = scan_calls; advance(6000);
+    CHECK(connect_cancels == cancels_before && scan_calls == before);
+    uni_hid_device_delete(&device); /* Models vendor's 20 s timeout teardown. */
+    advance(2200);
+    CHECK(!pending_le_connect && connect_cancels > cancels_before && ble_scan);
     /* Do not repair radio scanning during a new pairing/setup attempt. */
     prepare(PAD_XSX); device.conn.connected = false;
-    unsigned before = scan_calls; ble_scan = false; advance(6000);
+    before = scan_calls; ble_scan = false; advance(6000);
     CHECK(scan_calls == before && !ble_scan);
     platform->on_device_disconnected(&device); memset(&device, 0, sizeof(device));
     advance(101); CHECK(ble_scan);
+    /* A lost vendor timeout must not reserve the only slot forever. Exercise
+     * all three protocols, and never use input silence as a BLE timeout. */
+    for (pad_kind_t kind = PAD_XSX; kind <= PAD_STADIA; ++kind) {
+        prepare(kind); device.conn.connected = false;
+        device.conn.handle = UNI_BT_CONN_HANDLE_INVALID;
+        before = deletes; stops_before = scan_stops; cancels_before = connect_cancels;
+        advance(24900);
+        CHECK(deletes == before && scan_stops == stops_before && connect_cancels == cancels_before);
+        advance(2500);
+        CHECK(deletes == before + 1 && usb_bridge->kind == PAD_NONE && ble_scan && incoming);
+    }
+    /* A fresh attempt to the same address gets its own setup budget. */
+    prepare(PAD_XSX); device.conn.connected = false; advance(15000);
+    before = deletes;
+    prepare(PAD_XSX); device.conn.connected = false; advance(15000);
+    CHECK(deletes == before);
+    remote_disconnect(); advance(2200);
     /* Missed application disconnect callback, slot has already been cleared. */
     prepare(PAD_STADIA); CHECK(platform->on_device_ready(&device) == UNI_ERROR_SUCCESS);
     device.conn.state = UNI_BT_CONN_STATE_DEVICE_READY;

@@ -61,7 +61,7 @@ foreach ($match in [regex]::Matches($downloads, '\| \[[^\]]+\]\(\.\./([^\)]+)\) 
     }
     $downloadCount++
 }
-if ($downloadCount -ne 6) { throw "Expected 6 documented download hashes; found $downloadCount" }
+if ($downloadCount -ne 10) { throw "Expected 10 documented download hashes; found $downloadCount" }
 Write-Output "Downloads: $downloadCount documented SHA256 values verified."
 
 foreach ($file in $files) {

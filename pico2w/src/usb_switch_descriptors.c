@@ -9,7 +9,7 @@
 static const tusb_desc_device_t device = {
     .bLength = sizeof(tusb_desc_device_t), .bDescriptorType = TUSB_DESC_DEVICE,
     .bcdUSB = 0x0200, .bMaxPacketSize0 = 64, .idVendor = 0x0f0d,
-    .idProduct = 0x0092, .bcdDevice = 0x0100, .iManufacturer = 1,
+    .idProduct = 0x0092, .bcdDevice = 0x0101, .iManufacturer = 1,
     .iProduct = 2, .iSerialNumber = 0, .bNumConfigurations = 1,
 };
 const uint8_t switch_configuration[SWITCH_CONFIG_SIZE] = {
@@ -45,7 +45,7 @@ uint16_t const *tud_descriptor_string_cb(uint8_t index, uint16_t langid) {
     if (!index) { text[0] = 0x0304; text[1] = 0x0409; return text; }
     const char *s;
     if (index == 1) s = "Local Receiver Project";
-    else if (index == 2) s = "Pico 2 W Switch R1";
+    else if (index == 2) s = "Pico 2 W Switch R1.1";
     else return NULL;
     unsigned n = (unsigned)strlen(s);
     text[0] = (uint16_t)(0x0300 | (n * 2 + 2));
